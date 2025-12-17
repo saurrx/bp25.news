@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Newsreader, JetBrains_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 import MobileHeader from "@/components/MobileHeader";
@@ -71,6 +72,7 @@ export default function RootLayout({
                     {children}
                 </main>
                 {/* </SmoothScroll> */}
+                <Analytics />
             </body>
         </html>
     );
