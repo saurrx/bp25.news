@@ -1,0 +1,90 @@
+{
+  "id": "G-_IVPccOF0",
+  "url": "https://www.youtube.com/watch?v=G-_IVPccOF0",
+  "processed_at": 1765668551.674269,
+  "key_used": "...T4WvX0",
+  "meta": {
+    "title": "Product Keynote: Crypto.com",
+    "speakers": [
+      "Park Kwon"
+    ],
+    "product": "Crypto.com",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/G-_IVPccOF0.webp"
+  },
+  "transcript": "I'm Kwon Park, I'm the Global Head of Digital Asset Partnerships at Crypto.com. So, you know, Crypto.com publicly set forth a very ambitious roadmap this year. And, you know, thankfully and fortunately, we were able to deliver some of these products earlier than we expected. Um, you know, some highlights include the growth of our stock and ETF trading, the launch of credit cards, sports and event contracts, and custody in the United States, the Level Up program, and a revamp of our main app to improve our user experience. And this year, we continued to expand our support across the Solana ecosystem. Specifically, we added many Solana-based projects to our main app and exchange, allowing our users to have access and to help raise awareness for the Solana ecosystem. And we're committed to continuing that trend into 2026. You know, Crypto.com has also powered Solana in various ways across our entire product suite. We continue to raise awareness through marketing campaigns through our main app, exchange, and our Earn programs in eligible jurisdictions. You know, Crypto.com supports SPL native support for USDC, USDT, and PYUSD stablecoins on both the main app and exchange. You know, Solana can be used to pre-fund our flagship debit card and to pay credit card balances where cards are available. Custody and OTC execution services are available in eligible jurisdictions for Solana and its ecosystem projects. And regulated products such as Solana Strike and UpDown Options are available in the US under our Designated Contract Market license, a DCM with the Commodity Futures Trading Commission. You know, looking ahead, you know, Crypto.com Derivatives North America, which is a CFTC-licensed exchange, you know, we were able to pioneer the compliant crypto derivatives and event trading products. And the company became the first major crypto platform to secure a Futures Commission Merchant, a DCM, and a clearing license in the US. For the DCM, we've partnered with many companies: Hollywood.com, Underdog, Truth Social, MyPrize, and Fanatics. And we'll continue to look for opportunities to work together with the Solana ecosystem as well. Further, with our launch of institutional-grade custody services out of the US and Singapore, we hope to become a trusted partner to many in the Solana ecosystem looking for secure custody and execution. And finally, as we continue to build into 2026, we'll look to find ways to explore how Solana can fit into our product suite, infrastructure, and new product development. All right. Thank you.",
+  "enrichment": {
+    "generated_query": "Solana Strike Crypto.com Solana Breakpoint 2025 (Official Announcement Blog OR Technical Docs)",
+    "sources": [],
+    "enriched_at": 1765671264.149657
+  },
+  "tags": {
+    "primary": "Institutional",
+    "secondary": [
+      "Custody",
+      "Exchange Integration"
+    ],
+    "score": 6,
+    "impact_reason": "Crypto.com's continued expansion of Solana support, including custody solutions and exchange integrations, provides more access and infrastructure for Solana projects, but isn't a groundbreaking development."
+  },
+  "category_rank": {
+    "total_category_score": 199,
+    "share_of_voice": 0.0302,
+    "normalized_rank": 7.5,
+    "percentile_position": 18
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "1:1",
+      "role": "tile",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Obsidian",
+          "Glowing Circuitry",
+          "Volumetric Lighting",
+          "Monolith"
+        ],
+        "mood": "Fortified, Institutional, High-Tech, Monumental",
+        "reasoning": "I chose a monolithic stack of engraved plates as the 'Semantic Anchor' because the story's core is Crypto.com achieving a 'Full Stack' of three distinct CFTC licenses (FCM, DCM, DCO), creating a fortified 'regulatory moat'. The stack physically represents this layered accomplishment. The integrated text 'FCM', 'DCM', and 'DCO' is diegetically engraved to specify these crucial licenses, reinforcing the theme of official, permanent regulatory approval. The glowing Solana data streams represent the platform's technological integration with this new, solid foundation.",
+        "description": "A towering, monolithic stack of three massive, polished obsidian blocks stands in the center of a cavernous, dark data center. Each block is diegetically engraved with large, glowing cyan letters, emanating a soft light: 'FCM' on the top block, 'DCM' in the middle, and 'DCO' on the bottom. Intricate fiber-optic cables, glowing with the same cyan Solana-themed light, snake up from the polished concrete floor and plug directly into the obsidian monolith, symbolizing the integration of the technology with the regulatory structure. The background has immense depth, with rows of server racks fading into the darkness, creating a sense of scale and security."
+      },
+      "final_prompt": {
+        "prompt_text": "A towering, monolithic stack of three massive, polished obsidian blocks stands in the center of a cavernous, dark data center. The obsidian is highly reflective, showcasing the deep, dark sheen of its polished surface. Each block is diegetically engraved with large, glowing cyan letters, emanating a soft, volumetric light that subtly illuminates the immediate surroundings: 'FCM' on the top block, 'DCM' in the middle, and 'DCO' on the bottom. Intricate fiber-optic cables, glowing with the same vibrant cyan Solana-themed light, snake up dynamically from the polished concrete floor, creating patterns of glowing circuitry as they plug directly into the obsidian monolith, symbolizing the integration of the technology with the regulatory structure. The background has immense depth, with endless rows of server racks fading into the profound darkness, creating an overwhelming sense of epic scale and security. The composition is vertical (3:4 aspect ratio), emphasizing the monumental height of the obsidian stack with significant negative space above, making the monolith appear even more imposing. The volumetric cyan light from the engravings and cables creates dramatic atmospheric effects, cutting through the deep shadows of the cavernous space. 8k, octane render, raytracing, hyper-detailed, photorealistic, cinematic lighting, dramatic contrast, deep shadows."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961171/generated_assets_homepage_G-_IVPccOF0.jpg"
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Obsidian",
+          "Glowing Circuitry",
+          "Volumetric Lighting",
+          "Monolith"
+        ],
+        "mood": "Fortified, Institutional, High-Tech, Monumental",
+        "reasoning": "I chose a monolithic stack of engraved plates as the 'Semantic Anchor' because the story's core is Crypto.com achieving a 'Full Stack' of three distinct CFTC licenses (FCM, DCM, DCO), creating a fortified 'regulatory moat'. The stack physically represents this layered accomplishment. The integrated text 'FCM', 'DCM', and 'DCO' is diegetically engraved to specify these crucial licenses, reinforcing the theme of official, permanent regulatory approval. The glowing Solana data streams represent the platform's technological integration with this new, solid foundation.",
+        "description": "A macro shot focusing on the corner of the central 'DCM' obsidian block. A complex, glowing cyan data cable is plugged into a port on its surface. We see the sharp, polished edge of the obsidian reflecting the faint ambient light of the data center. The texture of the high-tech cable contrasts with the smooth, solid stone block, highlighting the fusion of regulation and technology. The background is completely out of focus."
+      },
+      "final_prompt": {
+        "prompt_text": "A symmetrical, centrally focused, tight macro shot of the corner of a monumental obsidian block. The block features deeply engraved, subtly glowing 'DCM' characters on its surface. A complex, hyper-detailed, glowing cyan data cable is firmly plugged into a precisely cut port, its intricate circuitry emitting a soft internal light. The sharp, polished edge of the obsidian monolith perfectly reflects the faint ambient light of a high-tech data center, creating subtle, controlled highlights. The smooth, solid texture of the dark obsidian stone starkly contrasts with the advanced, textured surface of the glowing data cable, visually emphasizing the powerful fusion of ancient regulation and cutting-edge technology. The background is completely out of focus with a shallow depth of field and realistic lens bokeh, dissolving into a deep, dark blur. Photorealistic, hyperrealistic, 8K ultra-detailed, realistic materials, high dynamic range, volumetric lighting, strong cinematic contrast, octane render, raytracing, hyper-detailed."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961174/generated_assets_category_G-_IVPccOF0.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Crypto.com Secures First \"Full Stack\" CFTC Derivatives License, Integates Solana",
+    "standfirst": "The exchange becomes the first major platform to hold FCM, DCM, and Clearing licenses simultaneously in the US. This regulatory moat now underpins a new wave of Solana-based institutional derivatives and white-label prediction markets.",
+    "key_takeaways": [
+      "**Regulatory Moat:** Crypto.com is now the first major venue to hold US Futures Commission Merchant (FCM), Designated Contract Market (DCM), and Clearing licenses.",
+      "**Solana Derivatives:** SOL contracts are now live on CFTC-regulated \"Strike\" and \"UpDown\" options, accessible to US institutions.",
+      "**White-Label Scale:** The derivatives infrastructure is being white-labeled to partners including **Truth Social**, **Hollywood.com**, and **Fanatics**."
+    ],
+    "article_body_markdown": "While much of the industry remains in regulatory purgatory, **Crypto.com** has effectively completed its US compliance moat. In a significant disclosure at Breakpoint, Global Head of Digital Asset Partnerships **Kwon Park** confirmed the company has secured the \"holy trinity\" of CFTC derivatives licenses: Futures Commission Merchant (FCM), Designated Contract Market (DCM), and a Clearing license. This vertical integration allows the firm to list, broker, and clear derivatives in-house, eliminating the reliance on third-party clearinghouses that often bottlenecks institutional product development.\n\nThe immediate utility of this infrastructure is the deployment of regulated Solana derivatives in the US market. Through its \"Strike\" (binary options) and \"UpDown\" (event contracts) products, US-domiciled traders can now access regulated exposure to SOL price action. Unlike the perpetual futures found on offshore venues, these are CFTC-compliant instruments, making them investable for strict-mandate institutional capital that has previously been sidelined from the Solana volatility trade.\n\nPerhaps the most overlooked \"alpha\" is the B2B2C distribution strategy. Park revealed that this derivatives engine is being white-labeled to power prediction markets for major non-crypto brands, including **Truth Social**, **Hollywood.com**, **Underdog**, and **Fanatics**. This effectively embeds crypto-railed prediction markets into mainstream consumer apps, with Solana operating as a key settlement layer within the broader ecosystem. This moves the narrative from \"onboarding users to crypto apps\" to \"embedding crypto market structure into existing consumer giants.\"\n\nLooking toward 2026, the focus shifts to institutional custody. With new custody hubs operational in Singapore and the US, Crypto.com is positioning itself not just as a retail entry point, but as a prime brokerage competitor. The combination of a CFTC-regulated execution venue and qualified custody creates a closed-loop environment for institutions to trade and settle Solana derivatives without leaving the US regulatory perimeter."
+  }
+}

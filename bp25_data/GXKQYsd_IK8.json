@@ -1,0 +1,91 @@
+{
+  "id": "GXKQYsd_IK8",
+  "url": "https://www.youtube.com/watch?v=GXKQYsd_IK8",
+  "processed_at": 1765668805.39573,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Product Keynote: Render Network",
+    "speakers": [
+      "Sunny Osahn"
+    ],
+    "product": "Render Network",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/GXKQYsd_IK8.webp"
+  },
+  "transcript": "Hi everyone, my name is Sunny and I'm really excited to be here to share our Render Network updates with you all. Seven years ago, we set out to prove that consumer-grade GPUs could power cinematic-grade creativity at scale. Today, the Render Network is one of the most successful decentralized infrastructure networks in the world. We power so many groundbreaking works. Here's an example of some of this year's creations.\n\nA huge thank you to all the artists that have used the Render Network this year, and artist Brilly, who made this year's Breakpoint visuals on the Render Network. Since Breakpoint last year, we have 63 million cumulative frames rendered to date, with over a third of those in 2025. We've onboarded 40% more rendering compute power, launched a separate dedicated compute subnet, funded a record 276 artist grants, and passed four community proposals, and over 1 million cumulative RENDER has now been burned. We've built and managed a thriving two-sided GPU marketplace with 87% growth versus last year, and remain the largest DePIN on Solana.\n\nScan the QR code by the way, guys. We launched and hosted Render Con, our first in-person conference, with year two scheduled for April 16, 2026, in Hollywood of course. More details in the QR. We see immersive experiences as the area where the network has the strongest product-market fit, in which the value proposition for affordable, on-demand, at-scale rendering is the strongest. It's one of the fastest growing sectors. We launched the largest digital art exhibition rendered on a decentralized network at ARTECHOUSE in New York, an immersive gallery. 16 world-class artists rendered 12 pieces in 18K resolution at a fraction of the cost of traditional render farms. Some were rendered in a week, but would have taken over two years on a high-end desktop.\n\nTogether with grant recipient LeBrov Productions, we have developed a VFX assembly pipeline which rivals traditional Hollywood workflows. Also OTOY, the long-standing Render Network ecosystem partner, just released OTOY Studio, the first user of the compute subnet, offering over 600 curated artist AI models as a first step towards merging traditional AI and 3D workflows. OTOY intends to run as many open-weight models as possible on the Render Network. OTOY Studio also includes Canvas, a node-based creation workspace. I've used this, it is immense. And finally, OTOY Studio includes Timeline, a new video editor for composing images, videos, and Gaussian Splats.\n\nIn 2026, we expect to see the lines between traditional 3D and AI creation blur, with more control and consistency unlocked through AI-3D interoperability. We also believe that the key to this are World Models. Models that learn how the world works, predict what comes next, and can plan accordingly. This shift will enable advanced robotics, hyperreal video generation, and autonomous agents that can act and reason with purpose. There is a real opportunity to power much of this on the Render Network.\n\nAnd one last thing. Rendering was just the beginning. It is my pleasure to introduce you all to Dispersed, our customer-facing brand for the compute subnet. It's live right now at dispersed.com. And here it is, processing generative AI models on decentralized GPUs. This is kind of a big deal. Rendering was just the beginning. We are extremely excited by how AI will accelerate and enhance how GPU compute is used to power cinematic-grade creativity and the future of what we know is possible. So we invite you all to join us as we build the decentralized compute layer for creative AI and 3D. Thank you everyone.",
+  "enrichment": {
+    "generated_query": "Render Network OTOY Studio Solana Breakpoint 2025 Official Announcement Blog OR Technical Docs",
+    "sources": [],
+    "enriched_at": 1765670978.6547
+  },
+  "tags": {
+    "primary": "DePIN",
+    "secondary": [
+      "GPU Compute",
+      "AI",
+      "Rendering"
+    ],
+    "score": 7,
+    "impact_reason": "Render Network, the largest DePIN project on Solana, announced 87% YoY growth and launched OTOY Studio to merge AI and 3D workflows, demonstrating significant scaling and utility within the ecosystem."
+  },
+  "category_rank": {
+    "total_category_score": 24,
+    "share_of_voice": 0.2917,
+    "normalized_rank": 10,
+    "percentile_position": 1
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "3:4",
+      "role": "portrait",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Crystalline Structures",
+          "Holographic Light",
+          "Volumetric Lighting",
+          "The Neural Network"
+        ],
+        "mood": "Futuristic, Powerful, Complex, Tech-Optimism",
+        "reasoning": "I chose a crystalline, interconnected network of GPUs as the semantic anchor because it visually represents the core concepts of 'Render Network,' 'DePIN,' and 'Dispersed.' The crystalline form signifies structured complexity and power, while the network of individual nodes represents the decentralized aspect. The glowing light signifies the act of rendering and AI computation. For the homepage text, I integrated '18K' as a holographic designation on a GPU node. This is a specific, high-impact metric of the network's power mentioned directly in the transcript ('18K resolution'), making it a perfect diegetic detail that reinforces the story of cinematic-grade performance.",
+        "description": "A vast, sprawling crystalline lattice made of interconnected, geometric GPUs fills a dark, cavernous space. The GPUs themselves are forged from polished obsidian and dark chrome, catching specular highlights. Pulsing, holographic cyan and magenta light flows through the crystalline connections, representing data and compute power. On a central, prominent crystal node, the designation '18K' glows with a soft, holographic light, like a manufacturer's model number or a performance benchmark. The background recedes into an infinite depth, with countless other out-of-focus nodes glowing faintly in the distance, emphasizing the massive scale of the decentralized network."
+      },
+      "final_prompt": {
+        "prompt_text": "A monumental, vertical composition (3:4 aspect ratio) showcasing a vast, sprawling crystalline lattice made of interconnected, geometric GPUs filling a dark, cavernous space. The GPUs are meticulously forged from polished obsidian and dark chrome, exhibiting sharp specular highlights. Pulsing, ethereal holographic cyan and magenta light flows dynamically through the intricate crystalline connections, vividly representing the flow of data and immense compute power. On a central, prominent crystal node, the designation '18K' glows with a soft, captivating holographic light, reminiscent of a high-performance manufacturer's model number or a critical benchmark. The cavernous background recedes into an infinite depth, with countless other out-of-focus nodes glowing faintly in the distance, emphasizing the massive, decentralized scale of this neural network architecture. The lighting is characterized by dramatic volumetric lighting and high-contrast chiaroscuro, creating a deep, moody atmosphere with a cinematic contrast. Emphasize epic scale and negative space at the top of the composition. 8k, octane render, raytracing, hyper-detailed, photorealistic, ultra-detailed."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961177/generated_assets_homepage_GXKQYsd_IK8.jpg"
+    },
+    "category_page": {
+      "ratio": "16:9",
+      "role": "sector_lead",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Crystalline Structures",
+          "Holographic Light",
+          "Volumetric Lighting",
+          "The Neural Network"
+        ],
+        "mood": "Futuristic, Powerful, Complex, Tech-Optimism",
+        "reasoning": "I chose a crystalline, interconnected network of GPUs as the semantic anchor because it visually represents the core concepts of 'Render Network,' 'DePIN,' and 'Dispersed.' The crystalline form signifies structured complexity and power, while the network of individual nodes represents the decentralized aspect. The glowing light signifies the act of rendering and AI computation. For the homepage text, I integrated '18K' as a holographic designation on a GPU node. This is a specific, high-impact metric of the network's power mentioned directly in the transcript ('18K resolution'), making it a perfect diegetic detail that reinforces the story of cinematic-grade performance.",
+        "description": "A macro shot focusing on a single junction point within the Render Network's crystalline structure. Glowing holographic filaments of pure energy converge on a polished obsidian GPU housing. The intricate facets of the crystal reflect the light, creating complex caustics and sharp specular highlights on the dark chrome connectors. You can almost feel the raw computational power being channeled at this single nexus point. NO TEXT."
+      },
+      "final_prompt": {
+        "prompt_text": "A breathtaking macro shot, perfectly composed for a square 1:1 aspect ratio, showcasing a single, symmetrical junction point at the heart of the Render Network's complex crystalline structure. The frame is entirely filled with intricate texture and detail. Glowing, vibrant holographic filaments of pure, ethereal energy converge dramatically onto a meticulously polished obsidian GPU housing, which serves as the central nexus. The multifaceted surfaces of the surrounding crystalline structure intensely reflect the light, generating stunningly complex caustics and razor-sharp specular highlights that dance across the dark chrome connectors. A palpable sense of raw, immense computational power emanates and channels through this singular, powerful nexus point. Volumetric lighting permeates the scene, emphasizing the glowing elements and adding depth. No visible text or numbers. 8k, octane render, raytracing, hyper-detailed, photorealistic, cinematic."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961179/generated_assets_category_GXKQYsd_IK8.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Render Network Unveils 'Dispersed' to Power Decentralized AI Compute",
+    "standfirst": "The leading DePIN on Solana pivots beyond visual effects, launching a consumer-facing brand to challenge centralized cloud providers for generative AI workloads. This strategic shift targets the booming demand for 'World Models' and autonomous agent infrastructure.",
+    "key_takeaways": [
+      "Launch of **Dispersed** (dispersed.com), a dedicated customer-facing brand for the network's AI compute subnet.",
+      "**OTOY Studio** enters beta as the first major compute client, integrating over 600 curated AI models.",
+      "Network fundamentals show **87% year-over-year growth** in GPU marketplace activity and over **1 million RENDER** burned."
+    ],
+    "article_body_markdown": "In a decisive move to capture the exploding demand for AI infrastructure, **Render Network** has officially expanded beyond its roots in digital art rendering. At Solana Breakpoint 2025, the foundation introduced **Dispersed**, a new customer-facing brand designed to aggregate decentralized GPU supply for generative AI and general compute workloads. This marks a critical evolution for the protocol, positioning it not just as a tool for artists, but as a scalable, decentralized alternative to AWS or Google Cloud for the AI sector.\n\nThe technical backbone of this pivot is the new compute subnet, which is already live. **OTOY**, a long-standing ecosystem partner, demonstrated the network's capabilities with the release of **OTOY Studio**. This platform serves as the first major user of the subnet, offering creators access to over 600 curated AI models. By merging traditional 3D workflows with AI through tools like the node-based 'Canvas' and 'Timeline' editor, **Render Network** is betting on a future where 'World Models'—AI systems that understand physics and planning—require massive, distributed compute power.\n\nInstitutional investors should note the network's robust utilization metrics, which validate the decentralized physical infrastructure network (DePIN) thesis. The protocol reported **63 million cumulative frames** rendered to date, with over one-third occurring in 2025 alone. This surge is underpinned by an **87% growth** in the two-sided GPU marketplace and a 40% increase in onboarded compute power. The economic model is also proving effective, with over **1 million RENDER** tokens burned to date, signaling strong deflationary pressure as network usage scales.\n\nLooking ahead, the network is deepening its integration with high-end production pipelines. A collaboration with **LeBrov Productions** has established a VFX assembly pipeline that rivals traditional Hollywood workflows, further proven by a recent 18K resolution exhibition at **ARTECHOUSE** in New York. With **Render Con** confirmed for April 2026 in Hollywood, the network is aggressively cementing its position as the intersection of Hollywood-grade visuals and Silicon Valley AI infrastructure."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "y2JLwcM-prU",
+  "url": "https://www.youtube.com/watch?v=y2JLwcM-prU",
+  "processed_at": 1765668805.062888,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Product Keynote: SendAI",
+    "speakers": [
+      "Yash Agarwal"
+    ],
+    "product": "SendAI / Suzi",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/y2JLwcM-prU.webp"
+  },
+  "transcript": "Hi everyone, I am Yash from SendAI and today I'll be talking about Generative Financial Instruments and how and why you can generate financial instruments on the fly using AI on Solana. Last year in December we built the Solana Agent Kit. Our main thesis was how can we take all existing Solana protocols and make it a few lines of codes for AI agents to transact on Solana. We became the number one toolkit not just in Solana but in all of crypto by numbers. And it gave us a unique insight on how the culmination of crypto and AI can lead us to generate a new category on its own. Now taking a step back, if we look at Investment Banking, one of the oldest sectors of TradFi, here a client would come up and say 'I want to benefit from the price action of Tesla but I want to cap my losses'. A team of equity research and investment bankers would first then go and create a financial instrument where they will put 80% into zero-coupon bond to protect your principal and 20% into Tesla call options to gain all the upsides. And they will convert this into a structured product. Now taking a more crypto-native examples, let's say you have SOL binary options which has recently been very popular, where you have to predict whether the price of SOL will go up or down in the next one hour. An obvious instinct would be why can't I hedge this against SOL perps. So I asked Claude to generate a financial instrument for me where it created a hedge strategy and structured a payoff based on the SOL binary options and SOL perps. Just like an investment banker would do. The timing of generative financial instruments is perfect due to two major tailwinds. LLMs enable hyper-personalisation just like ChatGPT where anyone can help... where AI enables you to help understand and structure payoffs. And then it's executed on the internet capital markets where all the programs are open and permissionless in nature. Here what happens is LLMs first writes codes for the sequence of transactions to be executed on all the existing battle-tested smart contracts and protocols which we all have been using, and executes transaction on your own wallet with sufficient guardrails. We believe with the great wealth transfer happening, the return... and the return of active and personalised investing, this will be even more relevant. And memecoins were just a glimpse of that. Now let's take a real-life example where you want to get exposure to the volume of the top 5 trending memecoins on Solana. An obvious strategy here would be to scan for the top 5 trending memecoins every 6 hours and put it in a LP in a DEX where you keep gaining all the fees from the trading. And here once you show this intent, the agent will create you a financial instrument on the fly which you can verify and deploy in just one click. And not just that, let's say if you have created a financial instrument and you want to share it with others, you can just simply share a link with others and anyone can just clone this strategy with one click. So here taking another example of prediction markets, a strategy which is followed by lot of people in prediction market is to ape on all the high confidence markets. Which is between 82% to 92% odds. So I just created this strategy where it fetches the top... all these markets and ape into that using just one click. And you can verify all the steps of the agent. And yes you can verify and monitor controls of the steps of the agent and it provides you just like a omnipresent experience like Uber where you are in complete control and you can see what agent is doing when and where. With all this we are building Suzi... in... and we'll be launching in Q1 of next year both on web as well as mobile to help you generate financial instrument on the fly on Solana using AI. So yeah thanks everyone and yeah see you all around.",
+  "enrichment": {
+    "generated_query": "SendAI Official Announcement Blog Technical Docs Solana Breakpoint 2025",
+    "sources": [],
+    "enriched_at": 1765670978.289407
+  },
+  "tags": {
+    "primary": "AI",
+    "secondary": [
+      "DeFi Automation",
+      "AI Agents",
+      "Structured Products"
+    ],
+    "score": 6,
+    "impact_reason": "The keynote introduces 'Generative Financial Instruments' via the widely used Solana Agent Kit, representing a solid innovation in automating complex DeFi strategies through LLMs, though widespread user adoption is pending."
+  },
+  "category_rank": {
+    "total_category_score": 36,
+    "share_of_voice": 0.1667,
+    "normalized_rank": 10,
+    "percentile_position": 1
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "1:1",
+      "role": "tile",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Molecular Assembler",
+          "Crystalline Structures",
+          "Volumetric Lighting",
+          "Polished Obsidian"
+        ],
+        "mood": "Clinical Futurism",
+        "reasoning": "I chose a molecular assembler as the Semantic Anchor because it perfectly visualizes the core concept of 'Generative Financial Instruments.' The AI (the assembler) takes basic financial primitives (glowing filaments) and precisely constructs a complex, bespoke structured product (a crystalline object). This metaphor captures the precision, sophistication, and futuristic nature of the SendAI platform. For the portrait version, I integrated the product name 'SUZI' diegetically, etched onto the assembler's arm. This grounds the abstract concept to the specific product, presenting it as a high-end, bespoke piece of technology.",
+        "description": "In a dark, minimalist laboratory, a sophisticated robotic molecular assembler is the central focus. Its polished obsidian and chrome arms move with precision, firing faint beams of light. At the focal point, a complex, glowing crystalline structure representing a financial instrument is being assembled from intertwining filaments of blue and magenta light. One of the primary robotic arms, in sharp focus, has the name 'SUZI' subtly etched into its metallic surface. The background fades into the soft bokeh of server rack indicator lights, creating a sense of deep, technological space."
+      },
+      "final_prompt": {
+        "prompt_text": "A highly detailed, hyperrealistic image of a sophisticated robotic molecular assembler as the central focus in a dark, minimalist laboratory, composed for a vertical 3:4 aspect ratio to emphasize monumental height and epic scale. Significant negative space at the top enhances the robot's imposing presence, making the subject feel monumental. Its polished obsidian and chrome arms move with surgical precision, firing faint, volumetric beams of light. One of the primary robotic arms, in sharp focus, has the name 'SUZI' subtly etched into its metallic surface. At the focal point, a complex, glowing crystalline structure, representing a financial instrument, is being meticulously assembled from intricately intertwining filaments of vibrant blue and magenta light, casting dynamic, high-contrast light effects. The background recedes into a deep, technological space, characterized by the soft, realistic bokeh of server rack indicator lights. The entire scene is bathed in dramatic volumetric lighting with global illumination, showcasing realistic materials with ray-traced reflections on the polished obsidian and chrome surfaces, and ambient occlusion. 8k, octane render, raytracing, hyper-detailed, photorealistic, ultra-detailed, physically based rendering (PBR), cinematic lighting, volumetric fog, extreme detail, shallow depth of field, realistic bokeh."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961660/generated_assets_homepage_y2JLwcM-prU.jpg"
+    },
+    "category_page": {
+      "ratio": "16:9",
+      "role": "sector_lead",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Molecular Assembler",
+          "Crystalline Structures",
+          "Volumetric Lighting",
+          "Polished Obsidian"
+        ],
+        "mood": "Clinical Futurism",
+        "reasoning": "I chose a molecular assembler as the Semantic Anchor because it perfectly visualizes the core concept of 'Generative Financial Instruments.' The AI (the assembler) takes basic financial primitives (glowing filaments) and precisely constructs a complex, bespoke structured product (a crystalline object). This metaphor captures the precision, sophistication, and futuristic nature of the SendAI platform. For the portrait version, I integrated the product name 'SUZI' diegetically, etched onto the assembler's arm. This grounds the abstract concept to the specific product, presenting it as a high-end, bespoke piece of technology.",
+        "description": "A macro, top-down shot focusing on the moment of creation. We see the tips of multiple robotic arms converging. Beams of coherent light meet, fusing a new glowing blue filament into a larger, intricate crystalline lattice. The image highlights the perfect geometry of the crystal and the intense energy at the point of fusion, with sharp caustics reflecting off the polished chrome surfaces of the machine. No text is visible in this closeup."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro, top-down shot focusing on the moment of creation, with a centrally focused and symmetrical composition. The tips of multiple futuristic robotic arms converge precisely, forming an intricate, tight framing that completely fills the square frame (1:1 aspect ratio). Intense beams of coherent light meet at the central point of convergence, actively fusing a new, intensely glowing blue filament into a larger, perfectly geometric crystalline lattice. The image highlights the flawless symmetry of the crystal structure and the raw, intense energy at the point of fusion. Dramatic volumetric lighting emanates from the core, casting sharp, intricate caustics that reflect with dazzling intensity off the highly polished chrome surfaces of the machine. The aesthetic blends the precision of molecular assemblers and the stark, dark reflectivity of polished obsidian. No text or numbers are visible in this closeup. 8k, octane render, raytracing, hyper-detailed, physically based rendering (PBR), ultra-detailed, atmospheric."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961661/generated_assets_category_y2JLwcM-prU.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "SendAI Unveils \"Suzi\": Generative Financial Instruments Arrive on Solana",
+    "standfirst": "The team behind the dominant Solana Agent Kit is moving up the stack. Their new platform promises to replace investment bankers with LLMs, allowing users to generate complex hedging strategies in seconds.",
+    "key_takeaways": [
+      "Launch of **Suzi**, a consumer-facing mobile and web app arriving Q1 2025.",
+      "Introduction of \"Generative Financial Instruments\"—bespoke, on-chain structured products created via natural language.",
+      "**SendAI** confirms its **Solana Agent Kit** is now the most widely used AI toolkit in the crypto sector."
+    ],
+    "article_body_markdown": "The era of the \"Generative Financial Instrument\" has officially begun. At Solana Breakpoint 2025, **SendAI** co-founder Yash Agarwal announced the pivot from pure developer tooling to a consumer-grade application layer with the unveiling of **Suzi**. Scheduled for a Q1 2025 release on web and mobile, Suzi aims to democratize the complex structured products typically reserved for high-net-worth clients in traditional investment banking.\n\nThe core thesis is simple yet disruptive: replace the army of equity researchers and bankers with Large Language Models (LLMs) and permissionless on-chain protocols. In traditional finance, creating a principal-protected note—combining a zero-coupon bond with call options—takes weeks of structuring. **SendAI** demonstrated how **Suzi** can execute similar logic in seconds. By leveraging the composability of Solana's \"internet capital markets,\" the AI can instantly identify a user's intent (e.g., \"hedge my SOL binary option exposure\") and execute a counter-trade on a perpetuals exchange to structure a precise payoff profile.\n\nBeyond hedging, the platform introduces a new paradigm for active management. Agarwal showcased examples of \"on-the-fly\" strategy generation, such as an automated index that scans for the top five trending memecoins every six hours and deploys capital into their liquidity pools to farm fees. Crucially, these strategies are not black boxes; users retain full custody and can verify every step of the agent's logic before execution. The platform also integrates a social layer, allowing users to share successful strategies via a simple link, enabling others to clone complex positions with a single click.\n\nThis move cements **SendAI**'s position as a critical infrastructure player. Having already captured the developer market with the **Solana Agent Kit**—which Agarwal claims is now the number one AI toolkit in crypto by usage—the firm is now leveraging that technical dominance to capture the end-user. As the \"Great Wealth Transfer\" accelerates demand for personalized investing, **Suzi** bets that the future of asset management won't be a fund manager, but an agent in your pocket."
+  }
+}

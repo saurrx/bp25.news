@@ -1,0 +1,91 @@
+{
+  "id": "6KNDG_i_2uk",
+  "url": "https://www.youtube.com/watch?v=6KNDG_i_2uk",
+  "processed_at": 1765668696.8971,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "The China Opportunity",
+    "speakers": [
+      "Joseph Chee"
+    ],
+    "product": "Solana Company",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/6KNDG_i_2uk.webp"
+  },
+  "transcript": "Good afternoon. It's getting late in the day, thanks for still being here to listen to me talk about China. I don't have a product to tell you about, I'm telling you about an idea. And thanks Pierce for doing the introduction, saved me some time. Sorry about the disclaimer, the lawyers wanted to put it on because I'm talking about China. Anyways, um, a short intro. Before I joined crypto in 2017, I was a banker and I was this hardworking little bee, did a lot of transactions, I know a lot of people, I'm an old-timer. And so in... now that I'm a part of the big family, this is my first Breakpoint. So whenever you want to come to Asia, to APAC to do business, you need someone to call, I'm here to help. China is what I want to talk about. This Mandarin-speaking community has always been a big part of Web3 since the beginning. The Chinese Chinese, the mainland Chinese, uh, has always been there. Around China, around the globe. However, a big part of this Chinese community are more Ethereum-based. They don't know much about Solana. That's a big white space for us. I think Solana is more suitable for the Chinese because of its performance. It's fast, it's cheap, it's scalable, user-friendly. It's fun, it's vibrant. And look at what the Chinese do with their businesses. The mobile phones, logistics, EVs, that's what they do. Scalable, cheap, fast, accessible, user-friendliness, the internet companies, the APPs. That's their motto, right? We want to bring them to the Solana ecosystem. And this trip that we just did two months ago proved my point right. Without any promotion, every location we've been to: Beijing, Shanghai, Hangzhou, Shenzhen, Hong Kong. We are full of young, energetic, entrepreneurial people coming to a place that we can't fit everyone. I don't have to talk about the population. This is the place you find a lot of technical talents. There are things you can do in China, which I'll talk about, and things you cannot do in China. Uh, but this is definitely the place for you to find your cheap, low-cost, hardworking, smart technical talents. Just one number to pay attention to: the 5 million tech-able students graduating from universities and colleges every year. There are more than 500,000 tech startups being formed every year in that country. I mean people talk... I ask the question, how many uh programmers are there in the blockchain space? I was told about 30, you want to push it, 40,000? Any one of the top 10, top 20 tech companies in China has more than that. Multiples of that. We want these tech people to come to Solana. If we have 5% of them joining us in building our ecosystem, we'll be golden. This is the most... this is the myth. This is the question that I get asked the most. And the fear is, 'Oh, what if I get taken away in China and no one can find me anymore? What if I get, you know, border control, I can't leave the country, I have to be there forever?' And that's the fear that most of the foreigners... I'm a Malaysian. I was born and raised in Malaysia. I spent the last 25 years, half the time in Beijing, half the time in Hong Kong. And I'm fine. And especially the last 7-8 years, I've been shareholders, sometimes controlling shareholder of major crypto companies, sit on the board. I go in and out. It's not that hard to stay out of trouble. There's only a few things to bear in mind in China. China has a huge population. And a lot of the population you could say is uh unsuspecting. And... and obviously some of them are speculators and gamblers. The last thing the Chinese government wants to do... wants you to do is to go rip off these moms and pops and the taxi drivers. Don't do that. Go build something that has real impact in the real world. Like Mike Novogratz says, 'Build shit that people would use, that work.' Then you'll be fine. And two, like India, Vietnam, many other countries that have capital control. The first thing the government is worried about is capital flight, money leaving the country illegally. Don't do that. Don't do anything that would aid that. Stay away from it. And I guess bearing these two principles in mind, other than trying to liberate Taiwan or worship the war heroes of Japan, I think you'll be fine. Um, if you have any questions, you're not clear, call us. Ask your uh lawyers. On the bottom left, you see this, you know, new article. Everyone now is saying that China is changing its mind on crypto again, they're bidding up the whole sector. No. Whatever they said a few... a couple weeks ago is the same. Stablecoins are not fiat, they don't have sovereign backing. Stablecoins... some of the stablecoins have higher AML/KYC risk, which we know. Crypto-related business cannot be done onshore, which we know, has been there for years. Nothing has changed. Business as usual. Uh, one of our portfolio companies, HashKey, is getting listed next week. And in Hong Kong. They have the whole tech team, a lot of supporting team onshore in China. They're perfectly fine. Um, Hong Kong is the place you want to be. Uh, that's sort of open to do most of the crypto and blockchain businesses. And then capital is coming back to Hong Kong. This year, a lot of people don't know this, is going to be the largest IPO market for 2025. This is uh... well, time's running up. This is who we are. Uh, we are supported by liquidity on the East and the West. We have people in the US and also in Asia. We're here to help. That's all from me. Thank you.",
+  "enrichment": {
+    "generated_query": "Solana China Opportunity official announcement blog technical docs Solana Breakpoint 2025",
+    "sources": [],
+    "enriched_at": 1765671276.783732
+  },
+  "tags": {
+    "primary": "Infrastructure",
+    "secondary": [
+      "Adoption",
+      "APAC Expansion",
+      "Developer Ecosystem"
+    ],
+    "score": 6,
+    "impact_reason": "Keynote discussing Solana's potential expansion into the Chinese market and attracting developers, a solid update but not a groundbreaking launch or integration."
+  },
+  "category_rank": {
+    "total_category_score": 291,
+    "share_of_voice": 0.0206,
+    "normalized_rank": 7.5,
+    "percentile_position": 22
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "1:1",
+      "role": "tile",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Obsidian Rock",
+          "Raw Crystal Formations",
+          "Volumetric Lighting",
+          "Industrial Sci-Fi"
+        ],
+        "mood": "Vast, Industrial, Optimistic, High-Tech",
+        "reasoning": "I chose a high-tech crystal mine as the 'Semantic Anchor' to directly visualize the 'developer goldmine' metaphor from the headline. The massive, raw crystal represents the 5 million-strong untapped developer pool in China, currently aligned with Ethereum (hence a different base color). The act of mining represents Solana's strategy to extract and convert this talent. For the homepage, I included the text '5M' as a diegetic, holographic projection onto the crystal. This number, pulled from the standfirst, quantifies the immense opportunity and integrates seamlessly into the futuristic, industrial scene.",
+        "description": "A view inside a colossal, futuristic cavern. The walls are polished black basalt, laced with glowing circuit-like veins in Solana's purple-to-green gradient. A massive, robotic mining arm dominates the foreground, its claw poised over a giant, raw, semi-translucent crystal embedded in the rock. As a scanner on the arm passes over the crystal, it projects a glowing, holographic number, '5M', onto its surface. The background recedes into hazy darkness, punctuated by the distant lights of other mining operations, conveying immense scale."
+      },
+      "final_prompt": {
+        "prompt_text": "A colossal, futuristic cavern, viewed from inside. The immense walls are crafted from polished black basalt, intricately laced with glowing circuit-like veins that radiate in a vibrant Solana's purple-to-green gradient. In the foreground, a massive, imposing robotic mining arm dominates the scene, its powerful claw precisely poised over a giant, raw, semi-translucent crystal deeply embedded within the rock. A scanner on the robotic arm projects a brilliant, glowing holographic number, '5M', directly onto the crystal's shimmering surface. The cavern's vast background recedes into a hazy, atmospheric darkness, where distant, diffused lights of other mining operations punctuate the immense scale and convey a sense of endless industrial activity. Emphasize the towering height and epic proportions, with significant negative space at the top to enhance the monumental feeling of the cavern and the robotic arm, capturing the essence of Obsidian Rock and Raw Crystal Formations within an Industrial Sci-Fi setting. Dramatic volumetric lighting throughout. Vertical composition 3:4. 8k, hyper-detailed, cinematic quality, volumetric lighting, raytracing, octane render, photorealistic, intricate details."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961095/generated_assets_homepage_6KNDG_i_2uk.jpg"
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Obsidian Rock",
+          "Raw Crystal Formations",
+          "Volumetric Lighting",
+          "Industrial Sci-Fi"
+        ],
+        "mood": "Vast, Industrial, Optimistic, High-Tech",
+        "reasoning": "I chose a high-tech crystal mine as the 'Semantic Anchor' to directly visualize the 'developer goldmine' metaphor from the headline. The massive, raw crystal represents the 5 million-strong untapped developer pool in China, currently aligned with Ethereum (hence a different base color). The act of mining represents Solana's strategy to extract and convert this talent. For the homepage, I included the text '5M' as a diegetic, holographic projection onto the crystal. This number, pulled from the standfirst, quantifies the immense opportunity and integrates seamlessly into the futuristic, industrial scene.",
+        "description": "A macro, detailed shot focusing on the point of extraction. The multi-faceted, raw crystal surface fills most of the frame, its internal fractures catching the light. One of the precise, anodized metal claws of the robotic mining arm is just making contact, its own small indicator lights reflecting off the crystal. The image emphasizes the textural contrast between the machine and the raw, valuable resource it is about to claim."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro, detailed shot focusing on the point of extraction. The multi-faceted, raw crystal surface fills most of the frame, its internal fractures catching the light, shimmering with the dark, reflective qualities of obsidian rock and raw crystal formations. One of the precise, anodized metal claws of the robotic mining arm, showcasing a utilitarian industrial sci-fi aesthetic, is just making contact. Its own small, sharp indicator lights emit a focused glow, casting reflections off the intricate crystal surface. The scene is illuminated by dramatic, high-contrast volumetric lighting, with defined light beams cutting through atmospheric haze, creating deep shadows and emphasizing the textural contrast between the sleek, metallic machine and the raw, valuable resource it is about to claim. The composition is square (1:1 aspect ratio), meticulously symmetrical and centrally focused, with a tight macro framing that fills the entire frame with intricate surface details and textures. 8k, octane render, raytracing, hyper-detailed, photorealistic, cinematic lighting, ultra-realistic materials, microscopic details, strong contrast."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961099/generated_assets_category_6KNDG_i_2uk.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Solana Company Exec: China is the Next Developer Goldmine",
+    "standfirst": "Joseph Chee outlines a strategy to convert China’s massive Ethereum developer base to Solana, citing a 5-million-strong annual talent pool. With the imminent HashKey IPO in Hong Kong, the region is reopening for institutional business.",
+    "key_takeaways": [
+      "<b>Talent Arbitrage:</b> China produces 5 million tech graduates annually; capturing just 5% would dwarf the current global blockchain developer population (~40k).",
+      "<b>Market Signal:</b> Portfolio company <b>HashKey Group</b> is set to list in Hong Kong next week, signaling a reopening of institutional capital channels in APAC.",
+      "<b>Strategic Pivot:</b> <b>Solana Company</b> (NASDAQ: HSDT) is actively targeting the \"Mandarin-speaking Ethereum community\" by leveraging Solana's high-throughput fit for Chinese \"Super App\" business models."
+    ],
+    "article_body_markdown": "The math is simple, but the implication is staggering. While the global blockchain developer count hovers around 40,000, China mints **5 million** tech-capable graduates every year. Joseph Chee, Executive Chairman of **Solana Company** (NASDAQ: HSDT) and **Summer Capital**, argues that this disparity represents the single largest \"alpha\" opportunity for the ecosystem. The current landscape is dominated by an \"Ethereum-based\" consensus among Chinese builders, creating a massive \"white space\" for Solana to capture. The goal isn't just participation; it's a migration of the world's most prolific engineering workforce.\n\nWhy would they switch? Chee argues that Solana’s architecture—high throughput, low cost, and scalability—mirrors the DNA of China’s most successful tech exports: super-apps, logistics networks, and EV infrastructure. Unlike the DeFi-centric ethos of Western crypto, Chinese tech is built on \"user-friendliness\" and massive scale (APPs, mobile dominance). For a developer base raised on the efficiency of **WeChat** and **Meituan**, Solana offers a more familiar infrastructure than Ethereum's fragmented L2 landscape.\n\nThe \"China Ban\" narrative is nuanced, not absolute. Chee dispels the fear of \"disappearing\" with a pragmatic playbook: keep the tech onshore and the finance offshore (specifically Hong Kong). The red lines are clear: do not facilitate capital flight, do not defraud retail investors (\"moms and pops\"), and avoid political third rails. For those who color inside these lines, the operational risk is manageable. The proof is **HashKey Group**, a portfolio company with significant onshore operations, scheduled to list on the Hong Kong Stock Exchange next week—a bellwether for compliant crypto enterprise in the region.\n\nThis isn't just about code; it's about capital. With Hong Kong projected to be the largest IPO market of 2025, the liquidity channels are reopening. Chee’s **Solana Company** is positioning itself as the bridge, backed by liquidity from both the US and APAC. The message to institutional investors is clear: The \"China Opportunity\" isn't about speculating on tokens; it's about arbitrage on human capital and the inevitable return of Asian liquidity."
+  }
+}

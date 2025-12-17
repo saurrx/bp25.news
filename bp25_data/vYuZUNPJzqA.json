@@ -1,0 +1,91 @@
+{
+  "id": "vYuZUNPJzqA",
+  "url": "https://www.youtube.com/watch?v=vYuZUNPJzqA",
+  "processed_at": 1765668646.201238,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Product Keynote: KAST",
+    "speakers": [
+      "Raagulan Pathy"
+    ],
+    "product": "KAST",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/vYuZUNPJzqA.webp"
+  },
+  "transcript": "Hey guys, how are you? It's good to be here. Um, last year we had just launched KAST, we were about two months in, so our real official launch was here at Breakpoint in Singapore. And, um, now we're sort of nearly 18 months in. But I just wanted to show you in real life, I don't know if people have seen the solid gold card. We, uh, announced it last year. I've got one, please don't rob me for it. Um, and a number of people have one. So this year I'm going to give a bit of an update as to where we are and, uh, what we're doing next. So, I guess, um, quick one, like why I put up the year 2040 is that's what our vision is heading towards. Becoming one of the largest global banks in the world, uh, built on top of stablecoins and crypto infrastructure. This is not a very... thing that can be built overnight. I think it's going to take till then. Um, we're obviously rushing our development as quickly as possible, but we do have a very long-term vision for how long this will take. The simple problem is is that banking hasn't kept up. If you look at most people in the room, they're crypto native people, they live remotely in diff... uh, they work remotely, they move countries. Every time they move to a country, trying to set up a bank account, it... in the best of countries it's a pain, in the worst of countries it's nearly impossible. And so that's really why we built KAST, and that was the whole purpose behind KAST. Now I'm going to quickly give some updates as to where the product is. Um, it started off as your favorite card, the one that you'd want. That's not my balance by the way, I wish it was. And, uh... um, but now there's a lot of things that you can actually do with it. You can... everyone can get a US dollar virtual account. Um, you can have Swift pay-in and pay-out to over 125 countries. So you can send dollars via Swift, uh, which I think is like groundbreaking. By the way, it's completely free right now to send Swift if it's more than $5,000. No fees, no percentage at all. Um, and then we of course have our rewards system as well. The other thing is that we're expanding it to include, uh, a lot more instant payment. And I'm going to show you some of those features in a second, including KAST Tag. Now, we have introduced payment to near... over 200 countries in... through Swift, but we also, um, have this vision of being better than a bank. And that means that you can actually send money, um, locally as well. So you can use QR code for Pix in Brazil. You can send using local payment rails in 55 countries. That's releasing over the next few weeks. And so we plan to extend that so any country you go to that have their local payment method, um, you know, it might be GrabPay in Singapore, Pix in Brazil, uh, UPI in India. You should be able to pay using that, and that's really what we're building to take KAST even further. Um, we also have the savings vault, um, coming as well, which is launching, uh, next week, which is... we're partnering with Gauntlet on. Gauntlet's obviously one of the biggest and oldest names going around. So you'll be able to put your money in and get your savings. I think the current rate's like 7% or so. But you'll also be able to liquid spend from there very soon as well, as well as like borrowing against your crypto. Um, the other thing also I want to announce is that the waitlist is open for KAST for Business. And so all the people that have been waiting for KAST for Business, you'll be able to set up your business on KAST. All your employees can have KAST, you can pay them instantly. We think it's going to be revolutionary because it's like a Ramp or a Brex, but imagine a full global version of that. Um, we essentially are trying to build something that's better than a bank. We have over 150 developers working on this now. We have a very large financial partnerships team, and we're expanding that to be able to deliver this faster than anyone. Now, I will quickly, in the interest of time, go to the video, uh, because, uh, we weren't able to do it, showing you how KAST Pay actually works with Tag. This is my actual account. I hid my balance as you can see. Now we can pay out using stablecoins, bank transfer, KAST Tag. I'm going to pay Izzy on my team using KAST Tag. So I just put in her name, as you can see, I search for it. I get... I get her details there. I'm an extremely generous person, so I'm going to send her the lucky, um... nicest guy ever. And I'm going to send her 880... 888 dollars. Lucky number in Asia. Um, I click next. I'm going to skip the limit piece. And then, bang, it's done. Izzy has got... Face ID as well. She's got 888 dollars. I think she's in the crowd somewhere. Lucky you... lucky day for you, Izzy. Anyway, KAST Tag is part of our ability for you to send money via your own tag, email, or phone to anyone anywhere in the world. Um, and yeah, it's part of our evolution into becoming a full banking app. Think of it like a Cash App or Venmo, but for the whole world. That's all I've got for you today. Thank you.",
+  "enrichment": {
+    "generated_query": "KAST Solana Breakpoint 2025 official announcement blog OR technical docs",
+    "sources": [],
+    "enriched_at": 1765671267.8995771
+  },
+  "tags": {
+    "primary": "Consumer",
+    "secondary": [
+      "Payments",
+      "Banking",
+      "Stablecoins"
+    ],
+    "score": 6,
+    "impact_reason": "KAST's updates on global payment integrations and virtual accounts offer practical utility for Solana users, but the impact is limited by its gradual rollout and reliance on existing infrastructure."
+  },
+  "category_rank": {
+    "total_category_score": 62,
+    "share_of_voice": 0.0968,
+    "normalized_rank": 8.6,
+    "percentile_position": 3
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "1:1",
+      "role": "tile",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Brushed Gold",
+          "Polished Obsidian",
+          "Cinematic Rim Lighting",
+          "Neo-Brutalist Tech"
+        ],
+        "mood": "Futuristic, Secure, Premium, Minimalist",
+        "reasoning": "I chose the solid gold card being inserted into a futuristic, high-tech vault as the semantic anchor. This visually merges KAST's signature initial product (the gold card) with its new expansion into institutional-grade savings and 'full-stack banking' (the vault). It tells a story of access and evolution. For the diegetic text, I chose 'SWIFT' to be laser-etched onto the vault, directly referencing the 'Global Swift Rails' mentioned in the headline and representing the key to fee-free, cross-border settlement.",
+        "description": "A 3:4 portrait shot focusing on a solid gold KAST card being inserted into a glowing cyan slot on a massive, futuristic bank vault. The vault is constructed from seamless, polished obsidian panels. Just above the card slot, the word 'SWIFT' is cleanly laser-etched into the dark surface, illuminated by the slot's light. The card itself has a tangible, brushed metal texture, catching a sharp key light. In the deep background, the vault hall is cavernous and dark, with out-of-focus digital light trails suggesting a global data network in motion."
+      },
+      "final_prompt": {
+        "prompt_text": "A monumental 3:4 portrait shot, vertical orientation. A solid gold KAST card with a tangible, brushed metal texture, catching a sharp key light and subtle warm reflections, is meticulously inserted into a vibrant, glowing cyan slot. The slot emits a powerful, volumetric cyan light that illuminates the card's edges and casts a radiant glow onto the surrounding obsidian surface. The massive, futuristic bank vault, embodying Neo-Brutalist Tech aesthetics, is constructed from seamless, highly polished obsidian panels, displaying profound deep blacks. Just above the card slot, the word 'SWIFT' is cleanly laser-etched into the dark obsidian surface, starkly illuminated by the intense cyan light from the slot. Cinematic rim lighting crisply outlines the vault's epic architectural forms and the KAST card, enhancing separation and definition against the deep, moody shadows. In the cavernous and dark vault hall background, out-of-focus digital light trails suggest a global data network in dynamic motion, creating dramatic volumetric lighting effects and high dynamic range. Emphasize epic scale, monumental presence, and a sense of verticality with significant negative space above the vault. Hyperrealistic, photorealistic, 8K ultra-detailed, realistic materials, natural color grading, cinematic contrast, 12K resolution, microscopic details, octane render, raytracing, hyper-detailed, Unreal Engine 5, HDR."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961629/generated_assets_homepage_vYuZUNPJzqA.jpg"
+    },
+    "category_page": {
+      "ratio": "3:4",
+      "role": "feature",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Brushed Gold",
+          "Polished Obsidian",
+          "Cinematic Rim Lighting",
+          "Neo-Brutalist Tech"
+        ],
+        "mood": "Futuristic, Secure, Premium, Minimalist",
+        "reasoning": "I chose the solid gold card being inserted into a futuristic, high-tech vault as the semantic anchor. This visually merges KAST's signature initial product (the gold card) with its new expansion into institutional-grade savings and 'full-stack banking' (the vault). It tells a story of access and evolution. For the diegetic text, I chose 'SWIFT' to be laser-etched onto the vault, directly referencing the 'Global Swift Rails' mentioned in the headline and representing the key to fee-free, cross-border settlement.",
+        "description": "A 1:1 macro, extreme close-up shot. We see the corner of the textured, brushed gold card as it makes contact with the perfect, sharp edge of the obsidian vault. The cyan light from the internal reader spills out, creating a dramatic, anamorphic flare that reflects across the card's surface, highlighting the micro-engraved details. The focus is purely on the tactile contrast between the warm, textured gold and the cold, smooth obsidian."
+      },
+      "final_prompt": {
+        "prompt_text": "A 1:1 macro, extreme close-up shot of the corner of a textured, brushed gold card making precise contact with the perfect, sharp, polished edge of an obsidian vault. Dramatic cinematic rim lighting, reminiscent of chiaroscuro techniques, from a powerful internal reader emits a brilliant cyan light, spilling out and creating a pronounced anamorphic flare that meticulously reflects across the brushed gold card's surface. This flare exquisitely highlights the card's micro-engraved details and the sharp transition to the cold, smooth obsidian. The entire frame is filled with the rich, contrasting textures, emphasizing the tactile difference between the warm, granular gold and the cold, unyielding obsidian. The focus is razor-sharp, capturing every minute detail with hyper-precision, imbued with a neo-brutalist tech aesthetic, highlighting extreme detail and realistic materials. 8k, octane render, raytracing, hyper-detailed, photorealistic, cinematic contrast, volumetric lighting, Unreal Engine 5."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961630/generated_assets_category_vYuZUNPJzqA.png"
+    }
+  },
+  "editorial": {
+    "headline": "KAST Pivots to Full-Stack Banking with Gauntlet-Powered Yield and Global Swift Rails",
+    "standfirst": "The stablecoin neobank expands beyond cards with institutional-grade savings vaults and fee-free cross-border settlement, targeting the $20T global payments market.",
+    "key_takeaways": [
+      "Gauntlet Partnership: New 'Savings Vault' launches next week with ~7% yield, leveraging institutional risk modeling.",
+      "Infrastructure Expansion: Swift integration for 125+ countries (fee-free >$5k) and local rails like Brazil's Pix and India's UPI.",
+      "B2B Market Entry: 'KAST for Business' waitlist opens, positioning the platform as a crypto-native competitor to Ramp and Brex."
+    ],
+    "article_body_markdown": "At **Solana Breakpoint 2025**, KAST CEO Raagulan Pathy outlined a roadmap that aggressively moves the platform from a consumer crypto card to a comprehensive global banking stack. The pivot is underpinned by a new partnership with **Gauntlet**, the DeFi risk management firm, to launch a \"Savings Vault\" offering yields of approximately 7%. This collaboration signals a shift toward institutional-grade yield products for retail users, moving away from the opaque \"black box\" earn models that have historically plagued the sector.\n\nThe platform's infrastructure upgrade addresses the primary friction point in crypto-banking: off-ramping. Pathy announced the immediate integration of Swift payment rails across 125+ countries, notably removing fees for transfers exceeding $5,000. Crucially, KAST is integrating local real-time payment systems—including **Pix** in Brazil and **UPI** in India—into its stack over the coming weeks. This \"local-first\" approach allows users to bypass slow international wires entirely, settling transactions instantly in domestic fiat currencies directly from stablecoin balances.\n\nKAST also formally entered the B2B arena with the announcement of **KAST for Business**, opening its waitlist to compete directly with fintech incumbents like **Ramp** and **Brex**. By extending its payroll and expense management infrastructure to global enterprises, KAST aims to capture the growing market of crypto-native firms requiring borderless operational accounts. With 150 developers currently shipping features and a 2040 vision to displace traditional banking, the company is betting that superior settlement rails will drive the next phase of stablecoin adoption."
+  }
+}

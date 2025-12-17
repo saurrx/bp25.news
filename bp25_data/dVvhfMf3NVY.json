@@ -1,0 +1,91 @@
+{
+  "id": "dVvhfMf3NVY",
+  "url": "https://www.youtube.com/watch?v=dVvhfMf3NVY",
+  "processed_at": 1765668682.803047,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Gold Capital Markets",
+    "speakers": [
+      "Usman Saleem"
+    ],
+    "product": "Oro Labs",
+    "type": "Presentation",
+    "thumbnail": "thumbnails/dVvhfMf3NVY.webp"
+  },
+  "transcript": "Hi everyone, my name is Usman and I'm the founder of Oro Labs. Today I'll be talking to you about gold capital markets. Gold is one of the oldest and largest financial assets ever, right? It trades globally, it settles globally. But capital markets surrounding gold have always been fragmented, opaque, and slow. This is not a product problem. It is a market structure problem. Oro is building that market structure for tokenized gold enabling yield, settlement, and composability. An important asset like gold needs a unified market that can enable new market primitives and shared primitives to be built on it. Tokenized gold today represents the same problems that physical gold faces. There is no yield, no unified settlement, and no shared market primitives. Today, we are introducing the first yield primitive for gold ever: stGOLD. If you wanted to earn a bit of yield on gold today, it would happen through off-chain, bespoke arrangements which are opaque and possibly very difficult for most of you to get access to. stGOLD combines not only gold exposure, but real-world returns and programmable yield. A token that is composable in DeFi and allows you to do a bunch of stuff with it. stGOLD turns gold... turns yield into a native property of gold itself. This will be live on Solana within the next few weeks. This is an example of how stGOLD would work. So you can stake your gold, swap it on-chain, and see it grow over time. The starting yield is at 3%, but we expect this to grow as on-chain markets and yield markets around the base gold token grow. The second piece that we are introducing is the Oro Redemption Network. One of the largest problems in today's gold markets are that there is no unified settlement network, whether it be for physical gold or existing digital gold markets. Oro is introducing that redemption network, allowing you to redeem for your gold tokens across multiple locations globally. We're starting with more than five locations and aim to expand this over time to tap into multiple institutional gold hubs around the world. So pretty simple, you can submit your redemption request, choose the locations that you want to redeem in, and this is all processed on-chain with these transactions recorded and the history recorded in your portfolios. To summarize, Oro is not just building new products on gold. It is building new market structures: yield markets, settlement markets, credit markets. And all of these will be plugged into the different distribution products that Oro is building to allow this utility, these use cases, to get to the marginal user of gold. Thank you.",
+  "enrichment": {
+    "generated_query": "stGOLD Oro Labs Solana Breakpoint 2025 official announcement blog OR technical docs",
+    "sources": [],
+    "enriched_at": 1765671280.64106
+  },
+  "tags": {
+    "primary": "RWA",
+    "secondary": [
+      "Tokenized Gold",
+      "DeFi",
+      "Yield"
+    ],
+    "score": 6,
+    "impact_reason": "Introduction of a yield-bearing tokenized gold product (stGOLD) on Solana and a redemption network could bring new liquidity and utility to the ecosystem, although the initial yield is modest."
+  },
+  "category_rank": {
+    "total_category_score": 109,
+    "share_of_voice": 0.055,
+    "normalized_rank": 7.5,
+    "percentile_position": 12
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "1:1",
+      "role": "tile",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Gold",
+          "Glowing Crystalline Lattice",
+          "Dramatic Key Light",
+          "Digital Alchemy"
+        ],
+        "mood": "Sophisticated, Alchemical, Futuristic, Valuable",
+        "reasoning": "I chose a gold bar as the Semantic Anchor because the product 'stGOLD' is a new primitive for on-chain gold. The visual represents the core story: infusing a timeless physical asset (gold) with a new, native, digital property (yield). The gold bar is shown with an internal, glowing crystalline structure to represent the new 'market structure' and programmability on the Solana blockchain. I included the text '3%' diegetically etched into the gold itself to highlight the key feature—the native yield—making it appear as an inherent, physical property of the asset.",
+        "description": "A monumental, vertically oriented gold bar stands in a dark, minimalist space. The bar is not solid; it's intersected by an intricate, glowing crystalline lattice that pulses with a cool, electric light, visible through the polished metallic surface. The number '3%' is masterfully etched into the face of the bar, with the engraved lines themselves glowing from within, signifying the yield as a native property. The background is a deep, out-of-focus void with faint, volumetric haze and subtle network lines, suggesting a vast digital network."
+      },
+      "final_prompt": {
+        "prompt_text": "A monumental, vertically oriented gold bar stands majestically in a dark, minimalist void. The gold bar is exquisitely polished, reflecting light with hyperrealistic gleam, its metallic surface revealing intricate details. It is not solid, but dramatically intersected by an elaborate, glowing crystalline lattice that pulses with a cool, electric light, visibly emanating through the polished gold. The number '3%' is masterfully etched deep into the face of the gold bar, with the engraved lines themselves glowing intensely from within, signifying the yield as a native property of the structure. A powerful, dramatic key light, with high falloff, emphasizes the bar's imposing presence, casting sharp, cinematic shadows that deepen the surrounding abyss. The background is a deep, out-of-focus void, subtly enhanced with faint, volumetric haze and delicate, glowing network lines, suggesting an expansive, ethereal digital network. Compose for a vertical 3:4 aspect ratio, emphasizing epic scale and height, with significant negative space at the top to convey monumentality. The overall aesthetic embodies digital alchemy with realistic materials and cinematic contrast. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic, cinematic lighting, dramatic shadows, photorealistic texture."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961468/generated_assets_homepage_dVvhfMf3NVY.jpg"
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Gold",
+          "Glowing Crystalline Lattice",
+          "Dramatic Key Light",
+          "Digital Alchemy"
+        ],
+        "mood": "Sophisticated, Alchemical, Futuristic, Valuable",
+        "reasoning": "I chose a gold bar as the Semantic Anchor because the product 'stGOLD' is a new primitive for on-chain gold. The visual represents the core story: infusing a timeless physical asset (gold) with a new, native, digital property (yield). The gold bar is shown with an internal, glowing crystalline structure to represent the new 'market structure' and programmability on the Solana blockchain. I included the text '3%' diegetically etched into the gold itself to highlight the key feature—the native yield—making it appear as an inherent, physical property of the asset.",
+        "description": "A dramatic macro shot focusing on a cross-section of the gold bar. The frame captures the sharp, reflective edge of the polished gold meeting the complex, inner world of the glowing crystalline structure. The interplay of light and shadow highlights the fusion of the dense, physical metal with the intricate, self-illuminated digital lattice inside. The focus is purely on the texture and the material alchemy."
+      },
+      "final_prompt": {
+        "prompt_text": "A dramatic macro shot focusing on a cross-section of a gold bar. The frame captures the sharp, highly reflective edge of the polished gold, meeting the complex, inner world of a glowing, intricate crystalline lattice. This internal structure is self-illuminated, forming a vibrant digital lattice. The interplay of warm amber and golden light and deep shadows highlights the seamless fusion of the dense, physical polished metal with the intricate, self-illuminated digital lattice inside, emphasizing material alchemy. The focus is purely on the rich textures, filling the square frame (1:1 aspect ratio) with a central, symmetrical composition. Dramatic key light with high falloff, creating sharp highlights and deep contrast, cinematic golden-hour lighting. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic, cinematic contrast, volumetric lighting, photoreal detail, realistic materials."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961469/generated_assets_category_dVvhfMf3NVY.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Oro Labs Debuts stGOLD: A 3% Yield-Bearing Primitive for On-Chain Gold",
+    "standfirst": "Oro Labs is re-engineering the gold market structure with stGOLD, a new primitive delivering 3% native yield on Solana. The launch is supported by a global redemption network, solving the fragmentation and settlement friction that plagues existing tokenized commodities.",
+    "key_takeaways": [
+      "<b>First Yield-Bearing Gold:</b> stGOLD launches on Solana with <b>3% APY</b>, transforming gold from a passive store of value into a productive, composable DeFi asset.",
+      "<b>Unified Settlement:</b> The <b>Oro Redemption Network</b> debuts with 5+ global hubs, enabling seamless on-chain processing for physical gold redemption.",
+      "<b>Strategic Capital:</b> Founded by <b>Usman Saleem</b> and backed by <b>468 Capital</b>, Oro leverages partnerships with <b>Monetary Metals</b> to source real-world yield."
+    ],
+    "article_body_markdown": "Gold has historically been the \"pet rock\" of finance—a massive, $12 trillion store of value that sits idle, incurring storage costs rather than generating returns. **Oro Labs** is dismantling this inefficiency by introducing **stGOLD**, a liquid staking primitive that embeds yield directly into the asset. Unlike existing gold tokens (such as PAXG) which merely represent digital warehouse receipts, stGOLD functions as a productive asset, initially offering **3% APY**. This yield is not derived from inflationary token emissions but from real-world economic activity—specifically, gold leasing markets—effectively creating a \"risk-free rate\" for the on-chain gold ecosystem.\n\nThe implications for DeFi are significant. By turning gold into a composable, yield-bearing instrument, Oro allows for collateralized lending and liquidity provision without the opportunity cost of holding a non-yielding asset. This mirrors the evolution of ETH to stETH, but applied to a global commodities market that has resisted modernization. Founder **Usman Saleem** emphasizes that this is a \"market structure\" play; the protocol is designed to integrate gold into the velocity of on-chain capital markets, allowing it to serve as a pristine form of collateral that actually grows in value over time.\n\nCrucially, Oro is addressing the \"last mile\" problem of physical settlement. The newly announced **Oro Redemption Network** launches with five global locations, providing a unified settlement layer that connects fragmented local gold markets. For institutional allocators, this reduces counterparty risk and ensures that the digital token remains tethered to accessible physical liquidity. By combining yield (via strategic partnerships with firms like **Monetary Metals**) with a robust settlement network, Oro is positioning Solana as the primary ledger for the modern gold standard."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "xreOFvSCgew",
+  "url": "https://www.youtube.com/watch?v=xreOFvSCgew",
+  "processed_at": 1765668692.899894,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Tech Talk: Reilabs",
+    "speakers": [
+      "Marcin Kostrzewa"
+    ],
+    "product": "Sunspot",
+    "type": "Tech Talk",
+    "thumbnail": "thumbnails/xreOFvSCgew.webp"
+  },
+  "transcript": "Hey everyone, thanks for coming. Um, this talk is to unveil Sunspot, which is a toolchain that lets you run ZK on Solana without pain, or at least with the minimal amount of pain possible with the current state of ZK tooling. So first of all, let's talk about why should you care. Why is it even important to be talking about zero-knowledge cryptography? How can it help you in your own applications, in your projects?\n\nSo we have a bunch of different things that ZK enables that are very difficult to achieve otherwise. First of all, private transactions. Um, obviously we have things like mixers which are really controversial, um, maybe don't do them. Um, but at the same time we are talking about onboarding institutions on-chain for example. Um, and institutions are not going to be super happy about everyone, every chain analysis company being able to see what they're doing, what they're buying, what they're selling, and so on and so forth. Um, moreover, this is not purely about uh financial transactions. If you are building an on-chain game, you probably have the concept of some sort of fog of war, right? There is a part of the map, a part of the game state that should only be accessible to the player, but you still have to ensure that it is that the player is performing moves according to the rules of your game, even though you cannot show what specifically they are doing. This is also something that's uh enabled and really only possible with zero-knowledge cryptography nowadays.\n\nSecond, we have identity use cases. Um, so many times you will want to KYC your client or like soft KYC them, at least make sure they are not a sanctioned person. Um, but you may not want to uh get their entire identity card or they may not want to give it to you. So we have solutions like ZK Passport for example that let you scan your passport and generate a zero-knowledge proof that says I'm not a sanctioned person and for example I'm 18 years old and not reveal anything else. Um, again, something that is enabled with zero knowledge.\n\nWeb2 integrations. Um, we have protocols like ZK Email or ZK TLS, TLSNotary, that let you certify that some uh some Web2 data uh on some server in some HTTP session was given to you, um, without revealing the exact contents of that data. So, uh, an example flow would be you log into PayPal uh and you show that you have performed some transaction, some you've sent some money on PayPal. Um, you generate a ZK TLS proof that it's been done, but you are not leaking any more information. You are not leaking the fact that um this is your username, this is your password, and so on and so forth.\n\nUh, and finally scaling. Um, we have lots of challenges uh on Solana with uh rent costs. Um, you've probably heard of things like ZK Compression from Light Protocol. Um, this is also enabled by the use of zero-knowledge cryptography. So, I hope this convinces you that this is actually something you should care about.\n\nNow let's talk about how to actually implement um something in zero knowledge. Um, in particular Sunspot uses Noir, which is a programming language for describing your zero-knowledge cryptography logic. Um, it's very new and very exciting. Um, it's gaining popularity. There are many popular libraries, popular projects that are currently switching to it or being built from scratch on Noir. Uh, it's developed by Aztec. Um, and it has a Rust-like syntax. It's very easy to pick up, very easy to learn. Probably the best-in-class developer experience that you can get in zero-knowledge cryptography nowadays. Um, and yeah, there's a rich ecosystem of libraries and building blocks that you can pull in uh and you can use in your own projects. Um, so it's actually becoming a an ecosystem um that that enables you to to do all of this. Um, some examples are ZK Email that I mentioned before. Um, so that's uh that's a protocol that lets you verify that you have received or sent an email with some particular contents in it uh and generate a proof that you can then verify on-chain saying, yes, I've actually received this email. Again, this could be a transfer confirmation, this could be an Uber ride, whatever. Um, and ZK Passport, which is uh the go-to solution if you want to talk about user identity without revealing the identity.\n\nSo now, um, what's the biggest challenge that we're facing with doing this on Solana? Um, and the challenge is that the Barretenberg uh proof system, which underlies Noir, um, has really big and really expensive to verify proofs. Um, they are not big in terms of uh normal ZK tooling, but for verification on Solana in particular, they are way too big uh to be to be usable. Um, someone actually built a verifier uh on-chain uh and just this just the rent cost was was 30 bucks to verify a single proof. Um, so we've decided that this is not really the way forward um and we have to make it better. We have to solve this challenge.\n\nUm, and the way we've solved it uh is with Sunspot, which is a toolchain that uh lets you prove circuits that were written in Noir, um, but they they get verified in a different proof system. The proof system is called Gnark. Um, it's based on Groth16, but I call it Groth16++ uh because it actually gives you more power. It's a it's a better proof system than what you would normally do uh with with Groth16. In particular, it has support for what's called lookup arguments, uh which in turn are pretty much indispensable if you want to be talking about uh bitwise operations, uh memory checking, or uh other traditional cryptography primitives. And then um from Sunspot you can auto-generate a Solana verifier program. So you push it to chain, uh users generate their proofs, um they verify them on-chain, uh you can actually use this logic.\n\nSo let's talk about benchmarks. Let's talk about how good this actually is. Um, so our demo application uh is an SPL token uh that you can mint provided that you have a that that you possess a passport that is not sanctioned. Um, so this uses ZK Passport under the hood. You tap your NFC chip on the passport, um it generates a proof that yes, I am not from a sanctioned country, um then you can mint a token. It takes 5 seconds to prove this uh on a MacBook Pro, uh which is really good like compared to the traditional process that you would go through, which is uh really way more annoying. The proof size is 388 bytes, um which for Solana with your like 1 kilobyte uh limit of a of of transaction size, this is really good, right? Like this still gives you 600 kilobytes of data that you can use for your actual business logic. Um, and it less it costs less than 500k compute units units. And this may seem like a lot compared to like your normal everyday use cases, um but keep in mind that like it's 500k compute units to verify an entire passport and actually do something that you would normally offload to a KYC provider.\n\nUm, so yeah, uh, this is it. Uh, and this is my call to action. Please scan this or type this on your phone and build something today. Uh, and I mean today. Uh, I know it's a conference but build something today. Thank you.",
+  "enrichment": {
+    "generated_query": "Sunspot Reilabs Solana Breakpoint 2025 Official Announcement Blog Technical Docs",
+    "sources": [],
+    "enriched_at": 1765670976.387352
+  },
+  "tags": {
+    "primary": "Devtool",
+    "secondary": [
+      "Zero Knowledge",
+      "Privacy",
+      "Tooling"
+    ],
+    "score": 5,
+    "impact_reason": "The unveiling of Sunspot offers a significant technical improvement for building ZK applications on Solana, serving as a solid infrastructure update for developers rather than a market-moving event."
+  },
+  "category_rank": {
+    "total_category_score": 89,
+    "share_of_voice": 0.0562,
+    "normalized_rank": 7.1,
+    "percentile_position": 11
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": null,
+      "role": "ticker",
+      "generate": false
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Obsidian",
+          "Glowing Data Filaments",
+          "High-Contrast Lighting",
+          "Celestial Engine"
+        ],
+        "mood": "Cryptographic Noir",
+        "reasoning": "I chose a stylized, cryptographic Sun as the anchor to represent the public Solana blockchain, making the product 'Sunspot' a literal, functional object at its core. This Sunspot is a dark, complex iris that visually represents the privacy and 'zero-knowledge' aspect of the technology—a contained, private zone on a transparent public surface. I included the diegetic text 'ZK' etched into the Sunspot's mechanism to explicitly connect this visual metaphor to the core Zero-Knowledge technology, framing it as an active cryptographic engine rather than a passive void.",
+        "description": "A macro, top-down view focused on the intricate 'Sunspot' mechanism. The shot captures the precise, interlocking rings of polished obsidian and brushed metal, covered in complex cryptographic etchings. The glowing green and purple data filaments of the larger 'Sun' bleed into the edges of the frame, creating a stark, high-contrast boundary between the public data sphere and this central engine of privacy. The focus is on the texture, precision, and light-absorbing quality of the materials."
+      },
+      "final_prompt": {
+        "prompt_text": "A breathtaking macro, top-down view, precisely centered and tightly framed, of the intricate 'Sunspot' mechanism, filling the entire square frame (1:1 aspect ratio). The composition emphasizes perfect symmetry and meticulous detail. The mechanism is formed by precise, interlocking rings of highly polished obsidian, showcasing its deep, light-absorbing quality and smooth, reflective texture, juxtaposed with brushed metal components that highlight their fine grain and engineered precision. Both obsidian and metal surfaces are covered in deeply engraved, complex cryptographic etchings that catch and play with the light. Around the periphery, glowing green and purple data filaments from the larger 'Sun' bleed into the edges of the frame, casting vibrant, ethereal light. This creates a stark, high-contrast boundary, dramatically separating the public data sphere from this central engine of privacy. The lighting is intensely high-contrast, emphasizing the varied textures, the exquisite precision, and the material qualities, with strong highlights on metallic elements and deep, inky shadows on the obsidian. This scene evokes the powerful aesthetic of a celestial engine. 8k, octane render, raytracing, hyper-detailed."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961656/generated_assets_category_xreOFvSCgew.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Reilabs Unveils Sunspot: Slashing ZK Verification Costs on Solana",
+    "standfirst": "The new toolchain bridges Noir's developer experience with Gnark's efficiency, solving the rent-cost crisis that has stifled privacy protocols on mainnet.",
+    "key_takeaways": [
+      "**Reilabs** launched **Sunspot**, a toolchain that compiles **Noir** circuits into **Gnark** proofs for efficient Solana verification.",
+      "The solution reduces verification overhead from ~$30 (Barretenberg) to under **500k Compute Units** and just **388 bytes**.",
+      "Live demos included **ZK Passport**, enabling 5-second client-side regulatory checks without revealing user identity."
+    ],
+    "article_body_markdown": "For institutional investors and developers, the promise of Zero-Knowledge (ZK) on Solana has long been hampered by a pragmatic barrier: cost. While ZK is essential for on-chain privacy—allowing institutions to trade without revealing positions and games to implement 'fog of war'—the existing tooling was economically unviable. **Marcin Kostrzewa**, CEO of **Reilabs**, highlighted that verifying a standard proof from the popular **Noir** language (using the Barretenberg backend) previously incurred roughly $30 in rent costs per transaction. This friction effectively priced out high-frequency use cases like identity verification or private payments.\n\n**Sunspot**, unveiled today, dismantles this barrier by decoupling the developer experience from the execution environment. It allows developers to write circuits in **Noir**—lauded for its Rust-like syntax and ease of use—but swaps the heavy backend for **Gnark** (specifically a Groth16 implementation with lookup arguments). The result is a dramatic efficiency gain: proofs are compressed to **388 bytes**, fitting easily within Solana’s 1KB transaction limit while leaving ~600 bytes for business logic. Verification consumes less than 500k Compute Units, making privacy features negligible in cost compared to the asset transfers they protect.\n\nThe implications for compliant DeFi are immediate. Kostrzewa demonstrated this with **ZK Passport**, a protocol enabling users to scan their NFC-enabled passports to generate a proof of non-sanctioned status. This 'Soft KYC' occurs entirely client-side in under five seconds on a MacBook Pro. For VCs and builders, this unlocks a holy grail: permissionless liquidity pools that can cryptographically enforce regulatory compliance (e.g., 'No US Persons' or 'Over 18') without the liability of storing personal data. \n\nBy solving the verification cost crisis, **Reilabs** has effectively moved ZK on Solana from a theoretical capability to a production-ready primitive. The toolchain is live, and the auto-generation of Solana verifier programs means teams can deploy privacy-preserving logic immediately, bridging the gap between institutional requirements and public blockchain infrastructure."
+  }
+}

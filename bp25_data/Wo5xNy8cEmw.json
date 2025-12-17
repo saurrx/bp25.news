@@ -1,0 +1,91 @@
+{
+  "id": "Wo5xNy8cEmw",
+  "url": "https://www.youtube.com/watch?v=Wo5xNy8cEmw",
+  "processed_at": 1765668647.2706199,
+  "key_used": "...T4WvX0",
+  "meta": {
+    "title": "Keynote: Temporal",
+    "speakers": [
+      "Ben Coverston"
+    ],
+    "product": "Temporal / Harmonic",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/Wo5xNy8cEmw.webp"
+  },
+  "transcript": "Centralized markets don't fail loudly. They fail quietly. Centralized markets, they fail with small skews, invisible advantages, and decisions no one can see. That's exactly the problem in Solana's block building infrastructure today. Less competition doesn't just reduce efficiency, it erodes trust. So instead of rebuilding a better monopoly, we rebuilt the market. I'm Ben, I'm the co-founder and CEO of Temporal and Harmonic, and we're going to talk about how we're revolutionizing block building on Solana through a marketplace. So let's zoom out a little bit. Let's just talk about internet capital markets for a second. We've come a long way in the last five to six years. Crypto was supposed to escape Wall Street. Instead, we've kind of started to rebuild it. But in order to compete with centralized markets, which are incredibly efficient, we need to be able to innovate and experiment with new market structures. Solana and new market structures are our best shot at doing this extremely efficiently. So let's talk a little bit about how far we've come. TVL is up multiples in 2024, and even in 2025, we've seen incredible inflows. Network and app revenue are exploding as usage and fees scale. Solana is no longer a chain labeled for degens and memecoins. Solana is a chain for institutions. We have the Bitwise spot Solana ETF with over 600 million dollars in inflows in just the last few months, and that's just one of the ETFs. We have Forward Industries raised over 1.65 billion dollars for a debt, and that's just one of them. We have Solmate here in the UAE, and we have several others. Solana is becoming the world's exchange. We can clear tens of thousands of trades per second at near zero cost. Anyone in the world can plug in: no seat licenses, no membership tiers. Just free, permissionless, and open for all. Wall Street-grade markets, but programmable, global, and open. So, something we recently built was this DEX called HumidiFi. I won't talk too much about it because we have a dedicated HumidiFi presentation in about four hours by one of the other HumidiFi co-founders, Kevin Pang. But the thing that I kind of want to drill into everyone's heads, right, is that this thing is quoting tighter than Binance, at least for retail. Retail can go on Solana and get tighter spreads than they would get on Binance. Average fills on the order of just a few bips. This thing is doing 60% of all spot volume on Solana, and we're just getting started. So, Prop AMMs are a pretty unique market structure. So, they're essentially smart contracts on chain, they're... but the difference is they're kind of actively managed liquidity. So we have a lot of like passive AMMs that the liquidity just kind of sits there, reacts to trades, think like x*y=k. But Prop AMMs like HumidiFi, they are actively managed, and by... by like a sophisticated trader that's kind of sitting in the backend, right? And this is actually really good, right, because we get institutional grade liquidity. We can stack up 10 plus 20 of these, right, all in... all in one router. And router gets last look and just says, hey, give my user the best price, right? However, Prop AMMs also come with a lot of demands. We need fast inclusion. We need predictable ordering. We need millions and millions of TPS, right? We need fair access. No rate limits, right? We need... we need a new architecture in order to create this kind of infrastructure. So, again, as volume and institutions grow, incentives concentrate. A small set of players can dominate block construction. Quiet, off-chain deals decide who gets the fast lane. Validators risk becoming dumb pipes; stakers get table scraps. Applications get unpredictable inclusion and latency. So, let's talk a bit more about Harmonic now. First of all, I want to hit home that it's very, very fast, right? Market makers like HumidiFi need high throughput, and they need low latency. That's exactly what Harmonic delivers. Not only can we do ACE and make sequencing decisions at over 1 million TPS, but soon with the advent of Harmonic Transport Layer 2.0, we'll enable the whole system to operate at that throughput, not just the sequencing logic. So, for anyone that's paying attention on mainnet, you may have seen us, you know, doing some experiments. We're experimenters after all at Temporal and Harmonic. And so over the last few days, we've just put out some blocks to kind of demonstrate the power of this thing. And so you guys can all go look at this mainnet block right now on mainnet: 385921704 and a few others. These are blocks that are completely full of HumidiFi oracle updates. A block full of 10,000 of them. 25x more than the average mainnet block today. We're bringing a new kind of capacity to this network, and it's going to enable new market structures and tighter spreads like we've never seen before. So, how does it kind of work, right? Well so, instead of the validator being locked into a single block builder, we essentially aggregate blocks from up to N builders in real time. Validators select the best block according to their preferences. And they replace a single builder monopoly with a market. The result is that we increase validator income, we get better user outcomes, we give apps more control, and we improve network performance. So, essentially what apps and DEXs like HumidiFi want, right, is that they want to be able to get in really fast, right? They want the execution to be fair, right? They want their inclusion to be predictable. And then validators also want stable rewards and they also... they also want to have a lot of control over what's in their blocks, right? And in Harmonic they can kind of set all their preferences and say, hey, you know, this is... this is kind of how I want my block to be constructed, you know, this is... this is what I want to achieve. And then we as Harmonic, we say, okay, this is what the validator wants to achieve. Our job is to now align these incentives with all the applications. Applications like HumidiFi. So we give apps and users fair execution. And the result is Solana becomes an open market and the world's exchange. So, to reiterate what we believe in, right? Block building kind of resembles like high-frequency market routing, right? You look at all the centralized exchanges like Nasdaq, like NYSE. These guys are fast, right? These guys are capable of also doing millions of TPS, right? Maybe you won't see that on the average day, but this is fast infrastructure built by some of the best performance engineers in the world. Solana needs the same. There's no better way to achieve this than competition. This empowers validators to choose, and this also empowers applications to receive fast, fair, and deterministic execution. It's important for MEV to be transparent. It's important for MEV to be controlled. With Harmonic, all of this is out in the open. We are building a ton of tooling, and some of you guys may have seen more recently some of the demos and previews of some of the tooling that we're building to make block building more transparent and to overall make Solana as a protocol more visible to the average user. Solana can outcompete CEXs because it is a base layer, right? It's a market. And once again to reiterate, again, Solana can host Wall Street-scale markets on-chain. HumidiFi has already proved that these markets can beat CEXs. And now with Harmonic, we're going to make competition rather than capture the default of the base layer. Solana is where it is today because its apps compete. It's borrow-lends compete, it's routers compete. It's clients compete, and now it's infrastructure competes. The market is open. Thank you.",
+  "enrichment": {
+    "generated_query": "HumidiFi Temporal Solana Breakpoint 2025 (announcement OR blog OR docs)",
+    "sources": [],
+    "enriched_at": 1765671247.2602172
+  },
+  "tags": {
+    "primary": "Infrastructure",
+    "secondary": [
+      "MEV",
+      "Market Structure",
+      "DEX"
+    ],
+    "score": 7,
+    "impact_reason": "The keynote introduces a new marketplace for block building to solve centralization issues and claims the speaker's associated protocol currently handles a majority of Solana's spot volume."
+  },
+  "category_rank": {
+    "total_category_score": 291,
+    "share_of_voice": 0.0241,
+    "normalized_rank": 8.8,
+    "percentile_position": 3
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "3:4",
+      "role": "portrait",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Deconstructionist Architecture",
+          "Polished Crystal",
+          "Anodized Metal",
+          "Volumetric Neon Glow"
+        ],
+        "mood": "Revolutionary High-Tech",
+        "reasoning": "I chose a monolithic, opaque block being deconstructed into a vibrant, transparent marketplace of smaller blocks as the Semantic Anchor. This directly visualizes the story's core narrative: replacing a centralized, monopolistic block builder with a competitive, open, and more efficient market on Solana. I included the text '1M TPS' as a diegetic holographic projection because it's the key performance target from the headline, representing the speed and power this new market infrastructure aims to unlock.",
+        "description": "A massive, dark, monolithic cube, representing the old centralized system, is cracked open. From within, an intricate and vibrant marketplace of smaller, glowing crystalline blocks and data pathways bursts forth. This new structure is teeming with light, suggesting constant activity and competition. In the background, a deep, dark digital void emphasizes the central structure. Emanating from the core of the new marketplace is a bright, holographic neon projection displaying the text '1M TPS', illuminating the complex geometry around it."
+      },
+      "final_prompt": {
+        "prompt_text": "A monumental, dark, monolithic cube, embodying an old centralized system, stands vertically in a vast digital void. The cube is dramatically cracked open, revealing a bursting, intricate, and vibrant marketplace within. This new structure is composed of countless smaller, glowing crystalline blocks and interwoven data pathways. The polished crystal surfaces catch and refract an intense volumetric neon glow, creating a sense of constant activity and fierce competition. The marketplace features elements of deconstructionist architecture, with anodized metal accents reflecting the dynamic light. At its very core, a brilliant holographic neon projection floats, clearly displaying the text '1M TPS' in luminous green and blue, casting radiant light onto the surrounding complex geometry. The deep, dark digital void in the background provides a stark contrast, emphasizing the central structure's epic scale and imposing height. The composition is vertical (3:4 aspect ratio), with ample negative space above the colossal form, enhancing its monumental presence. The scene is rendered with cinematic lighting, showcasing deep, dramatic shadows and ultra-photorealistic reflections from the polished crystal and anodized metal surfaces. 8k, octane render, raytracing, hyper-detailed, high dynamic range, atmospheric depth, epic scale."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961406/generated_assets_homepage_Wo5xNy8cEmw.jpg"
+    },
+    "category_page": {
+      "ratio": "3:4",
+      "role": "feature",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Deconstructionist Architecture",
+          "Polished Crystal",
+          "Anodized Metal",
+          "Volumetric Neon Glow"
+        ],
+        "mood": "Revolutionary High-Tech",
+        "reasoning": "I chose a monolithic, opaque block being deconstructed into a vibrant, transparent marketplace of smaller blocks as the Semantic Anchor. This directly visualizes the story's core narrative: replacing a centralized, monopolistic block builder with a competitive, open, and more efficient market on Solana. I included the text '1M TPS' as a diegetic holographic projection because it's the key performance target from the headline, representing the speed and power this new market infrastructure aims to unlock.",
+        "description": "A macro shot focusing on the fracture point of the large, dark monolith. We see the stark contrast between the matte, opaque exterior and the complex, glowing interior. Inside the crack, countless smaller, translucent crystalline blocks are interconnected by pulsating light trails, representing the flow of data in the new open market. The lighting is dramatic, coming from within the structure, highlighting the intricate detail and depth of the newly revealed architecture."
+      },
+      "final_prompt": {
+        "prompt_text": "A tight macro shot, filling the 1:1 square frame with a symmetrical composition and central focus, highlights the intricate fracture point of a large, dark monolith. The exterior is crafted from anodized metal, presenting a stark, matte, and opaque surface that contrasts dramatically with the complex, glowing interior. Inside the profound crack, countless smaller, translucent crystalline blocks, resembling polished crystal, are interconnected by dynamic, pulsating light trails that brilliantly represent the flow of data in a new open market. The lighting is intensely dramatic, originating from deep within the structure itself, creating a volumetric neon glow that exquisitely illuminates every intricate detail and emphasizes the profound depth of the newly revealed deconstructionist architecture. The entire scene is hyper-detailed, showcasing rich textures across all surfaces. 8k, octane render, raytracing, hyper-detailed, photorealistic, cinematic lighting, volumetric lighting, depth of field."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961408/generated_assets_category_Wo5xNy8cEmw.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Harmonic Unveils Marketplace for Block Building, Targeting 1M TPS on Solana",
+    "standfirst": "Temporal's new infrastructure replaces monopolistic block construction with a competitive open market, enabling 'Prop AMMs' to outpace centralized exchanges.",
+    "key_takeaways": [
+      "**Harmonic Launch**: A new marketplace aggregates blocks from multiple builders, allowing validators to optimize for revenue and app-specific sequencing rules.",
+      "**Performance Breakthrough**: Mainnet stress tests demonstrated 1M TPS sequencing logic and blocks containing 10,000 oracle updates (25x current capacity).",
+      "**Prop AMM Dominance**: HumidiFi is now capturing ~60% of Solana spot volume, delivering tighter spreads than Binance through active, institutional-grade liquidity management."
+    ],
+    "article_body_markdown": "Centralized markets fail quietly—not through outages, but through invisible advantages and opaque decision-making. At Solana Breakpoint 2025, Ben Coverston, co-founder of Temporal and Harmonic, argued that Solana’s block-building infrastructure has dangerously resembled these centralized monopolies. His solution, **Harmonic**, is a marketplace designed to shatter this bottleneck by allowing validators to source blocks from a competitive field of 'N' builders rather than a single provider. This shift is not merely technical; it is the structural prerequisite for Solana to function as the \"World's Exchange.\"\n\nThe urgency for this infrastructure is driven by the rapid institutionalization of the network. With the **Bitwise spot Solana ETF** attracting over $600 million in inflows and **Forward Industries** raising $1.65 billion in debt capital, the demands on Solana's execution layer have evolved. Institutions require more than just speed; they demand predictable inclusion and fair access. Harmonic addresses this by enabling **Application Controlled Execution (ACE)**, which allows sequencing decisions to occur at over 1 million TPS. Coverston pointed to mainnet block **385921704** as proof of concept—a single block packed with 10,000 **HumidiFi** oracle updates, representing a 25x increase over today's average capacity.\n\nThis infrastructure unlocks the potential of \"Prop AMMs\" (Proprietary Automated Market Makers), a new market structure typified by HumidiFi. Unlike passive AMMs (x*y=k), Prop AMMs utilize actively managed backing liquidity to quote prices. Coverston revealed that HumidiFi is now executing 60% of all spot volume on Solana, offering retail users tighter spreads than **Binance**. However, these models demand high-frequency updates and deterministic ordering that only a competitive block-building market can guarantee. By aggregating builders, Harmonic ensures that apps like HumidiFi receive the fast, fair, and specifically ordered execution they need to outcompete centralized venues.\n\nUltimately, Harmonic represents the commoditization of block production. By forcing builders to compete for validator inclusion, the protocol aligns incentives across the stack: validators maximize revenue, applications gain control over their execution environment (MEV), and users benefit from CEX-grade pricing on-chain. As Coverston noted, Solana is no longer just a venue for memecoins; it is hosting Wall Street-scale capital markets. Harmonic provides the transparent, high-throughput foundation required to keep those markets honest."
+  }
+}

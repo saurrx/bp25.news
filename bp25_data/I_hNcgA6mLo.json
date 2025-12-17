@@ -1,0 +1,93 @@
+{
+  "id": "I_hNcgA6mLo",
+  "url": "https://www.youtube.com/watch?v=I_hNcgA6mLo",
+  "processed_at": 1765668572.828727,
+  "key_used": "...T4WvX0",
+  "meta": {
+    "title": "Keynote: Erebor",
+    "speakers": [
+      "Suzanne Dannheim"
+    ],
+    "product": "Erebor",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/I_hNcgA6mLo.webp"
+  },
+  "transcript": "All right. Hello everyone. Um, we're going to talk about banks. So my name is Suzanne Dannheim. I run partnerships at Erebor. Um, founded by Palmer Luckey, founder of Anduril, formerly of Oculus. Erebor is a pre-conditionally approved federally chartered US bank and uniquely, a bank for stablecoin and fiat deposits with the capacity to facilitate payments on-chain and off-chain, supporting all major chains, all major stables. We bank global customers. We are facilitating payments and stable to fiat conversions instantaneously and free. Importantly, with a banking core built from scratch, Erebor will support institutional customers as well as our institutional customers' downstream customers via partner programs, FBO omnibus accounts. So that's Erebor. Um, I'm sure everyone here is intimately familiar with banks. And I'm sure everyone has had a familiar, frustrating experience with banks, maybe on more than one occasion. Possibly so much so that you've been driven to ask yourself, how is it possible that with such poor tech and service in some cases, banks are such critical infrastructure, right? This is not a surprise or a secret in the crypto industry, right? More than any other industry, crypto has pushed back against banks and called out these flaws. Crypto poses the biggest threat to banking and the traditional finance sector than any other industry, right? It's crypto that demands better global financial infrastructure. And yet, it is indisputably and simultaneously true that banking solutions we have today are largely poor, but also that most of the world still relies on banking as critical infrastructure, right? I think in fact, it's this paradox that creates the frustration, right? And so the argument that I'm here to make today as I introduce Erebor is that the gap between banks are abhorrent and banks are critical infrastructure is... If we want our critical financial infrastructure to meet today's needs, we as a society and as an industry, we have to rethink what a bank actually means for us as evolved users with access to on-chain rails. In a world where everything you need is accessible at a click of a button, everything is financialized, access to financial products are highly democratized on a relative basis, what purpose or value does a bank actually serve, right? So backing up a bit. Um, I spent six years, the last six years at Goldman Sachs where I built the crypto institutional business. Um, and in this context, a crypto institutional business means cash-settled derivatives, lending against crypto, other bespoke products that offer crypto exposure in a compliant format pertaining to the regulatory regime under the Biden administration. So I had a front row seat to what companies in crypto, fintech, TradFi, the innovation economy want and need from their banks. And there are four broad categories that I saw a lot of pain in over those years. I'm going to share them and if you'll indulge me, after kind of listing them out, would love to see hands and I'll call for it, for who has experienced those pains. So running through the four groups. First is high growth companies. They are raising larger rounds earlier. They have longer run rates, more diverse treasury needs. They demand access to debt financing and better financial infrastructure that allows their treasury and operations to move as fast and effectively as the business itself does. And so because they're young, big banks either don't open their doors or if they do, it's only for taking deposits and the process of onboarding is excruciating. So group one, high growth companies. Group two, institutional financial markets participants. We're talking about hedge funds, asset managers, pensions, retail aggregators. Um, they have FOMO in multiple flavors. The first is that they have missed out on a long bull run, right? For various inaccessibility reasons. They lack the rails, they lack the ability to assess or to take on counterparty risk native to the space. They lack the patience and endurance to handle the on-to-off-chain ramping and bridging to do a trade. Um, they also have another form of FOMO which comes from the fact that more and more people are investing in crypto instead of stocks or Trad financial assets, right? According to FINRA, which is the primary regulator for US broker dealers, 55% of Gen Z owns crypto, 40% own stocks. That's just Americans, okay? But the point being that for a large asset manager whose whole business is to facilitate exposure, passive exposure across a variety of asset classes, this is a serious trend that cannot be missed. And furthermore, like, it's not just about Gen Z buying coins. This is about Gen Z and everybody else who is building wealth on-chain and who is appreciating the rails and the efficiency that live on-chain, the user experience overall, and wanting to keep more of that wealth that they've built on-chain, whether it's buying a token or doing anything else that you do financially to move money or what have you. So that second group is Trad players. The third is emerging financial market participants. Crypto exchanges, market makers, takers, the like. Lacking a financial infrastructure solution that is comprehensive enough to maximize their business efficiency and operations. Ramping from fiat to stable, converting to other stables where they can maybe get better leverage or better terms or what have you, over to another chain and then to reach a final destination whether that's a crypto asset or a tokenized product, right? The point is, in TradFi you call up your prime broker and it's 'I want this, here's the trade, done'. And as outdated as that seems, that you're actually picking up a phone to do a massive transaction, as outdated as that seems, it still beats the user experience of doing six hops to get to where you get to your end state, right? And that's because of the lack of financial infrastructure here. And lastly is protocols. Protocols, financial technology providers, um, tokenized product issuers, right? These are in many ways the heart of crypto, the new thing, right? That is a high quality product or service, whether it's a tokenized product or or a native native um protocol. The problem is that all of these businesses are constrained by the fact that there is a walled garden of fiat and there is a drip drab that gets to the walled garden of on-chain and the the extent to which these two intersect is um is so complicated because of the lack of a singular party in between. And so meanwhile we know these technologies in the on-chain walled garden are indeed technologically superior, more cost effective. So those are the four. Just indulge me here. If you, your business or you as a user has experienced any of those kind of friction points, let's see hands. Just let's see. Yeah, so about 50% I would say, if not more. So these are the problems that we are seeking to solve at Erebor. Being a bank with insurance for stable and fiat deposits and support for all chains and stables, we want to deliver the companies in this room and many others a world where there isn't a painful on-chain off-chain separation. We want to enable every company, crypto or not, to hold stables, facilitate in stables, and have a seamless access, constantly, instant and free conversions. Your banking solution should not create pain. It should be the invisible partner that allows you to keep up with the fast moving, integrated, innovative business that you're operating. We are building the bank of the future and we are going to embolden the companies of the future who have earned the right to demand superior global financial infrastructure. Thank you for listening and please do get in touch.",
+  "enrichment": {
+    "generated_query": "Erebor Solana Breakpoint 2025 official announcement blog OR technical docs",
+    "sources": [],
+    "enriched_at": 1765671247.767599
+  },
+  "tags": {
+    "primary": "Institutional",
+    "secondary": [
+      "Banking",
+      "Stablecoins",
+      "Payments"
+    ],
+    "score": 8,
+    "impact_reason": "The announcement of a pre-conditionally approved federally chartered bank backed by Palmer Luckey addresses a critical infrastructure failure point (banking rails) for the entire crypto ecosystem, including Solana."
+  },
+  "category_rank": {
+    "total_category_score": 199,
+    "share_of_voice": 0.0402,
+    "normalized_rank": 10,
+    "percentile_position": 1
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "16:9",
+      "role": "hero",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Brutalist Architecture",
+          "Polished Obsidian",
+          "Glowing Circuitry",
+          "Atmospheric Lighting",
+          "Monolith"
+        ],
+        "mood": "Monumental, Secure, Futuristic, Formidable",
+        "reasoning": "I chose a monolithic, brutalist mountain fortress as the Semantic Anchor, directly referencing the company's name, 'Erebor', from Tolkien's lore—a mountain of treasure. This immediately conveys security, permanence, and immense value, fitting for an institutional bank. The mountain is split into two materials—traditional stone and futuristic circuitry—to represent the core story of bridging the 'walled garden' of fiat and on-chain assets. I included the diegetic text 'CHARTERED' chiseled into its base because Erebor's key innovation and source of legitimacy is its federal charter, distinguishing it as a true bank in the crypto space.",
+        "description": "A colossal, geometric mountain peak, inspired by brutalist architecture, rises from a dark, misty void. The left side is carved from solid black marble, representing traditional finance. The right side is a semi-translucent, obsidian-like composite, with veins of glowing blue and gold data flowing like circuitry beneath its surface. A brilliant white fissure of light bisects the mountain, connecting the two halves and symbolizing the instantaneous bridge between fiat and crypto. At the mountain's foundational plinth, the word 'CHARTERED' is deeply chiseled into the stone in a stark, modern typeface, catching the dramatic underlighting. The background is deep and atmospheric, with low-lying fog obscuring the base, emphasizing the mountain's immense scale."
+      },
+      "final_prompt": {
+        "prompt_text": "A colossal, geometric mountain peak, inspired by brutalist architecture, rises from a dark, misty void. The left side is carved from solid black marble, representing traditional finance. The right side is a semi-translucent, obsidian-like composite, with veins of glowing blue and gold data flowing like intricate circuitry beneath its surface. A brilliant white fissure of light dramatically bisects the mountain, connecting the two halves and symbolizing the instantaneous bridge between fiat and crypto. At the mountain's foundational plinth, the word 'CHARTERED' is deeply chiseled into the stone in a stark, modern typeface, catching the dramatic underlighting. The background is deep and atmospheric, with low-lying volumetric fog obscuring the base, emphasizing the mountain's immense, monumental scale. The composition is vertical, 3:4 aspect ratio, with significant negative space above the peak, accentuating its epic height. Atmospheric lighting is the primary driver of the mood, utilizing complex techniques like rim lighting and high-contrast chiaroscuro, creating a hyperrealistic and photoreal scene with exceptional detail, intricate textures, and realistic materials. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961211/generated_assets_homepage_I_hNcgA6mLo.jpg"
+    },
+    "category_page": {
+      "ratio": "16:9",
+      "role": "sector_lead",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Brutalist Architecture",
+          "Polished Obsidian",
+          "Glowing Circuitry",
+          "Atmospheric Lighting",
+          "Monolith"
+        ],
+        "mood": "Monumental, Secure, Futuristic, Formidable",
+        "reasoning": "I chose a monolithic, brutalist mountain fortress as the Semantic Anchor, directly referencing the company's name, 'Erebor', from Tolkien's lore—a mountain of treasure. This immediately conveys security, permanence, and immense value, fitting for an institutional bank. The mountain is split into two materials—traditional stone and futuristic circuitry—to represent the core story of bridging the 'walled garden' of fiat and on-chain assets. I included the diegetic text 'CHARTERED' chiseled into its base because Erebor's key innovation and source of legitimacy is its federal charter, distinguishing it as a true bank in the crypto space.",
+        "description": "A macro, abstract shot focusing on the point of convergence on the mountain fortress. The detailed texture of the polished black marble on one side contrasts sharply with the smooth, dark composite material on the other. A high-energy stream of light particles, representing the data bridge, flows intensely through the fissure between the two distinct materials, creating lens flares and a powerful glow that illuminates the surrounding textures."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro, abstract shot precisely centered on the point of convergence of a colossal mountain fortress. The composition is a perfectly symmetrical, tight macro frame that fills the entire 1:1 aspect ratio with intense texture. On one side, the surface features the detailed texture of polished black marble, exhibiting the stark, imposing characteristics of Brutalist Architecture and the deep reflectivity of Polished Obsidian. This contrasts sharply with the opposing side, rendered in a smooth, dark composite material, evoking the monolithic presence of a towering structure. A high-energy stream of vibrant light particles, visually representing a data bridge, flows intensely through the deep fissure between these two distinct materials, creating dramatic lens flares and emanating a powerful, ethereal glow that profoundly illuminates the surrounding intricate textures and highlights every micro-detail. The scene is bathed in atmospheric lighting, with strong contrasts and dramatic shadows, enhancing the visual impact of the glowing circuitry within the fissure. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic, high dynamic range, intricate textures, cinematic lighting."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961213/generated_assets_category_I_hNcgA6mLo.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Palmer Luckey-Backed Erebor Unveils First Crypto-Native Federally Chartered Bank",
+    "standfirst": "The Anduril founder’s new venture secures a preliminary OCC charter to bridge the 'walled garden' of fiat and on-chain assets. Erebor promises institutional-grade, insured stablecoin banking to end the 'six-hop' friction of crypto capital markets.",
+    "key_takeaways": [
+      "**Regulatory Moat**: Erebor has secured preliminary conditional approval for a US federal bank charter from the OCC, separating it from fragile fintech wrappers.",
+      "**Heavyweight Backing**: Founded by **Palmer Luckey** (Anduril, Oculus) and backed by **Peter Thiel** and **Joe Lonsdale**.",
+      "**Product Alpha**: Offers instant, free stablecoin-to-fiat conversion and omnibus accounts for institutions, directly solving treasury friction."
+    ],
+    "article_body_markdown": "For over a decade, the crypto industry has operated in a paradoxical state: building the future of finance while relying on banking infrastructure that is either hostile or archaic. At Solana Breakpoint 2025, **Erebor** formally stepped out of stealth to close this gap, not as another fintech middleware provider, but as a pre-conditionally approved, federally chartered US bank. Backed by **Palmer Luckey** and **Peter Thiel**, Erebor is positioning itself as the 'invisible partner' for high-growth companies and institutions that demand the safety of a federal charter combined with the velocity of on-chain settlement.\n\nThe distinction here is critical for institutional allocators. Unlike the wave of fintechs that rely on third-party sponsor banks (and often fail when those relationships sour), Erebor is building its banking core from scratch with a direct line to regulators. **Suzanne Dannheim**, VP of Partnerships and a former **Goldman Sachs** crypto lead, highlighted that Erebor’s architecture is designed to support stablecoin and fiat deposits natively. This allows for instant, free conversions between the two—a feature that effectively eliminates the 'six hops' currently required to move capital from a prime broker to an on-chain venue.\n\nDannheim’s analysis of the market identifies a massive friction point for four key groups: high-growth treasuries, traditional asset managers with 'FOMO,' crypto-native exchanges, and token issuers. For these players, the current 'walled garden' between fiat banking and on-chain liquidity is a choke point that stifles capital efficiency. By offering omnibus accounts and partner programs, Erebor intends to serve not just the institutions themselves, but their downstream customers, enabling a seamless flow of value that mirrors the 'one-call' simplicity of traditional prime brokerage.\n\nThis is infrastructure play, pure and simple. While the retail market focuses on token prices, the smart money is looking for rails that can handle billions in settlement without the counterparty risk of a shadow bank. With a federal charter in hand and a mandate to support 'all major chains and all major stables,' Erebor is betting that the next bull run won't be defined by who has the best trading app, but by who holds the keys to the banking system itself."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "zJRUPue-pq0",
+  "url": "https://www.youtube.com/watch?v=zJRUPue-pq0",
+  "processed_at": 1765668808.331743,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Swig: The Future of Smart Wallets on Solana",
+    "speakers": [
+      "Justin Blumenthal"
+    ],
+    "product": "Swig",
+    "type": "Presentation",
+    "thumbnail": "thumbnails/zJRUPue-pq0.webp"
+  },
+  "transcript": "Wallets are brittle. They're clunky. If you lose your seed phrase, your assets are literally gone. For those of us who have been building in this space for years, this experience is downright infuriating. It's frustrating. And so, we set out to build a better way. That better way is Swig smart accounts.\n\nI'm Justin Blumenthal, CEO of Swig, and we are building hyper-programmable open source wallets on Solana. Swig is deeply composable with flexible signing methods, chain abstraction across the SVM, and a robust on-chain policy engine for advanced security and complex DeFi strategies.\n\nOops, going backwards. Sorry about that.\n\nWith Swig, users can bring the simplicity of Web2 logins to the power of on-chain wallets. Users can log in with an email or an SMS, a passkey or a wallet, and then under the hood, Swig will tie the user's identity to their wallet. Once authenticated, the user now has full control over their Swig programmable account. They can do things like sign flexibly with keys on the SVM or EVM. They can construct policies in our on-chain policy engine to do really cool things like set session limits and time-based limits and token-based limits, oracle-based limits, and much more. The best thing about this is there are no seed phrases involved at all.\n\nDigging a little deeper, roles are at the heart of Swig's programmability. You can think of roles as the policies that underlie the Swig protocol. With Swig's slot-based architecture, we support up to 65,000 different roles on a single Swig wallet. This provides for maximum programmability. Within roles, developers need to set the authority and the permission. You can think of the authority as, uh, who can take action on the wallet, and permissions dictate what can be done. So when combined, you can do really cool things like, say, set a spend limit on the amount of Solana that can be spent in a given day. Or you can set a rebalancing strategy that rebalances SOL when the price reaches a certain level.\n\nThis is very important to note here is we constructed our policy engine, um, to be natively on-chain within the contract, which means no TEEs involved at all.\n\nNow, you might be asking, understandably so, how does this impact the performance of my application? Well, we designed Swig to be highly flexible without performance tradeoffs. In fact, when you look at the compute unit cost for an SPL token transfer or the cost to create an account, it's actually orders of magnitude less than other smart wallets on the market today. When we were talking with developers early on, it became very clear that they needed a wallet that was highly flexible without adding latency or program bloat to their applications.\n\nOne of those customers, I am very happy to announce, is Glider. As of today, Glider is now live on Solana, powered by Swig. We've been working with, uh, Brian, John, and the rest of the Glider team for the last several months to help them come to market. Historically, they were unable to do so given the available wallet tooling on Solana. But now with Swig, Glider's customers get access to our gasless paymaster, uh, dynamic portfolio subaccounts, and complex DeFi auto-rebalancing strategies. We're really excited for Glider's next phase of growth on Solana.\n\nAnd we're also thrilled to see Swig being used in several other exciting contexts. One of those is institutional DeFi. We're excited to announce that Swig is working with Anchorage to allow access to Solana DeFi in a safe and secure way. We're also excited to be working with the Avici team to power their neobanking payment card. The Avici team made it clear that they needed a smart wallet that could provide 24/7 uptime without dependencies on trusted infrastructure. And lastly, we're also excited to see Swig being used for agentic finance use cases. We're working with the Corbits team to help them power their x402 facilitator on Solana. We're really excited about teams building in each of these categories, so if that's one of you, please reach out.\n\nAnd so, in closing, uh, Swig is live today. Our open source SDKs are available in TypeScript and Rust, so please download those. And reach out to us with any questions or feedback that you might have. We cannot wait to see what you build with Swig. Thank you.",
+  "enrichment": {
+    "generated_query": "Swig official announcement blog technical documentation Solana Breakpoint 2025",
+    "sources": [],
+    "enriched_at": 1765671261.120683
+  },
+  "tags": {
+    "primary": "Infrastructure",
+    "secondary": [
+      "Smart Wallets",
+      "Account Abstraction",
+      "Security"
+    ],
+    "score": 7,
+    "impact_reason": "Swig's smart wallet solution offers significant improvements in security and usability for Solana wallets, addressing key pain points and enabling more complex DeFi strategies, potentially attracting more users and developers to the ecosystem."
+  },
+  "category_rank": {
+    "total_category_score": 291,
+    "share_of_voice": 0.0241,
+    "normalized_rank": 8.8,
+    "percentile_position": 6
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "3:4",
+      "role": "portrait",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Brushed Titanium",
+          "Crystalline Modules",
+          "Cinematic Volumetric Lighting",
+          "The Digital Fortress"
+        ],
+        "mood": "Sophisticated, Secure, Futuristic, Institutional-Grade",
+        "reasoning": "I chose a modular, crystalline server rack as the Semantic Anchor because it directly visualizes Swig's core innovation: a 'slot-based architecture' that supports thousands of programmable 'roles'. This replaces the old, brittle 'seed phrase' with a flexible, institutional-grade system. I included the text '65000' as a diegetic, holographic label on the side of the rack to highlight the massive scale of programmability Swig offers, a key differentiator mentioned in the transcript.",
+        "description": "A low-angle shot of a monolithic server rack made of dark, brushed titanium, representing Swig's slot-based architecture. The rack is filled with thousands of glowing, translucent crystalline modules, each representing a programmable role. In the foreground, one module is being inserted, with holographic user interface elements swirling around it, defining permissions. In the background, rows of identical racks fade into a cavernous, dark data center, implying immense scale. A soft, holographic number '65000' is projected onto the side of the main rack, diegetically integrated into the scene."
+      },
+      "final_prompt": {
+        "prompt_text": "A low-angle shot of a monolithic server rack, meticulously crafted from dark, brushed titanium, embodying Swig's slot-based architecture. This colossal rack is densely packed with thousands of glowing, translucent crystalline modules, each vividly representing a distinct programmable role. In the immediate foreground, a single crystalline module is captured mid-insertion, encircled by ethereal, swirling holographic user interface elements that precisely define its permissions. Behind it, endless rows of identical, immense server racks recede into the vast, dark expanse of a cavernous data center, powerfully conveying an immense, overwhelming scale. A soft, luminous holographic number '65000' is elegantly projected onto the side of the main monolithic rack, seamlessly integrated into the scene's architecture. The scene is bathed in cinematic volumetric lighting, creating dramatic light shafts and deep, high-contrast shadows that enhance the monumental feel. The crystalline modules emit a radiant internal glow, casting intricate reflections on the dark, brushed titanium surfaces, contributing to a sense of a 'Digital Fortress' – secure, awe-inspiring, and technologically advanced. Composed for a vertical 3:4 aspect ratio, with a low-angle perspective looking up at the monumental rack. The composition should emphasize the immense height and epic scale of the structure, utilizing negative space at the top to enhance its towering presence. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic, realistic materials."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961666/generated_assets_homepage_zJRUPue-pq0.jpg"
+    },
+    "category_page": {
+      "ratio": "3:4",
+      "role": "feature",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Brushed Titanium",
+          "Crystalline Modules",
+          "Cinematic Volumetric Lighting",
+          "The Digital Fortress"
+        ],
+        "mood": "Sophisticated, Secure, Futuristic, Institutional-Grade",
+        "reasoning": "I chose a modular, crystalline server rack as the Semantic Anchor because it directly visualizes Swig's core innovation: a 'slot-based architecture' that supports thousands of programmable 'roles'. This replaces the old, brittle 'seed phrase' with a flexible, institutional-grade system. I included the text '65000' as a diegetic, holographic label on the side of the rack to highlight the massive scale of programmability Swig offers, a key differentiator mentioned in the transcript.",
+        "description": "A macro, detailed shot focusing on the texture and connection point of several crystalline modules sliding into the brushed titanium server rack. Light pulses from within the modules, illuminating intricate data pathways etched inside the crystal. The focus is on the precision engineering and the seamless integration of a module into its slot, symbolizing a single, secure policy being activated. NO TEXT."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro, detailed shot focusing on the texture and connection point of several crystalline modules sliding into the brushed titanium server rack. Light pulses cinematically from within the modules, illuminating intricate data pathways etched inside the crystal with dramatic volumetric lighting. The focus is on the precision engineering and the seamless integration of a module into its slot, symbolizing a single, secure policy being activated. Emphasize symmetrical composition, central focus, and tight macro framing that fills the entire square aspect ratio frame with rich texture. Rendered with realistic materials, physically based rendering (PBR), and global illumination. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic, high dynamic range, cinematic contrast."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961667/generated_assets_category_zJRUPue-pq0.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Swig Launches Programmable Smart Accounts to Power Solana's Institutional and Agentic Future",
+    "standfirst": "The new protocol introduces on-chain policy engines and slot-based architecture, replacing brittle seed phrases with flexible, institutional-grade controls. Launch partners include Glider, Avici, and Anchorage.",
+    "key_takeaways": [
+      "Swig enables 65,000 distinct roles per wallet with a native on-chain policy engine, eliminating reliance on Trusted Execution Environments (TEEs).",
+      "Launch partners include Glider (portfolio automation), Avici (neobanking), and Anchorage (institutional DeFi access).",
+      "The protocol powers the Corbits x402 facilitator, enabling autonomous 'Agentic Commerce' payments on Solana."
+    ],
+    "article_body_markdown": "The era of the 'brittle' wallet is ending. At Solana Breakpoint 2025, **Swig** CEO Justin Blumenthal unveiled a new smart account protocol designed to replace clunky seed phrases with hyper-programmable, on-chain identity layers. Unlike existing solutions that often rely on off-chain components or Trusted Execution Environments (TEEs), Swig’s policy engine runs natively on-chain. This architecture supports up to 65,000 distinct roles per account, allowing developers to construct complex permission hierarchies—such as spending limits, time-based sessions, and token-specific authorities—without incurring the latency or program bloat typically associated with smart wallets.\n\nFor institutional investors, this programmability translates directly to risk management and operational efficiency. **Anchorage** has partnered with Swig to provide secure access to Solana DeFi, leveraging these on-chain policies to enforce safety constraints programmatically. Similarly, **Avici**, a decentralized neobank, is utilizing Swig to power its payment card infrastructure. By removing dependencies on trusted off-chain infrastructure, Avici ensures the 24/7 uptime required for consumer finance while maintaining a non-custodial architecture.\n\nBeyond human-centric finance, Swig is positioning itself as a core infrastructure for the emerging 'Agentic Economy.' The protocol is now powering **Corbits**, an x402 facilitator that enables AI agents to execute autonomous payments. This integration allows agents to interact with on-chain resources using the HTTP 402 standard, effectively giving software the ability to pay for services without human intervention. On the consumer side, **Glider** is now live on Solana using Swig to offer gasless paymasters and dynamic portfolio rebalancing, features previously restricted to EVM chains due to tooling limitations.\n\nSwig is live on mainnet today, with open-source SDKs available in TypeScript and Rust. By decoupling authentication from the underlying key pairs—supporting email, SMS, passkeys, and existing wallets—Swig effectively commoditizes the login experience while shifting value to the on-chain execution layer."
+  }
+}

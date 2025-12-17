@@ -1,0 +1,75 @@
+{
+  "id": "j8BMKFQQPWY",
+  "url": "https://www.youtube.com/watch?v=j8BMKFQQPWY",
+  "processed_at": 1765668687.540606,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Security Block: Certora",
+    "speakers": [
+      "Pamina Georgiev"
+    ],
+    "product": "Certora Prover",
+    "type": "Talk",
+    "thumbnail": "thumbnails/j8BMKFQQPWY.webp"
+  },
+  "transcript": "Hi everybody, my name is Pamina Georgiev. Uh, it's now Georgiev, it used to be Georgiou, so don't be confused. Um, I'm the Formal Verification Team Lead at Certora. And Certora is a Web3 security company, and we, among other things, do formal verification. And I will use the next 8 minutes and 40 seconds to try to tell you what that means.\n\nOkay. So when it comes to code security, most of the times DeFi protocols use all kinds of things in their security stack. They start with reviews internally and externally, of course, right? They do auditing. Um, they do a lot of testing for sure. Ideally, they also do fuzz testing, so at least they cover, you know, a bunch of inputs. And, um, and don't only rely on just a few unit tests. However, still to find bugs with fuzz testing, um, it's a little bit, you know, a game of chance. So sometimes you're lucky and you find the bugs, sometimes you're just not.\n\nNow, at Certora, what we do is we do formal verification. Uh, what that means is... sorry. Uh, that we actually try to mathematically specify the intended behavior of your code. And then mathematically derive those properties from your code with the help of so-called provers.\n\nOkay. You might wonder, well, why do we need this in DeFi? There is real money at stake. And, um, of course, you want to make sure that if you're handling money, that you cannot get rekt. Otherwise, the trust is gone. And formal verification is basically the only way to guarantee any of that.\n\nUm, okay. I'll attempt to give you a small code example. Please bear with me. Um, you can see here a tiny little program. It's a vault program. The only thing that it does, you can deposit assets, and it will mint shares for you in proportion to the total value of assets locked in the vault. And you can redeem the shares with the withdraw function, and you should get your fair share.\n\nSimple enough, right? Now, when it comes to computation of values to... of assets to shares and shares to assets, most of the time you need to use multiplication and division there. Now, when it comes to division of integers, that means there is also rounding in here. In this case, I introduce a bug. Uh, usually you want to make sure that when you mint assets or you, you know, when you redeem the shares and you get out the assets, you want to make sure that you do not overestimate the amount of money that you pay out to your users. Because that would mean in the long run, the last person to withdraw cannot get their money back.\n\nSo in this case, I do exactly this, and I ceil the mul-div computation rather than rounding down, which means that we overpay by approximately one token.\n\nNow, a very elegant property to show such rounding issues is to actually show that, um, that your share value cannot decrease after any user operation. So in terms of code security, you really want to make sure that for any public-facing functionality in your code, you make sure that the assets divided by shares, so the value of one share, cannot go down.\n\nAnd on the right-hand side here, you can see a partial implementation of a proptest. So I just wrote it as a test, a property-based test, and rather than using the division, I use multiplication just to make sure that in the test itself we don't introduce any additional rounding errors as well.\n\nAnd I actually wrote a complete test harness for this example where I just generate random sequences of deposits and withdraws from 1 to 200 steps. And I let this run for 100k test cases, and I did not run into our bug. So unfortunately, even with 100k passing cases, that does not necessarily mean that you're bug-free. And the only way to actually guarantee it is to formally verify it.\n\nNow, in Certora, we have a nice Certora Verification Language for Rust that allows you to actually write something that almost looks like a test as a formal specification. So you can see here the same, um, basically the same thing as for the proptest for the withdraw function, where we're trying to assert that the share value cannot go down.\n\nNow, formal verification means we want to check all possible inputs to your function, and it also means we want to cover all possible reachable states of your program. In this case, our state is very small, right? It's just assets and shares. So we need to make sure we tell the prover that we actually start in a state where... that is valid, so to say. And we already proved before that a valid state in this case means a solvent one. So we assume a state where we always have at least as many assets as we have shares. This is proved separately. Uh, but this is how we cover every possible state that is reachable as a starting state for the formal property.\n\nThen we take the variable shares and we say it's a nondet. It's a nondeterministic value. Meaning that it can have any value that a u64, an unsigned integer, can have. And then we call the function that we want to verify, and then we assert, um, our property. This is just a short macro, but it does the same cross-multiplication as we saw in the test before.\n\nAnd this way, we can now run the Certora Solana Prover. It's open source. Uh, the link here in the QR code actually leads you to our docs if you're interested. It's super easy to install. It comes with a command-line tool, as you can see here on the left side. And you can run, uh, you can run basically rules like the one you just saw. And as a result, you get a link, and that link contains the verification result.\n\nIn our case, the verification result shows a counterexample. Now, a counterexample means we have one specific, one concrete state of values where our property is violated. So here we start in a state where we have 19 assets and 10 shares. Somebody wants to redeem 6 shares. And it turns out they get 12 assets rather than just 11, which would have been their fair share. Thereby decreasing the share value. Um, so the prover flags this immediately. This took about 30 seconds, if at all, with sending it off to the cloud and everything.\n\nAnd since we already know what the bug is, we simply fix it. We, um, we basically floor the mul-div in the withdraw function. And if you want to take a look, I actually implemented a few other properties as well. Uh, you can scan the QR, it will show you the rule report as we usually do it at Certora.\n\nUm, and of course, that was a very, very small example, but we did formal verification projects for quite some big names that you might have heard about already, such as Jito, Kamino, Squads, Manifest, and also some work with the Solana Foundation itself. And we also do more than just formal verification at Certora. So Certora is really a fully-fledged Web3 security company. We do audits, we do design reviews, we do operational security. We help you with any security needs that you might have.\n\nAnd if you currently have any security needs, uh, I just wanted to do a quick shoutout for Areta's security subsidy program. Um, they are funding up to a million dollars for Solana builders, uh, when it comes to security. And Certora is part of that project. So if you want anything from audit to formal verification, uh, please check it out. Thank you.",
+  "enrichment": {
+    "generated_query": "Certora Solana Breakpoint 2025 Official Announcement Blog OR Technical Docs",
+    "sources": [],
+    "enriched_at": 1765670976.3915992
+  },
+  "tags": {
+    "primary": "Devtool",
+    "secondary": [
+      "Security",
+      "Formal Verification",
+      "Smart Contracts"
+    ],
+    "score": 3,
+    "impact_reason": "The content is an introductory educational talk explaining the importance of formal verification in smart contract security, serving as a technical guide for developers rather than a significant news event."
+  },
+  "category_rank": {
+    "total_category_score": 89,
+    "share_of_voice": 0.0337,
+    "normalized_rank": 4.3,
+    "percentile_position": 16
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": null,
+      "role": "ticker",
+      "generate": false
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Crystalline Structures",
+          "Coherent Light",
+          "Macro-Photography",
+          "Minimalist Tech"
+        ],
+        "mood": "Clinical, Precise, High-Stakes, Futuristic",
+        "reasoning": "I chose a Crystalline Vault as the semantic anchor because it combines the direct 'vault' metaphor for DeFi security mentioned in the transcript with the concept of mathematical purity and perfection inherent in formal verification. The crystal's rigid, geometric structure represents the code's certified integrity. I included the mathematical symbol '∀' (For All) as the diegetic text. It is being engraved by the 'prover' beam of light, symbolizing the process of mathematically guaranteeing the code's behavior for *all* possible inputs, which is the core value proposition of Certora's tool over probabilistic testing.",
+        "description": "An extreme close-up, macro view of the corner of the crystalline vault. The focus is on the intricate intersection of several crystal facets, where the coherent cyan light of the prover refracts and splits into a beautiful, complex caustic network. The image highlights the material's flawless purity and the geometric precision of its structure, symbolizing mathematical integrity at its most fundamental level."
+      },
+      "final_prompt": {
+        "prompt_text": "An extreme close-up, macro view of the corner of the crystalline vault, composed for a square 1:1 aspect ratio. The image features a symmetrical, centrally focused, and tightly framed composition that completely fills the frame with intricate crystalline texture. The focus is on the intricate intersection of several crystal facets, showcasing their geometric precision and flawless purity. Coherent cyan light from the prover intensely refracts and splits, creating a beautiful, complex caustic network across the surface. This highlights the material's mathematical integrity at its most fundamental level. The scene is rendered with hyperrealistic, photoreal detail, emphasizing micro-details and dramatic light interaction, against a minimalist tech aesthetic. 8k resolution, octane render, raytracing, physically based rendering (PBR), ultra-detailed, macro lens, clean studio lighting, ambient occlusion, sharp focus, specular highlights, volumetric lighting."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961545/generated_assets_category_j8BMKFQQPWY.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Certora Unveils Open-Source Prover to Mathematically Guarantee Solana Code Integrity",
+    "standfirst": "Moving beyond probabilistic testing, the new tool allows developers to mathematically certify smart contract behavior for high-stakes DeFi protocols.",
+    "key_takeaways": [
+      "Certora has released an open-source Solana Prover that detects edge-case bugs missed by standard fuzz testing.",
+      "The tool utilizes Certora Verification Language (CVL) for Rust to mathematically prove valid program states across all possible inputs.",
+      "Areta is backing a $1M security subsidy program to help Solana builders access Certora’s audit and verification services."
+    ],
+    "article_body_markdown": "In the high-stakes environment of decentralized finance, where a single line of faulty code can result in total loss of funds, traditional security measures are proving insufficient. **Certora**, a Web3 security firm, has introduced a paradigm shift for Solana developers: moving from probabilistic testing to deterministic formal verification. While standard fuzz testing relies on generating random inputs to find bugs—a process **Certora** describes as a \"game of chance\"—formal verification mathematically specifies the intended behavior of the code, ensuring that specific properties hold true across every possible state and input.\n\nAt the core of this offering is the **Certora Solana Prover**, an open-source tool designed to catch the subtle arithmetic and logic errors that often escape rigorous testing suites. During the presentation, a demonstration involving a vault program highlighted how a simple rounding error in a deposit function could lead to protocol insolvency. While a property-based test harness failed to detect the bug after 100,000 iterations, the **Certora** prover identified the violation and produced a counterexample in under 30 seconds. This capability allows developers to mathematically prove that assets divided by shares will never decrease in value, eliminating the risk of rounding attacks.\n\nThe tool utilizes the **Certora Verification Language (CVL)** for Rust, allowing developers to write specifications that resemble tests but function as mathematical proofs. This technology is already being utilized by major Solana ecosystem players, including **Jito**, **Kamino**, **Squads**, and the **Solana Foundation**, to secure their protocols. To further adoption, **Areta** has launched a security subsidy program, offering up to $1 million in funding to support Solana builders in implementing these advanced security practices, signaling a mature push toward institutional-grade reliability on the network."
+  }
+}

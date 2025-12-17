@@ -1,0 +1,91 @@
+{
+  "id": "rH7LUklyI6k",
+  "url": "https://www.youtube.com/watch?v=rH7LUklyI6k",
+  "processed_at": 1765668565.662112,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Product Keynote: Singapore Gulf Bank",
+    "speakers": [
+      "Justin Peyton"
+    ],
+    "product": "Singapore Gulf Bank",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/rH7LUklyI6k.webp"
+  },
+  "transcript": "Hello everyone. I'm Justin Peyton, Chief Growth Officer, Singapore Gulf Bank. And uh, I'm here to give you all a sneak peek into some of what we've been building and some of the things that have us really excited as we think about the intersection of stablecoins and regulated banking and what we can do by building on Solana. So first, just a bit of background on Singapore Gulf Bank. We are a uh regulated wholesale bank. We launched earlier this year in March 2025. We have a mission of uniting digital assets, traditional finance, making interaction, interoperability seamless, moving us to a future of more fluid finance, right? And we're lucky, we can already count 70% of the VASPs in the region as clients and what that unlocks for us is clients who represent a significant volume of the overall crypto trading flow and what that gives us is significant transaction volume so that we can be the bank that's focused on our true mission: one bank to build for all of finance. So, I'm going to now dive in to what we're really excited about and what we're here to talk about and that's what we're doing with Solana. Um, we've got a headquarters in Bahrain, a headquarters in Singapore. Singapore Gulf. And when we look at that divide, right, that trade corridor represents 500 billion dollars. That's a huge TAM. That's just one region. But there are challenges with that. And so stablecoin become a really interesting way to think about managing trade. To think about managing that process. And that's one of the things that we're really excited about. This is just one use case that we're going to talk about right now today. Obviously there's many more. But what it allows us to start thinking about is how do we just make it really easy to mint and redeem stablecoins on Solana in a regulated banking environment. And then obviously we want to support the Solana community, so we want to do that by supporting the community with incentives and making sure that, you know, we don't have gas fees. We don't have banking fees. We look at that so that we can ultimately make trade cheaper, faster, easier and create the most seamless element we can. So, let me show you how that works real quick, right? I'm going to show you a personal banking screen. You get the view on the quick flow but this is actually working for both corporate and personal... it'll work for both corporate and personal banking when we launch and actually corporate's going to launch just a little bit before but but you get the idea. So, personal banking screen, you can see your available balance. You can add a wallet. You can click at the bottom. Let's say you do, we go, click mint and redeem, one click, very easy. Brings us over here, we can choose to mint or redeem, one click. There we go, we're up to two clicks now. Um, and then we select a network, right? And we are actually going to support many networks but Solana is the only network where we're really driving that incentive, right? We allow you the network that you want as a bank but we want to support the Solana community so that is where we're offering to to waive the fees, cover gas fees, etc. So, you select Solana and then you go and select a wallet. We're going to mint directly into a DeFi wallet. So you will have given us DeFi wallets in advance, we'll pre-clear them. We're a bank, AML is important, these things are really important to us, so we get all of that pre-cleared. You select the wallet that you want and then obviously you have to confirm the selection. Really simple. We're up to four clicks now. Last bit, enter the amount that you want. It's personal banking, we'll go with 10,000 for right now. You can see USDC, you could also mint USDT, you could also uh we'll also be releasing uh other stablecoins in the very near term. So select mint now, we're up to five clicks and one entry. And there we go. And this is why we love Solana, it just takes a couple seconds, done, confirmation's there. You can click confirm and by when you click confirm it take opens up the DeFi wallet on your phone so you can see the balance in the other location. Job done, right? We want to come back and make sure that it was deducted too. There we go, balance has been adjusted in the bank. So five clicks, one entry point, there we are. That is a very very simple journey. Five clicks to be able to mint, five clicks to be able to solve a major workflow, five clicks to be able to make this work. Um, simple experience but more important than that, incentivized minting within a regulated environment for stablecoin banking, right? Minting fees are covered, gas fees are covered. This allows us to support this community and move forward by providing the fastest, cheapest, and easiest way to solve that use case. Thank you so much. This has been a lot of fun and uh you can connect with me to talk about other use cases uh and as we build one bank for all of finance. Thank you.",
+  "enrichment": {
+    "generated_query": "Singapore Gulf Bank Solana stablecoin mint redeem Solana Breakpoint 2025",
+    "sources": [],
+    "enriched_at": 1765671254.993691
+  },
+  "tags": {
+    "primary": "Institutional",
+    "secondary": [
+      "Stablecoins",
+      "Payments",
+      "On-Ramp/Off-Ramp"
+    ],
+    "score": 7,
+    "impact_reason": "A regulated wholesale bank launching fee-free stablecoin minting and redemption specifically on Solana to service a $500B trade corridor represents a significant institutional on-ramp."
+  },
+  "category_rank": {
+    "total_category_score": 199,
+    "share_of_voice": 0.0352,
+    "normalized_rank": 8.8,
+    "percentile_position": 3
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "3:4",
+      "role": "portrait",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Concrete",
+          "Luminous Glass",
+          "Architectural Lighting",
+          "The Conduit"
+        ],
+        "mood": "Monumental, Institutional, Efficient, Futuristic",
+        "reasoning": "I chose a monumental architectural bridge as the Semantic Anchor because it directly visualizes the story's core concepts: a regulated bank (Singapore Gulf Bank) creating a 'trade corridor' or 'rails' between two distinct regions (Singapore and the Gulf). The blend of Brutalist concrete and luminous glass represents the union of traditional finance and modern digital assets. I included the diegetic text '0%' etched onto the glass conduit to highlight the key 'fee-free' incentive, making it feel like an integral part of the system's design.",
+        "description": "A monumental, Brutalist-style architectural bridge made of dark, polished concrete spans a calm, dark sea, connecting two unseen landmasses. The structure is vast and minimalist. A large section of the bridge is a transparent, reinforced glass conduit, revealing streams of golden light—representing stablecoin flows—moving frictionlessly within. Etched subtly onto the surface of this glass conduit, the text '0%' glows with a soft, internal white light. The scene is captured at dusk under a clean, gradient sky, with dramatic architectural lighting casting long, hard shadows and highlighting the texture of the concrete against the pristine glass."
+      },
+      "final_prompt": {
+        "prompt_text": "A monumental, Brutalist-style architectural bridge made of dark, highly polished concrete with sharp reflections and deep specular highlights, spans a calm, dark sea, connecting two unseen landmasses. The structure is vast, minimalist, and exudes epic scale, emphasizing its immense height with ample negative space at the top of the frame. A large vertical section of the bridge features a transparent, reinforced glass conduit, internally luminous, revealing dynamic streams of golden light—representing stablecoin flows—moving frictionlessly within its clear depths. Etched subtly onto the exterior surface of this luminous glass conduit, the characters '0%' glow with a soft, internal white light, appearing as if part of the structure itself. The scene is captured at dusk, under a clean, gradient sky, bathed in dramatic, high-contrast architectural lighting. This lighting casts long, hard shadows across the polished concrete surfaces, intensely highlighting their rough textures, and creating a stark, powerful contrast against the pristine, glowing glass. The composition is vertical (3:4), focusing on the bridge's towering presence. 8k, octane render, raytracing, hyper-detailed, photorealistic, physically based rendering (PBR), global illumination, cinematic lighting, ultra-detailed textures, volumetric lighting effects."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961603/generated_assets_homepage_rH7LUklyI6k.jpg"
+    },
+    "category_page": {
+      "ratio": "3:4",
+      "role": "feature",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Concrete",
+          "Luminous Glass",
+          "Architectural Lighting",
+          "The Conduit"
+        ],
+        "mood": "Monumental, Institutional, Efficient, Futuristic",
+        "reasoning": "I chose a monumental architectural bridge as the Semantic Anchor because it directly visualizes the story's core concepts: a regulated bank (Singapore Gulf Bank) creating a 'trade corridor' or 'rails' between two distinct regions (Singapore and the Gulf). The blend of Brutalist concrete and luminous glass represents the union of traditional finance and modern digital assets. I included the diegetic text '0%' etched onto the glass conduit to highlight the key 'fee-free' incentive, making it feel like an integral part of the system's design.",
+        "description": "A macro shot focusing on the intersection of materials. The rough, textured edge of the polished concrete structure meets the perfectly smooth, glowing glass wall of the internal conduit. Inside the conduit, abstract blurs of golden light particles streak past, conveying immense speed and liquidity. The dramatic side-lighting creates a sharp, clean highlight on the glass and casts a deep shadow on the concrete, emphasizing the contrast between the solid, regulated foundation and the fluid digital assets within."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro shot focusing on the intersection of materials. The rough, textured edge of the polished concrete structure meets the perfectly smooth, glowing glass wall of the internal conduit. Inside the conduit, abstract blurs of golden light particles streak past, conveying immense speed and liquidity. The dramatic side-lighting, reminiscent of cinematic golden-hour lighting, creates a sharp, clean highlight on the luminous glass and casts a deep shadow on the polished concrete, emphasizing the stark contrast between the solid, regulated foundation and the fluid digital assets within. Light reflects sharply off the luminous glass, creating specular highlights. Composed for a 1:1 square aspect ratio, emphasizing symmetry, central focus, and tight macro framing, filling the entire frame with intricate texture and detail. 8k, octane render, raytracing, hyper-detailed, V6 realism, ultra-photorealistic, high dynamic range, cinematic lighting, extreme attention to surface detail."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961605/generated_assets_category_rH7LUklyI6k.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Singapore Gulf Bank Unveils Fee-Free Stablecoin Rails on Solana",
+    "standfirst": "Targeting a $500 billion trade corridor, the regulated wholesale bank introduces subsidized gas and zero-fee minting to capture institutional settlement flows. The move aggressively positions Solana as the primary infrastructure for cross-border liquidity between Asia and the MENA region.",
+    "key_takeaways": [
+      "SGB services 70% of regional VASPs, anchoring significant crypto trading flow between Bahrain and Singapore.",
+      "Solana users receive exclusive incentives, including waived banking fees and fully covered gas costs for minting and redemption.",
+      "The platform enables direct '5-click' settlement between regulated bank accounts and pre-cleared DeFi wallets for USDC and USDT."
+    ],
+    "article_body_markdown": "<b>Singapore Gulf Bank</b> (SGB) has officially operationalized its strategy to bridge the $500 billion trade corridor between Singapore and the MENA region, leveraging <b>Solana</b> as its primary settlement layer. Launched in March 2025, the regulated wholesale bank is moving beyond theoretical interoperability, deploying a production-grade environment that unites traditional banking with digital asset fluidity. By servicing 70% of Virtual Asset Service Providers (VASPs) in the region, SGB is effectively capturing the majority of institutional crypto trading flow, redirecting it through a unified banking architecture designed to reduce friction in cross-border settlements.\n\nThe bank’s latest product rollout addresses the two primary friction points for institutional DeFi adoption: compliance and cost. The new interface facilitates a streamlined \"five-click\" workflow for minting and redeeming stablecoins—specifically <b>USDC</b> and <b>USDT</b>—directly between corporate bank accounts and whitelisted DeFi wallets. Crucially, SGB handles the Anti-Money Laundering (AML) and pre-clearance checks on the banking side, creating a sanitized tunnel for capital to move on-chain without triggering compliance red flags at the protocol level.\n\nIn a clear bid to consolidate liquidity on <b>Solana</b>, SGB has introduced aggressive incentives exclusive to the network. While the bank supports multiple chains, it is waiving all minting and banking fees and fully subsidizing gas costs solely for Solana transactions. This pricing strategy transforms the network from a mere technical option into the most economically viable rail for high-frequency institutional settlement. By removing the overhead of gas and fees, SGB is positioning itself not just as a custodian, but as an active accelerator of on-chain velocity for the Asia-Gulf economic zone."
+  }
+}

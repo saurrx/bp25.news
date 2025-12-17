@@ -1,0 +1,92 @@
+{
+  "id": "uSseSMm4brM",
+  "url": "https://www.youtube.com/watch?v=uSseSMm4brM",
+  "processed_at": 1765668683.576546,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Tokenizing the Internet: Unlocking 364M Domains for a New Era of DeFi Growth",
+    "speakers": [
+      "Fred Hsu",
+      "Elias Rendón Benger"
+    ],
+    "product": "Doma Protocol",
+    "type": "Presentation",
+    "thumbnail": "thumbnails/uSseSMm4brM.webp"
+  },
+  "transcript": "How many of you guys own a domain name? That's pretty good. I want to teach you a little bit about what the domain name industry is. It's a 350 billion dollar asset class. There's about 370 million domains. I'm talking about like .com, .ai. This is a multi-billion dollar industry about to come on chain. And we're excited to be here today. I'm from a company called D3. We're building the Doma Protocol. I'm also very, very excited to bring Elias, CEO of InterNetX.\n\nYeah, thank you. I mean, it's amazing to be here. And I know probably domains is not the most exciting and the hottest thing around here. But I have to say, I'm a strong believer that if you're bridging traditional business with innovative technology, that really has a history of success. And that's why we are actually here. So I represent InterNetX. We are part of the IONOS Group, which is the largest hosting provider in Europe. And I mean, we have been in the business for over 25 years already. We have roughly 6 million customers and we manage for them over 22 million of domains. Additionally to that, we are currently having over 24 million domains on sale in our aftermarket business called Sedo. So our plan is, as we know, I mean we all here because of that, the future of the internet is going to be in Web3. So it would be really a shame to have those almost 50 million domains being stuck in Web2, right? So what we want to do, we want to enable Web3 use cases and bring them in an Web3 ecosystem, ideally Solana. And this is why today, I'm super proud that together with our friends from D3 and Doma, we can announce tokenized domains as real world assets on Solana, powered by the Doma Protocol. And for me, just one thing to say, I guess that's the most important word, why is it Doma? Doma is the one blockchain for us that combines the two worlds perfectly. On the one side, we have all the regulations, all the life cycles from a Web3, so the real internet so to say, and combined with a protocol that enables all the Web3 features. So for us as a domain management company, that's the perfect fit to really make sure that it's frictionless and we can expose our full inventory to Web3. Thank you.\n\nSo what does owning and trading the internet mean on Solana? It means owning a piece, fractionalizing, leasing, borrowing, collateralizing your domain name. Of course, your domain name can represent your entire business, your personal identity, all of internet commerce, finally coming on chain. The possibilities really are endless. We're talking about your domain names now being able to trade on major marketplaces, of course on Solana, as well as unlimited DeFi capabilities. So like I said, borrowing, lending, trading, and further use cases of domains, which has been around for about 35 to 40 years. This is the fabric of the internet. It powers 5 billion plus people, and it's going to be around for the next 100 years.\n\nAnd I guess the great thing is, it's not a demo, right? So as we speak, the team is already building it. It's live, it's there. And I'm super proud that, I mean, we can announce it already. It's gonna happen very soon, and I'm super excited for that.\n\nAnd it's all coming to Solana early next year. Check out Doma Protocol. We're excited to be here and introduce this asset class to all of you. Please follow us on socials too.",
+  "enrichment": {
+    "generated_query": "D3 Doma Protocol tokenized domains Solana Breakpoint 2025 announcement blog technical docs",
+    "sources": [],
+    "enriched_at": 1765671250.604689
+  },
+  "tags": {
+    "primary": "RWA",
+    "secondary": [
+      "Domain Names",
+      "Identity",
+      "DeFi Collateral"
+    ],
+    "score": 6,
+    "impact_reason": "Strategic partnership with European hosting giant InterNetX to tokenize millions of DNS domains on Solana, unlocking a massive new asset class for DeFi collateralization."
+  },
+  "category_rank": {
+    "total_category_score": 109,
+    "share_of_voice": 0.055,
+    "normalized_rank": 7.5,
+    "percentile_position": 9
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "1:1",
+      "role": "tile",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Crystalline Glass",
+          "Polished Chrome",
+          "Cinematic Volumetric Lighting",
+          "The Data Vault"
+        ],
+        "mood": "Futuristic, Monumental, High-Value, Clean",
+        "reasoning": "I chose a crystalline data block housed within a massive server vault as the 'Semantic Anchor'. This visually bridges the gap between legacy internet infrastructure (the server rack) and the new, high-value, liquid asset class (the glowing, precious crystal block). The immense scale of the vault represents the 50 million domains being tokenized. For the homepage text, I integrated '.COM' as a holographic label on the crystal block. This is because '.com' is the most universally recognized domain type mentioned in the transcript, instantly grounding the abstract concept of 'tokenized domains' in a tangible, high-value example, while feeling perfectly diegetic to the futuristic setting.",
+        "description": "A low-angle shot inside a colossal, futuristic data vault. Anodized chrome server racks stretch upwards and recede into the darkness, creating a sense of infinite scale. A robotic arm is precisely inserting a glowing, translucent crystalline block into a slot. This block, the anchor, has intricate circuits visible inside. On its glass-like surface, the text '.COM' is displayed as a subtle, integrated holographic projection. Other blocks in the background glow faintly with the teal and magenta hues of the Solana blockchain, with volumetric light beams cutting through the cool, sterile air."
+      },
+      "final_prompt": {
+        "prompt_text": "A low-angle shot inside a colossal, futuristic data vault, rendered with hyperrealistic detail and cinematic volumetric lighting. Anodized chrome server racks, exhibiting a polished finish with ray-traced reflections, stretch upwards and recede into the profound darkness, creating an immense sense of infinite scale. A sleek robotic arm, meticulously rendered with realistic materials, is precisely inserting a glowing, translucent crystalline block into a designated slot. This crystalline block, the anchor, features intricate circuits visibly embedded within its depths. On its glass-like surface, the text '.COM' is displayed as a subtle, integrated holographic projection, appearing to float naturally within the material. In the background, other crystalline blocks glow faintly with the distinct teal and magenta hues of the Solana blockchain, casting soft, ethereal light. Dramatic, ray-traced volumetric light beams cut sharply through the cool, sterile air, emphasizing the immense height and monumental scale of the vault, with ample negative space deliberately composed at the top to enhance verticality. Vertical composition, 3:4 aspect ratio. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic, physically based rendering (PBR), high dynamic range, cinematic contrast."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961621/generated_assets_homepage_uSseSMm4brM.jpg"
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Crystalline Glass",
+          "Polished Chrome",
+          "Cinematic Volumetric Lighting",
+          "The Data Vault"
+        ],
+        "mood": "Futuristic, Monumental, High-Value, Clean",
+        "reasoning": "I chose a crystalline data block housed within a massive server vault as the 'Semantic Anchor'. This visually bridges the gap between legacy internet infrastructure (the server rack) and the new, high-value, liquid asset class (the glowing, precious crystal block). The immense scale of the vault represents the 50 million domains being tokenized. For the homepage text, I integrated '.COM' as a holographic label on the crystal block. This is because '.com' is the most universally recognized domain type mentioned in the transcript, instantly grounding the abstract concept of 'tokenized domains' in a tangible, high-value example, while feeling perfectly diegetic to the futuristic setting.",
+        "description": "A macro, detailed shot focusing on a single crystalline data block representing a tokenized domain. The camera is tight on the object, showing the complex, light-filled filaments and data pathways suspended within its translucent form. The block glows intensely from within, casting sharp, specular highlights on the surrounding polished chrome framework of the server rack it's housed in. The focus is on the material quality and the fusion of data and tangible value."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro, detailed shot focusing on a single crystalline data block representing a tokenized domain. The camera is tight on the object, showcasing complex, light-filled filaments and intricate data pathways suspended within its perfectly translucent form. The crystalline block glows intensely from within, emitting a powerful internal light that casts sharp, brilliant specular highlights across the surrounding, impeccably polished chrome framework of the server rack in which it is meticulously housed. The composition places a strong emphasis on the superior material quality, highlighting the seamless fusion of ethereal data and tangible value. This is rendered with breathtaking photoreal detail, emphasizing the realistic materials and natural color grading. Dramatic, cinematic volumetric lighting permeates the scene, creating deep shadows and accentuating every surface with high contrast. Composed for a square (1:1) aspect ratio, emphasizing perfect symmetry and a central, tight macro focus that fills the entire frame with rich texture and hyper-detailed elements. 8k, octane render, raytracing, hyper-detailed, photorealistic, cinematic volumetric lighting, studio lighting, ultra-sharp digital render, sci-fi aesthetic."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961622/generated_assets_category_uSseSMm4brM.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "InterNetX and D3 to Tokenize 50 Million Domains on Solana",
+    "standfirst": "The partnership marks the largest migration of legacy internet infrastructure to blockchain, transforming static DNS domains into liquid, collateralizable assets for the Solana DeFi ecosystem.",
+    "key_takeaways": [
+      "InterNetX (an IONOS Group company) will tokenize its inventory of ~50 million domains on Solana.",
+      "Doma Protocol serves as the RWA bridge, preserving DNS utility while enabling on-chain trading and fractionalization.",
+      "The initiative unlocks DeFi primitives—lending, borrowing, and leasing—for the $350B global domain market, with launch slated for early 2026."
+    ],
+    "article_body_markdown": "In a significant validation of Solana’s capacity to handle high-volume Real World Assets (RWAs), **InterNetX**, a subsidiary of the European hosting giant **IONOS Group**, announced it will tokenize its massive domain inventory on the network. Partnering with **D3 Global**, the firm intends to bring approximately 50 million domains—comprising 22 million under management and 24 million from its **Sedo** aftermarket—on-chain. This move represents the first systemic bridge between the $350 billion legacy domain industry and decentralized finance, moving beyond niche Web3 naming services to encompass the standard .com and .ai namespace.\n\nThe technical backbone of this migration is the **Doma Protocol**, which allows traditional domains to function simultaneously within the legacy DNS system and as programmable assets on Solana. Unlike previous iterations of blockchain domains that often required new browser extensions or suffered from fragmentation, Doma is designed to wrap existing ICANN-accredited domains. This ensures that a tokenized domain retains its website resolution capabilities while gaining the composability of a Solana token.\n\nFor institutional investors and DeFi participants, the implication is the unlocking of a dormant asset class. Domains have long been compared to digital real estate, yet they have historically lacked liquidity and financial utility. By tokenizing these assets, **InterNetX** and **D3** are enabling new primitives: premium domains can be fractionalized for investment, leased via smart contracts, or used as collateral for on-chain lending. A high-value asset like a three-letter .com could theoretically underwrite a loan on a Solana lending protocol, creating a new form of capital efficiency.\n\nAccording to **InterNetX** CEO **Elias Rendón Benger** and **D3** founder **Fred Hsu**, this infrastructure is currently in active development rather than a theoretical pilot. The integration is scheduled to go live on Solana early next year (2026), positioning the network as the primary ledger for the internet's addressing system. As RWAs continue to dominate the institutional narrative, the migration of critical internet infrastructure suggests a shift from tokenizing financial instruments to tokenizing the digital economy itself."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "JQTr1ezjM24",
+  "url": "https://www.youtube.com/watch?v=JQTr1ezjM24",
+  "processed_at": 1765668815.434197,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Scaling the Read Layer to 1M TPS",
+    "speakers": [
+      "Scott Hague"
+    ],
+    "product": "FluxRPC / Lantern",
+    "type": "Talk",
+    "thumbnail": "thumbnails/JQTr1ezjM24.webp"
+  },
+  "transcript": "So I'm Scott, I'm the technical co-founder over at Flux or FluxBeam ecosystem, and over the past year we've been working with RPC issues. So after seeing the demos from Firedancer last year, we realized there's going to be a big issue coming up around we can do the 1 million TPS from the ingestion side, but how do we then read all of that data coming through? So when we look at the legacy approaches and what we've done for the past three or four years, this has typically been a load of kind of non-voting validators with a RPC bolt-on stacked on top of each other and then clients are just routed and directed to each one of these individual RPC layers. Now while that's kind of worked, we've started to see cracks in that implementation. I think a lot of you have probably called getProgramAccounts on Pump Fun and been met with pretty much silence because of the data load. Um, and this gets even worse when you look at multiple clients fighting for this resource on this validator. This ends up resulting in lagging slots and stale data. So we've had the whole issue around leader tracking, this is one of the main causes of that. And for us working on latency sensitive applications for stuff like RugCheck, this has been a real pain in our side. So, uh, we decided to rebuild the entire RPC layer from the ground up focused on three key premises: scalability, reliability, and performance. So at the core layer, we've decoupled everything from the consensus layer. So you can now scale the read layer independently from the consensus and uh voting side of the validators. This means you no longer need to stack up a load of really expensive hardware. You can actually do this on commodity hardware, it works perfectly in the cloud, and we've also worked on the bandwidth side to ensure that you're not getting huge ingress egress bills as well. Uh, the benefit of all of this is as it's a basically a microservice architecture, we've got a huge amount of redundancy at each layer and it actually allows us to pump out Layer 1 data for everyone, so you're no longer getting kind of this hierarchical of when you're going to get your data through the original methods. But this still has its issues. Um, when we look at kind of dApp development from Web2, pretty much every single developer will be familiar with having your database and your data right next to your server. Uh, in Web3 we like to do things the difficult way, so over the past couple of years everyone's basically been either calling out over the network every single time they need a piece of data or reinventing the wheel for the 50th time indexing Yellowstone streams and having to manage all of that infrastructure internally, which is uh a little bit fragile. So this is where Lantern comes in and this has been our key focus over the past couple of months. Lantern's your local RPC that's tailored towards your dApp. So no longer do you need to ingest the entire firehose of Solana data, you can pick and choose exactly what you need and then stream that in in real-time into your data center right next to your app and then call it locally. So zero latency means better UX for everyone. And this should be a pretty much drop-in replacement for whatever you're using today. We've gone full um to the fully compliant RPC side, so whether it's WebSockets, Yellowstone, normal RPC calls, we'll even have webhooks coming in in a later um development stage, and direct to TPU transaction sending just in case you want to avoid the toxic order flow that's going on at the moment from other providers. Lantern has you covered. And all of this in a really minimal resource footprint. If you actually pop out to our booth that's in the Layer 1 over there, we've got Lantern running on a physical lantern, so even on a Raspberry Pi you can stream in uh pretty much all the market data from Solana, no problem at all. Um, and that basically breaks down into three stages of how we've built this. We started off with the validator fleet. We've got our own custom Firedancer tiles that ingest all of that data in into our scalable ingestion engine powering both the public RPC, but then we've gone one step further and we've introduced what we call Delta Stream. And instead of sending you all the account updates of all the pieces of data over and over again, we're only sending you the bytes that change. So rather than needing a 10 gig pipe, you can do this on 100 megabyte pipe. So egress, ingress, a lot cheaper and a lot more scalable. If you need more TPS or RPS, you can just scale out these Lantern instances even more. And it's got intelligent subscriptions, so if you get data coming in or you require data that's not quite cached in Lantern, it'll automatically detect that, set it up on the scalable ingestion pipeline, and then Delta Stream will run it through. So pretty much zero touch setup um and you're good to go for your dApp application. When we look at the results of that from a public RPC side, you're getting about a 20% reduction in cost from normal RPCs. If you're running private RPCs, that's more like 80-90%. So no longer do you need to pay couple of grand a month for these RPC servers, you can run Lantern locally and this gives you 99% decrease in resource requirements, but most importantly 99% reduction in latency. So, if you're interested in discussing more, please do reach out at the link below if you can't meet us in person, and we're also at the booth outside. But um, yeah, thank you very much for watch listening and so hope to see you soon.",
+  "enrichment": {
+    "generated_query": "Lantern FluxBeam Official Announcement Blog OR Technical Docs Solana Breakpoint 2025",
+    "sources": [],
+    "enriched_at": 1765670981.8993359
+  },
+  "tags": {
+    "primary": "Infrastructure",
+    "secondary": [
+      "RPC",
+      "Data Indexing",
+      "Developer Tooling"
+    ],
+    "score": 6,
+    "impact_reason": "Flux introduces a decoupled microservice architecture to solve the critical data read bottleneck anticipated with Firedancer's 1M TPS throughput."
+  },
+  "category_rank": {
+    "total_category_score": 291,
+    "share_of_voice": 0.0206,
+    "normalized_rank": 7.5,
+    "percentile_position": 19
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "1:1",
+      "role": "tile",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Anodized Aluminum",
+          "Holographic Glass",
+          "Volumetric Lighting",
+          "The Beacon"
+        ],
+        "mood": "Focused, High-Tech, Breakthrough",
+        "reasoning": "I chose a futuristic lantern as the Semantic Anchor because it's the product's name and perfectly metaphorizes its function: illuminating a clear path for data to be 'read' in the darkness of a system bottleneck. The chaotic legacy servers in the background represent the old, failing infrastructure cracking under load. I included the text '0-LAG' as a diegetic, holographic readout on the lantern to highlight the core 'zero-latency' benefit mentioned in the transcript, which is the solution to the 'lagging slots and stale data' problem.",
+        "description": "A single, hyper-modern lantern made of anodized aluminum and holographic glass stands as the sole light source in a cavernous, dark data center. In the deep background, shadowy, chaotic racks of legacy servers with tangled red cables represent the old, failing infrastructure. The lantern projects a powerful, coherent beam of cyan light, composed of tightly-woven data particles, cutting through the darkness. Subtly integrated on a glass panel of the lantern is a glowing, holographic diagnostic display that reads '0-LAG'."
+      },
+      "final_prompt": {
+        "prompt_text": "A single, monumental, hyper-modern lantern made of precisely anodized aluminum and translucent, iridescent holographic glass stands as the sole, epic light source in the vast, cavernous, and utterly dark expanse of a colossal data center. In the deep background, barely visible within the oppressive gloom, are chaotic, shadowy racks of legacy servers, their forms obscured by the darkness, with a tangled mess of vibrant red cables snaking through them, vividly representing the old, failing infrastructure. The sleek lantern projects a powerful, coherent, and highly focused beam of intense cyan light, composed of tightly-woven data particles, dramatically cutting through the dense, volumetric darkness and ambient particulate matter. Subtly integrated on a holographic glass panel of the lantern is a glowing, ethereal diagnostic display, formed by shimmering cyan light particles, which distinctly reads '0-LAG'. Composed for a 3:4 vertical aspect ratio, emphasizing monumental height and epic scale. The towering lantern commands the lower-mid frame, with significant negative space above, amplifying its solitary, beacon-like presence amidst the surrounding decay. The anodized aluminum surfaces exhibit subtle brushed textures and a matte metallic sheen, while the holographic glass panels showcase intricate ray-traced optics, with refractive and reflective qualities catching and bending the ambient light. This scene is rendered with hyperrealistic, photoreal detail, dramatic one-beam lighting, high falloff outside the beam, and cinematic contrast, showcasing a single powerful light source that casts long, deep shadows. 8k, octane render, raytracing, hyper-detailed, photorealistic, cinematic contrast, ultra-photorealistic, high dynamic range, physically based rendering (PBR), dramatic lighting, volumetric fog, monumental scale."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961220/generated_assets_homepage_JQTr1ezjM24.jpg"
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Anodized Aluminum",
+          "Holographic Glass",
+          "Volumetric Lighting",
+          "The Beacon"
+        ],
+        "mood": "Focused, High-Tech, Breakthrough",
+        "reasoning": "I chose a futuristic lantern as the Semantic Anchor because it's the product's name and perfectly metaphorizes its function: illuminating a clear path for data to be 'read' in the darkness of a system bottleneck. The chaotic legacy servers in the background represent the old, failing infrastructure cracking under load. I included the text '0-LAG' as a diegetic, holographic readout on the lantern to highlight the core 'zero-latency' benefit mentioned in the transcript, which is the solution to the 'lagging slots and stale data' problem.",
+        "description": "A macro shot focusing on the core of the high-tech lantern. We see the intricate internal energy source, a cluster of crystalline structures wrapped in glowing micro-filaments. The polished aluminum casing reflects the intense cyan light emanating from the core through a complex, multi-faceted holographic glass lens. The volumetric beam of light appears to shoot directly out towards the viewer, creating a subtle, clean lens flare."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro shot focusing on the core of a high-tech lantern. The intricate internal energy source is visible, a cluster of glowing crystalline structures meticulously wrapped in delicate, illuminated micro-filaments. The polished anodized aluminum casing, rendered with hyperrealistic detail and PBR materials, vividly reflects the intense, high-dynamic-range cyan light emanating from the core. This light projects through a complex, multi-faceted holographic glass lens, which refracts and scatters light with prismatic effects, creating stunning iridescent reflections. A dramatic, volumetric beam of cyan light, reminiscent of a powerful beacon, appears to shoot directly out towards the viewer, generating a subtle, clean lens flare. The composition emphasizes symmetry and central focus, tightly framed to fill the square 1:1 aspect ratio with rich textures and intricate details. 8k, octane render, raytracing, hyper-detailed, photorealistic, cinematic, studio lighting, deep depth of field, sharp focus, physically based rendering, high contrast, atmospheric, glowing, intricate detail."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961224/generated_assets_category_JQTr1ezjM24.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "FluxBeam Unveils 'Lantern' to Solve Solana's Post-Firedancer Read Bottleneck",
+    "standfirst": "As Firedancer pushes Solana ingestion to 1M TPS, legacy RPC infrastructure is cracking under the load. FluxBeam's new local RPC solution decouples the read layer from consensus, offering zero-latency data streaming on commodity hardware.",
+    "key_takeaways": [
+      "Lantern, a local RPC, reduces latency by 99% and private RPC costs by up to 90%.",
+      "Proprietary 'Delta Stream' technology cuts bandwidth requirements from 10GB to 100MB by transmitting only state changes.",
+      "The architecture allows direct-to-TPU transaction sending, bypassing toxic order flow for institutional traders."
+    ],
+    "article_body_markdown": "The impending arrival of Firedancer has created a dangerous asymmetry in Solana’s architecture: while ingestion capacity is scaling toward 1 million transactions per second (TPS), the \"read layer\"—how applications actually retrieve that data—is failing to keep pace. Scott Hague, Technical Co-founder of **FluxBeam**, argues that the legacy approach of bolting RPC interfaces onto non-voting validators is structurally obsolete. Citing recent failures where high-load calls like `getProgramAccounts` on **Pump.fun** result in silence or stale data, Hague outlined a pivot away from centralized load balancers toward a decentralized, microservice-based architecture.\n\nFluxBeam’s answer is **Lantern**, a local RPC client designed to run directly alongside dApp servers, or even on hardware as lightweight as a Raspberry Pi. By decoupling the read layer from the consensus layer, Lantern allows developers to ingest only the specific data streams they need rather than the entire Solana firehose. This shift from a \"remote query\" model to a \"local stream\" model effectively eliminates network latency for read operations, a critical upgrade for latency-sensitive applications like **RugCheck** and high-frequency trading bot **FluxBot**.\n\nTechnically, Lantern relies on a proprietary mechanism called \"Delta Stream.\" Instead of repeatedly transmitting full account states, the protocol identifies and sends only the bytes that have changed. This compression allows institutions to maintain real-time synchronization with the chain using a 100MB pipe rather than the 10GB connection typically required for full node operation. For high-volume users, this translates to an 80-90% reduction in infrastructure costs compared to running private RPC farms.\n\nBeyond cost and speed, Lantern offers a strategic advantage for traders: direct-to-TPU transaction submission. By bypassing the standard public mempools and aggressive aggregators that currently dominate the network, Lantern provides a cleaner execution path, shielding institutional order flow from the \"toxic\" predatory arbitrage that plagues current RPC endpoints. As Solana moves toward the Firedancer era, FluxBeam is betting that the edge will no longer belong to those with the biggest servers, but to those with the smartest data pipelines."
+  }
+}

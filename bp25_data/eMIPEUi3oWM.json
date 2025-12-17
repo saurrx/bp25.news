@@ -1,0 +1,91 @@
+{
+  "id": "eMIPEUi3oWM",
+  "url": "https://www.youtube.com/watch?v=eMIPEUi3oWM",
+  "processed_at": 1765668762.637036,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Anza Block: Alexander Meißner",
+    "speakers": [
+      "Alexander Meißner"
+    ],
+    "product": "SVM",
+    "type": "Talk",
+    "thumbnail": "thumbnails/eMIPEUi3oWM.webp"
+  },
+  "transcript": "So, today I'm gonna talk about all the things you need to know for the next roughly half a year that we're gonna change. Because we at the SVM team, we develop, as the name implies, the SVM. So, what we try to do is improve mostly bandwidth and performance in terms of throughput. There's not so much we can do in terms of latency unfortunately. We try to reduce protocol complexity which helps mostly other validator implementations like Firedancer catching up. And also it reduces attack surfaces and therefore improves stability and robustness. And finally a point which we have been like ignoring a bit too much in the past which we're trying to do better now is improving usability for you guys.\n\nAll right. But unfortunately, all medicine has side effects and there are things we need to do and specifically also you need to do so that we can unlock the performance gains and the robustness gains we want to have on our chain. Specifically, we are gonna introduce, mandatory for all programs, even the deployed ones, a few new restrictions. All of these should not be done in sane programs but for some historic reasons they are for example part of the SDK or have been. So please, please, test your programs with a recent or hopefully the most recent test validator and all feature gates enabled. And some of you will see these three error messages. And the fixes for them are pretty simple but they need to be fixed. Specifically I want to call out programs here. And if you find yourself in there, that means that your program is not gonna break entirely, but some of the instructions will fail. So please take a look and run the latest test validators.\n\nSo, but again there's an upside to all of this. What we are planning next after that is so-called ABI v2 which will allow us to expose most of the transaction information all the time, basically for free, that includes the signers and all the pubkeys in a transaction. We will change that you will have to do account metadata changes through syscalls, that means you have to kind of adjust some parts of your program. In turn you gain basically unrestricted resizing of accounts, no more limits in terms of 10 kilobytes. You get a lot cheaper entrypoints, you get a lot cheaper CPI and a lot simpler CPI. So we're getting rid of AccountInfo. And we're also getting rid of the Pubkey in the AccountMeta which we will replace by an index.\n\nSo, furthermore, we're gonna introduce SBPFv3 which for you guys mostly just means you have to recompile your program with the latest toolchain once. And that should be it, there should be no changes to the actual source code. And hopefully then your programs will simply become much smaller. And furthermore it will also allow you to use more different toolchains because we will be much closer to other eBPF toolings, especially the upstream LLVM.\n\nSo, then we have further protocol complexity reductions, specifically the loader is gonna change. There will be an overhaul of the upgradeable loader. That means both inside how the account layout works, we have to do that to unlock some performance gains in the validator, and also to what specific actions you can do in the upgradeable loader. The entire thing is code-named Loader-v4. If there will be an actual change to the owner, we don't know yet. The thing will be opt-in in the beginning and then become mandatory later. Specifically I think what a lot of you are looking forward here is after that you will be able to completely close and reclaim program accounts. Including the address and including all funds, like entirely deleting the account. And existing workflows like the buffered redeployment will continue to function.\n\nAll right. Further improvements we want to do for you guys. There has been a lot or quite an rise in increase in interest for debugging specifically. And also for code coverage tooling. So we have been working with our partners and trying to improve the situation there. And I think we're close to enabling debuggers to even go through CPI throughout an entire transaction stack. Furthermore there have been some smaller changes, for example there is this issue that you have to pass all the instruction accounts before you get to the instruction data. We now also pass in the instruction data pointer as one of the arguments. So you will be able to first discriminate your instruction and then pass your instruction accounts or skip them entirely. And now the most interesting part probably is we will be able to raise the limits of the CPI nesting depth from 4 to 8. And we will be able to raise the number of instruction accounts in CPI from 64 to 255 which means you can CPI all accounts simultaneously of the entire transaction at once.\n\nAll right. Finally, a few things which we are looking forward to in the future is we're still on the mission trying to basically migrate all the built-in programs we have to core programs being deployed on chain in BPF itself. And specifically that includes like I mentioned the loader, that also covers the vote program and the proof program. And we have been looking into potentially exploring different ISAs or more compiler options and a few more more complex performance optimizations which probably are not too interesting for you guys. But if all of you have anything that has always been on your mind like this is the feature I need in the SVM and I've been dreaming of this all my life essentially, then please come to us, meet us on Discord or on the SIMD discussion groups or simply after the talk. You will see me because I'm wearing red. All right. Thank you guys.",
+  "enrichment": {
+    "generated_query": "Anza ABI v2 Solana Breakpoint 2025 official announcement blog technical docs",
+    "sources": [],
+    "enriched_at": 1765671256.808518
+  },
+  "tags": {
+    "primary": "Infrastructure",
+    "secondary": [
+      "SVM",
+      "Protocol Upgrade",
+      "Smart Contracts"
+    ],
+    "score": 7,
+    "impact_reason": "The announcement details mandatory breaking changes for all Solana programs and introduces major upgrades like ABI v2 which removes account resizing limits, directly impacting the core protocol and developer workflows."
+  },
+  "category_rank": {
+    "total_category_score": 291,
+    "share_of_voice": 0.0241,
+    "normalized_rank": 8.8,
+    "percentile_position": 4
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "3:4",
+      "role": "portrait",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Modular Engine",
+          "Polished Chrome",
+          "Volumetric Lighting",
+          "Surgical Precision"
+        ],
+        "mood": "Clinical Futurism",
+        "reasoning": "I chose a modular, crystalline engine core as the Semantic Anchor because the story is about a foundational 'overhaul' of the Solana Virtual Machine (SVM), which is the core engine of the network. The visual of a precision robotic arm swapping out an old, complex part for a new, streamlined one directly represents 'shedding technical debt' and upgrading the infrastructure. For the homepage, I integrated the diegetic text 'ABI v2' as a holographic label on the new module. This is a key term from the headline that instantly communicates the nature of the upgrade in a high-impact, conceptual way.",
+        "description": "In a vast, clean-room server hangar, a complex, modular engine representing the SVM is suspended in the center. A sleek robotic arm is precisely removing an old, overly-complex module and replacing it with a new, glowing crystalline block. The new block has the text 'ABI v2' projected onto its surface as a holographic blueprint label. Focused beams of white light cut through the dark, ambient space, highlighting the surgical precision of the upgrade. The background recedes into layers of out-of-focus server racks, conveying immense scale."
+      },
+      "final_prompt": {
+        "prompt_text": "In a vast, clean-room server hangar, a monumental, complex modular engine, crafted from polished chrome with intricate detailing and subtle reflections, is suspended in the center, extending vertically to emphasize its epic scale. A sleek, highly articulated robotic arm, also made of polished chrome, is meticulously and precisely removing an old, overly-complex module from the engine. Simultaneously, with surgical precision, it replaces it with a new, glowing crystalline block that emanates a soft internal light. The new block has the text 'ABI v2' projected onto its surface as a holographic blueprint label, shimmering with a subtle, ethereal glow. Focused beams of stark white light, rendered with dramatic volumetric god rays, cut through the dark, ambient space of the hangar, intensely highlighting the surgical precision of the upgrade. The background recedes into layers of out-of-focus server racks, conveying immense scale and depth with an extremely shallow depth of field, pushing the main subject to the forefront. Emphasize height and negative space at the top. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic, high dynamic range, cinematic lighting, polished chrome texture, glowing crystalline material."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961479/generated_assets_homepage_eMIPEUi3oWM.jpg"
+    },
+    "category_page": {
+      "ratio": "3:4",
+      "role": "feature",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Modular Engine",
+          "Polished Chrome",
+          "Volumetric Lighting",
+          "Surgical Precision"
+        ],
+        "mood": "Clinical Futurism",
+        "reasoning": "I chose a modular, crystalline engine core as the Semantic Anchor because the story is about a foundational 'overhaul' of the Solana Virtual Machine (SVM), which is the core engine of the network. The visual of a precision robotic arm swapping out an old, complex part for a new, streamlined one directly represents 'shedding technical debt' and upgrading the infrastructure. For the homepage, I integrated the diegetic text 'ABI v2' as a holographic label on the new module. This is a key term from the headline that instantly communicates the nature of the upgrade in a high-impact, conceptual way.",
+        "description": "A macro, detailed shot of the new crystalline 'ABI v2' module locking into the main engine block. We see intricate, polished chrome connectors and pulsing fiber-optic filaments making a seamless connection. The focus is sharp on the point of contact, where the new, efficient geometry meets the older framework, symbolizing improved composability and the elimination of old limits. The internal light of the module creates a soft glow on the surrounding hardware."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro, detailed shot capturing the new crystalline module, labeled with 'ABI v2' deeply etched and subtly glowing within its structure, as it locks precisely into the main engine block. The focus is surgically sharp on the intricate point of contact, where the advanced, efficient geometry of the module seamlessly integrates with the older, robust framework, symbolizing improved composability and the elimination of old limits. Intricate, highly polished chrome connectors gleam with crisp, warm amber reflections and strong specular highlights, intertwining with pulsing, glowing fiber-optic filaments that make a perfect, unbroken connection. The internal light of the crystalline module emits a soft, volumetric glow, casting subtle, ethereal light onto the surrounding metallic and industrial hardware of the engine block. The composition is a tight, symmetrical macro frame, centrally focused, filling the entire square aspect ratio with rich textures and meticulous detail, highlighting every micro-detail of the connection. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic, cinematic lighting, soft studio lighting, high contrast, volumetric glow, industrial design, surgical precision."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961480/generated_assets_category_eMIPEUi3oWM.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Anza Unveils SVM Roadmap: ABI v2 and Loader v4 to Overhaul Solana Composability",
+    "standfirst": "The Solana Virtual Machine is shedding its technical debt with a massive overhaul. New ABI standards and loader upgrades promise to double CPI depth and eliminate historic account resizing limits.",
+    "key_takeaways": [
+      "**ABI v2** introduces unrestricted account resizing (removing the 10KB limit) and significantly cheaper Cross-Program Invocations (CPI).",
+      "**Loader v4** will enable the complete closure and reclamation of program accounts, including addresses and funds, improving state hygiene.",
+      "**CPI Limits Doubled:** Nesting depth increases from 4 to 8, and maximum instruction accounts jump from 64 to 255."
+    ],
+    "article_body_markdown": "In a technical deep dive at Breakpoint 2025, **Anza** SVM Team Lead Alexander Meißner outlined a pragmatic yet aggressive roadmap for the Solana Virtual Machine (SVM) over the next six months. The presentation was devoid of marketing gloss, focusing instead on the \"medicine\" required to unlock future performance. Meißner announced mandatory restrictions for all programs—including deployed ones—requiring developers to test against the latest validators immediately. This short-term friction is the necessary precursor to **ABI v2**, a protocol upgrade designed to expose transaction information (signers and pubkeys) natively and essentially for free.\n\nFor developers and institutional architects, the most significant \"alpha\" lies in the removal of the 10KB account resizing limit under ABI v2. Historically, managing large state changes on Solana has required complex workarounds; the new ABI promises unrestricted resizing alongside cheaper and simpler Cross-Program Invocations (CPI). By replacing the `Pubkey` in `AccountMeta` with an index and removing `AccountInfo`, **Anza** is streamlining the data passing overhead that has previously constrained complex DeFi composability.\n\nComplementing these execution layer improvements is the introduction of **Loader v4**. This overhaul of the upgradeable loader addresses long-standing state bloat issues by allowing the complete closure and reclamation of program accounts—including the address and all associated funds. While initially opt-in, this feature represents a critical maturation in how the network handles program lifecycles. Additionally, the roadmap includes **SBPFv3**, which aligns Solana’s bytecode format closer to upstream LLVM, enabling smaller program sizes and broader toolchain compatibility with a single recompile.\n\nThe update also delivers immediate tangible benefits for high-frequency and complex protocols. Meißner confirmed that CPI nesting depth limits will be raised from 4 to 8, and the number of instruction accounts in a CPI call will increase from 64 to 255. This expansion effectively allows a program to CPI all accounts in a transaction simultaneously, drastically expanding the scope for aggregators and multi-hop DeFi strategies that were previously bottlenecked by protocol constraints."
+  }
+}

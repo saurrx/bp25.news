@@ -1,0 +1,90 @@
+{
+  "id": "Pxhy5q9QMBU",
+  "url": "https://www.youtube.com/watch?v=Pxhy5q9QMBU",
+  "processed_at": 1765668568.624765,
+  "key_used": "...T4WvX0",
+  "meta": {
+    "title": "Bullish on Solana",
+    "speakers": [
+      "Michael Lau"
+    ],
+    "product": "Bullish",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/Pxhy5q9QMBU.webp"
+  },
+  "transcript": "It's an absolute pleasure to be here at Solana Breakpoint. It's been an incredible day, the energy outside, people building the future of capital markets here. So my name is Michael Lau, I'm the Senior Vice President, Group Head of Business Development at Bullish. I'm also the Chairman of Consensus, which is the flagship conference franchise of CoinDesk. After spending about a decade working in traditional capital markets, I made the switch over six years ago to join Bullish. At that time, it was just a prototype, 20-something people, and they said to me, 'Hey Michael, one day we're gonna have customers. We need a customer guy.' And I was like, 'Great, I love customers. I'll be the customer guy.' And in those early days, when we were thinking about who our target market was, I put together this chart that basically had three bars representing the difference between institutional versus retail driven volumes. The first bar was US equity markets. 200-plus year old exchanges with about 80% of that volume driven by institutions. The second bar was the Chinese equity markets. 90-plus years old, about 60% driven by institutions, and that, at that time, us TradFi folks thought that was a retail driven market. But then you had crypto. 10-plus years old, and best guess, probably 95% retail. And I made the point at the time that there are two primary drivers. The first, that people would I think realize that there's value in professional risk management. And the second is that our space would be more regulated over time. That those two factors would put us on a path to institutionalization that rhymes with history like we've seen for example in other asset classes, for example in equities. So with that being said, we decided to build Bullish on two pillars. The first was being a counterparty you could trust. But in a language that institutions could understand. That meant KYC, AML, being regulated, having a Big Four auditor. And the second was then identifying a problem that they cared about, and that was finding deep and reliable liquidity. We've been on this path now for about four years and we're now one of the largest institutional exchanges for crypto. But it's been a crazy adventure. In particular, back in 2023, many of you might remember, Silvergate and Signature Bank went down. At that time we were quoting everything in USD fiat pairs, and then all of a sudden we had to pivot overnight to quoting everything in stablecoin pairs. And that's been what we've been doing since then. The majority of our liquidity and our volumes have been driven by stablecoin pairs. Now, I'm an engineer by training. I believe that innovation takes root when it's driven by causality and also on a first principles basis. And when we had to figure out what network we were going to use to provide that, you know, faster, cheaper, constantly accessible US dollar format, stablecoins was the clear choice for the institutions that rely on performance, liquidity, and capital efficiency. And it's with this mindset that we started thinking to ourselves, what other networks are there that are purpose-built for financial primitives? That have that high throughput, that have that predictable low transaction cost? And that's what led us to Solana. And over the summer we announced a collaboration with the Solana Foundation that we would make Solana-native stablecoins the primary digital asset used across Bullish's exchange and clearing services. That's powering custody, transactions, payments, settlements, and other future product innovations. There's a really cool quote that our CEO gave at the time: 'Solana has proven itself as rails for next-generation financial infrastructure—fast, efficient, and ready for institutional scale.' But that's just talk. More importantly is what you do with it. And so some of you might know, for example, that over the summer, we actually IPO'd on the New York Stock Exchange at Bullish. That was an incredibly momentous occasion for us, but what's important to double click into is the fact that we actually took 1.15 billion dollars of those proceeds as stablecoins. And what's particularly important for this group over here is that the vast majority of that was done on the Solana network. So, where do we go from here? At Bullish, we continue to push forward on this idea of institutional adoption. Since the IPO, we've gotten our BitLicense and have launched in the US, and we've also recently launched our Bitcoin options trading. Our Bitcoin options product is now one of the top five of open interest in the world. But just switching gears a little bit, putting back my Consensus hat on, I'm also extremely excited to point out that earlier this week we announced that Solana Accelerate APAC will be coming to Consensus Hong Kong in February 2026. And I can't wait to see all of you there. And with all of that being said, there's just one line that I'll leave with you. I'm Bullish, I hope you are too. Thank you.",
+  "enrichment": {
+    "generated_query": "Bullish Official Announcement Blog OR Technical Docs Solana Breakpoint 2025",
+    "sources": [],
+    "enriched_at": 1765670984.582915
+  },
+  "tags": {
+    "primary": "Institutional",
+    "secondary": [
+      "Exchange",
+      "Stablecoins"
+    ],
+    "score": 6,
+    "impact_reason": "A senior executive from Bullish, a major institutional exchange, outlines their strategic reliance on stablecoins and the Solana network for capital efficiency and deep liquidity."
+  },
+  "category_rank": {
+    "total_category_score": 199,
+    "share_of_voice": 0.0302,
+    "normalized_rank": 7.5,
+    "percentile_position": 16
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "1:1",
+      "role": "tile",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Obsidian",
+          "Server Racks",
+          "Neon Circuitry",
+          "Corporate Futurism"
+        ],
+        "mood": "Sleek Authority",
+        "reasoning": "I chose the Bull as the Semantic Anchor because it directly represents the company 'Bullish' and the iconic Wall Street symbol for a strong market, fitting the 'Institutional' tag. Reimagining it with high-tech materials like obsidian and server racks visualizes the core story: the fusion of traditional capital markets with modern blockchain technology like Solana. I integrated the text '$1.15B' as a diegetic element, glowing like an LED display on the internal servers, to highlight the massive capital deployment central to the headline.",
+        "description": "A massive, stylized bull statue, reminiscent of the Wall Street bull, is the central figure. Its form is sculpted from polished black obsidian, reflecting a minimalist, high-tech corporate environment. Sections of the bull's flank are open, revealing neatly organized server racks with pulsating blue and purple LED lights. On the side of one server, the text '$1.15B' glows in a crisp, white digital font. The background is a cavernous, dark data vault with server columns receding into the deep background, emphasizing scale and security."
+      },
+      "final_prompt": {
+        "prompt_text": "A massive, stylized bull statue, reminiscent of the Wall Street bull, is the central figure. Its form is sculpted from highly reflective polished black obsidian, capturing sharp specular highlights and cool, subtle reflections, embodying a minimalist, high-tech corporate environment. Sections of the bull's flank are open, revealing neatly organized server racks with pulsating blue and purple LED lights, illuminating the immediate area with a vibrant neon glow. On the side of one server, the text '$1.15B' glows in a crisp, white digital font, appearing seamlessly integrated into the hardware. The background is a cavernous, dark data vault with countless server columns receding into the deep background, emphasizing immense scale and security. The scene is lit with dramatic, high-contrast cinematic lighting, predominantly from the pulsating blue and purple neon circuitry, casting long, futuristic shadows and highlighting the sleek surfaces. Composed for a vertical 3:4 aspect ratio, emphasizing epic height and monumental scale, with significant dark negative space above the bull to enhance its imposing presence and a sense of awe. 8k, octane render, raytracing, hyper-detailed, photorealistic, volumetric light, corporate futurism, cyberpunk aesthetics."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961307/generated_assets_homepage_Pxhy5q9QMBU.jpg"
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Obsidian",
+          "Server Racks",
+          "Neon Circuitry",
+          "Corporate Futurism"
+        ],
+        "mood": "Sleek Authority",
+        "reasoning": "I chose the Bull as the Semantic Anchor because it directly represents the company 'Bullish' and the iconic Wall Street symbol for a strong market, fitting the 'Institutional' tag. Reimagining it with high-tech materials like obsidian and server racks visualizes the core story: the fusion of traditional capital markets with modern blockchain technology like Solana. I integrated the text '$1.15B' as a diegetic element, glowing like an LED display on the internal servers, to highlight the massive capital deployment central to the headline.",
+        "description": "A macro close-up on the bull statue's flank. The frame is filled with the stark, graphic contrast between the flawless, reflective black obsidian surface and the intricate, glowing internal server rack. We see the detailed texture of the server blades and neatly bundled fiber optic cables pulsating with a cool purple light, representing the fusion of institutional power and advanced technology."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro close-up on the bull statue's flank. The frame is filled with the stark, graphic contrast between the flawless, highly reflective black obsidian surface and the intricate, glowing internal server rack. We see the detailed texture of the server blades and neatly bundled fiber optic cables pulsating with a cool purple neon light, representing the fusion of institutional power and advanced technology. The obsidian surface has a mirror-like finish with sharp specular highlights. The internal server rack is precisely engineered, with luminous circuitry casting an electric glow. The overall aesthetic is sleek and high-tech, embodying corporate futurism. Tight macro framing, filling the 1:1 square frame, with a symmetrical composition and central focus, emphasizing every intricate texture. 8k, octane render, raytracing, hyper-detailed, hyper-realistic."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961311/generated_assets_category_Pxhy5q9QMBU.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Bullish Deploys $1.15 Billion IPO Proceeds into Solana Stablecoins",
+    "standfirst": "The NYSE-listed exchange has designated Solana as its primary settlement rail, minting the vast majority of its public offering capital on-chain to bypass legacy banking friction.",
+    "key_takeaways": [
+      "**$1.15 billion** in IPO proceeds converted to stablecoins, primarily on **Solana**.",
+      "**Solana-native stablecoins** are now the default asset for Bullish's clearing and custody.",
+      "**Solana Accelerate APAC** will launch at **Consensus Hong Kong** in February 2026."
+    ],
+    "article_body_markdown": "The era of theoretical institutional adoption has shifted to capital deployment. In a definitive move for market structure, **Bullish** has confirmed that the vast majority of its **$1.15 billion** IPO proceeds have been converted into stablecoins on the **Solana** network. This massive capital injection serves as the liquidity bedrock for the exchange's new operational model, where Solana-native stablecoins now function as the primary rail for custody, payments, and settlement services.\n\nThis infrastructure overhaul is a direct response to the \"Silvergate gap.\" Following the 2023 collapse of crypto-friendly banks **Silvergate** and **Signature**, **Bullish** was forced to pivot from fiat rails to a stablecoin-first environment to maintain 24/7 liquidity. The selection of **Solana** was driven by a \"first principles\" engineering assessment, identifying the network's high throughput and predictable low costs as the only viable replacement for the speed and efficiency required by institutional counterparties.\n\nThe integration validates **Solana**'s capacity to handle regulated, high-frequency finance at scale. With **Bullish** now publicly traded on the **NYSE** and its Bitcoin options product ranking in the global top five for open interest, the exchange is effectively using Solana to bypass traditional banking bottlenecks. This move signals that for regulated entities, \"institutionalization\" now demands on-chain settlement finality rather than just passive exposure via ETFs.\n\nLooking toward global expansion, the collaboration will deepen in the Asian market. **Solana Accelerate APAC** is set to debut at **Consensus Hong Kong** in February 2026, marking a coordinated effort to capture the region's growing demand for next-generation capital markets infrastructure."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "47fzkScJyDE",
+  "url": "https://www.youtube.com/watch?v=47fzkScJyDE",
+  "processed_at": 1765668688.863161,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Product Keynote: HumidiFi",
+    "speakers": [
+      "Kevin Pang"
+    ],
+    "product": "HumidiFi",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/47fzkScJyDE.webp"
+  },
+  "transcript": "Hey everyone. I'm Kevin, co-founder of HumidiFi, the number one DEX on Solana. And today I want to tell you a little bit about what we've accomplished in the six months since we've gotten started and also share some updates about what's ahead.\n\nSo DeFi 1.0 gave us AMMs, which helped bring trading on-chain and allowed anyone to add liquidity for any asset. This remains essential for long-tail assets like memecoins, but unfortunately unsophisticated passive strategies have led to wide spreads and high slippage for every other use case. Additionally, a huge amount of capital goes unused due to a lack of agility and also a lack of sophistication in the current design space.\n\nSo while DeFi 1.0 got us started with a really strong foundation, there were clear blockers to Solana becoming the world's global exchange. Enter Prop AMMs. Starting about a year ago, there was some innovation in the space, and we started to upgrade the standard x*y=k algorithm into world-class HFT pricing algorithms. And also adding execution logic, which allowed HumidiFi to generate tighter spreads and lower slippage for users. Additionally, when users quote... ask us for a quote, we're able to deliver the best price using 100% of our liquidity. And we can provide a custom quote just for them. We're able to do more with just $10 million of capital than what other protocols take... what other protocols can do with over a billion dollars of capital. And to us, that's DeFi 2.0.\n\nSo, we just started working on HumidiFi in early June, and within a few weeks we were up and running and doing our first trade. Since then, it's grown into the number one DEX on all of Solana and become the liquidity engine for internet capital markets. Today we're doing over a billion dollars of volume a day, more than half of all spot volume. And going from an idea to serving over a hundred billion dollars of cumulative trading volume within just six months is pretty cool, but we're just getting started.\n\nEven more exciting, HumidiFi is now responsible for almost half of all SOL-USD volume across all DEXes and CEXes. All while delivering tighter spreads than even Binance. We have been able to prove that decentralized finance can outcompete our CeFi counterparties, and this is only possible on Solana.\n\nSo how do we continue helping Solana win? Well, HumidiFi's success is not really due to some fancy algorithm that nobody else has access to. I would say our greatest strength is in our understanding of microstructure and capital markets, as well as our deep understanding of Solana tech. This powerful combination allows us to continue to iterate and upgrade our trading programs while adapting to protocols' improvements and helping to drive innovation in the space. This all helps make Solana the best venue for traders for any asset... uh 24/7.\n\nAlright, so what's next? Well, in the last month we've been piloting some new features. Um, the first one is a DEX-only on-chain price model. Uh, we've been using this as our price oracle. And uh, we call it abstinence trading because there's no CEX involved here. Um, and we're planning on applying this to more token pairs so that retail traders can access more assets. This is also being used to support day-one listings for other tokens from other chains. A couple weeks ago, we had a successful Monad launch where cumulatively Solana DEXes were actually able to do more volume than DEXes on Monad itself. So look out for more of those in the coming months.\n\nAt the same time, we're also seeking to improve liquidity for institutions. Right now, it's... spreads have gone down from 30 bips to 15 bips to 5 bips, even tighter if you're trading on HumidiFi. But in the future, we want to be able to support $10 million trades, $100 million trades... uh and we want to help make Solana the trading home for degens and pension funds alike.\n\nWell, it's been a wet and wild first six months for us. Uh and we're just starting to dip into the pool of possibilities. And we're super excited to continue shipping and share with you more as... uh as we have more updates. Thank you.",
+  "enrichment": {
+    "generated_query": "HumidiFi Solana Breakpoint 2025 official announcement blog technical documentation",
+    "sources": [],
+    "enriched_at": 1765670981.324359
+  },
+  "tags": {
+    "primary": "DeFi",
+    "secondary": [
+      "DEX",
+      "Liquidity",
+      "Market Making"
+    ],
+    "score": 8,
+    "impact_reason": "The keynote reveals the leading DEX commands over 50% of Solana's spot volume ($1B+ daily) and outperforms Binance on spreads, signaling a major maturity milestone for on-chain capital markets."
+  },
+  "category_rank": {
+    "total_category_score": 263,
+    "share_of_voice": 0.0304,
+    "normalized_rank": 10,
+    "percentile_position": 1
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "16:9",
+      "role": "hero",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Anodized Aluminum",
+          "Borosilicate Glass",
+          "Volumetric Lighting",
+          "Supercomputer"
+        ],
+        "mood": "Clinical, Powerful, Efficient",
+        "reasoning": "I chose a high-tech, liquid-cooled 'liquidity engine' as the Semantic Anchor because it directly visualizes the company name 'HumidiFi' through condensation and the core concept of a powerful, high-frequency trading 'engine' described in the transcript. The sophisticated hardware represents the advanced 'Prop AMM' algorithms. I included the text '50%' as a diegetic neon readout on the server to highlight their key metric of market dominance mentioned in the headline.",
+        "description": "A full-height, monolithic server rack, the HumidiFi 'liquidity engine', stands in a dark, clean-room environment. The rack is made of matte black and polished chrome metals. A complex network of thick glass pipes containing a glowing cyan coolant snakes through the machine, with visible condensation beading on the exterior. Integrated directly into the central chassis, a bright neon display glows with the number \"50%\". The background is deep and dark, with the faint silhouettes of older, less-advanced server racks receding into the shadows, emphasizing HumidiFi's dominance."
+      },
+      "final_prompt": {
+        "prompt_text": "A full-height, monolithic server rack, identified as the HumidiFi 'liquidity engine', stands majestically in a pristine, dark clean-room environment. The towering rack is meticulously crafted from a combination of sleek matte black anodized aluminum panels and gleaming polished chrome metals, showcasing its high-end, supercomputer-like architecture. A complex, intricate network of thick borosilicate glass pipes, filled with a vibrantly glowing cyan coolant, snakes gracefully throughout the entire machine. Visible condensation beads realistically on the exterior surfaces of the glass pipes, hinting at the machine's immense power and cooling efficiency. Integrated seamlessly and directly into the central chassis of the server rack, a bright neon display powerfully glows with the illuminated number \"50%\", a digital readout physically existing within the machine's structure. The background recedes into a deep, dark expanse, revealing only the faint, ghostly silhouettes of older, less-advanced server racks, subtly emphasizing the HumidiFi's monumental dominance and advanced presence. Dramatic volumetric lighting cuts through the ambient darkness, with visible rays of light illuminating the machine, highlighting its intricate details and creating an epic, awe-inspiring atmosphere. The composition is a low-angle, vertical shot (3:4 aspect ratio), looking up at the server rack to emphasize its immense height and monumental scale, with ample negative space above, making the HumidiFi 'liquidity engine' feel colossal and powerful. Ultra-sharp focus, extreme detail on materials, 8k, octane render, raytracing, hyper-detailed, physically based rendering (PBR)."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961073/generated_assets_homepage_47fzkScJyDE.jpg"
+    },
+    "category_page": {
+      "ratio": "16:9",
+      "role": "sector_lead",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Anodized Aluminum",
+          "Borosilicate Glass",
+          "Volumetric Lighting",
+          "Supercomputer"
+        ],
+        "mood": "Clinical, Powerful, Efficient",
+        "reasoning": "I chose a high-tech, liquid-cooled 'liquidity engine' as the Semantic Anchor because it directly visualizes the company name 'HumidiFi' through condensation and the core concept of a powerful, high-frequency trading 'engine' described in the transcript. The sophisticated hardware represents the advanced 'Prop AMM' algorithms. I included the text '50%' as a diegetic neon readout on the server to highlight their key metric of market dominance mentioned in the headline.",
+        "description": "A macro shot focusing on the intricate details of the liquidity engine. The frame is filled with the intersection of several glass cooling pipes. The internal cyan liquid pulses with light, and heavy condensation drips down the outside of the glass, creating distorted refractions. The polished chrome fittings and a sliver of the anodized aluminum chassis are visible, highlighting the premium, high-performance materials. No text is visible."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro shot focusing on the intricate details of a sophisticated liquidity engine. The frame is filled with the symmetrical intersection of multiple borosilicate glass cooling pipes, engineered with precision. Inside, a vibrant cyan liquid pulses with dynamic, internal light, casting ethereal glows. Heavy condensation clings to and drips down the outside of the glass, creating complex and distorted refractions that scatter light. Polished chrome fittings gleam with sharp reflections, connecting the components seamlessly. A sliver of a finely textured anodized aluminum chassis is visible, highlighting the premium, high-performance materials and advanced engineering. No text or numbers are visible. This is an extreme macro shot, tightly framed and centrally focused, filling the entire square (1:1 aspect ratio) with rich textures and intricate details. The scene is bathed in dramatic volumetric lighting, emphasizing depth and atmosphere, creating a supercomputer aesthetic. 8k, octane render, raytracing, hyper-detailed, photorealistic, physically based rendering (PBR), Unreal Engine 5."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961076/generated_assets_category_47fzkScJyDE.png"
+    }
+  },
+  "editorial": {
+    "headline": "HumidiFi Claims 50% of SOL Spot Volume with Prop AMMs",
+    "standfirst": "The six-month-old protocol challenges the dominance of centralized exchanges, utilizing high-frequency on-chain algorithms to deliver tighter spreads than Binance.",
+    "key_takeaways": [
+      "<b>HumidiFi</b> processes over $1 billion in daily volume, capturing nearly half of the total SOL-USD spot market.",
+      "The protocol's \"Prop AMM\" architecture allows $10 million in capital to match the liquidity efficiency of $1 billion in traditional pools.",
+      "New \"Abstinence\" oracles enable pure on-chain price discovery, recently driving higher volume for <b>Monad</b> assets on Solana than on their native chain."
+    ],
+    "article_body_markdown": "The era of passive liquidity provision is effectively over. **HumidiFi** Co-Founder Kevin Pang outlined a decisive shift from \"DeFi 1.0\" constant product market makers to active \"Prop AMMs\" (Proprietary Automated Market Makers). By embedding high-frequency trading (HFT) logic directly on-chain, HumidiFi has achieved capital efficiency orders of magnitude higher than its predecessors—generating deep liquidity with a fraction of the total value locked (TVL) required by traditional pools. Pang noted that the protocol can now execute with $10 million what competitors require $1 billion to achieve.\n\nThe results present a statistically significant challenge to centralized market structure. Pang revealed that HumidiFi now facilitates nearly half of all SOL-USD volume across both decentralized and centralized exchanges, consistently delivering tighter spreads than **Binance**. This marks a critical inflection point where on-chain execution is no longer just \"permissionless\" but strictly superior in price discovery and execution quality compared to top-tier centralized venues.\n\nLooking ahead, HumidiFi is aggressively targeting the institutional sector with its \"Abstinence\" trading model—a DEX-native price oracle that removes CEX dependency entirely. This infrastructure recently supported a day-one listing for **Monad**, where Solana-based volume outpaced the native chain's own DEXs. With plans to support execution blocks ranging from $10 million to $100 million, HumidiFi is positioning Solana as the primary liquidity venue for pension funds and large-scale asset managers, moving beyond retail flow into deep institutional settlement."
+  }
+}

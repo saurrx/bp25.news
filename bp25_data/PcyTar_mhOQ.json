@@ -1,0 +1,91 @@
+{
+  "id": "PcyTar_mhOQ",
+  "url": "https://www.youtube.com/watch?v=PcyTar_mhOQ",
+  "processed_at": 1765668659.058611,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Digital Dollars for All: A Lifeline in Volatile Economies",
+    "speakers": [
+      "Nika Naghavi"
+    ],
+    "product": "Sendwave Wallet",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/PcyTar_mhOQ.webp"
+  },
+  "transcript": "Hi everyone. My name is Nika, and I lead crypto strategy at Zepz, the global payment group behind Sendwave and WorldRemit. At Zepz, we help millions of people across the world send money back home to their loved ones and families. And today I'm here to talk about some of the learnings from our customers and their communities and how that's shaping the future that we're building. In many parts of the world, money just doesn't move slowly. It loses value whilst you're holding it. Inflation, currency fluctuations, access to global financial ecosystem means that millions of people work really hard, yet they really struggle to protect their earnings. At Zepz we believe that access to stable currency should not be a privilege. It should be something that is accessible to everyone as a tool for financial empowerment. For long, moving money across borders was very slow, expensive, complex, and unreliable. At Zepz we've really solved that problem at scale. Through two of our consumer-facing brands of Sendwave and WorldRemit, we've managed to prove that moving money globally can be digital, fast, reliable, near instant, and trusted by millions of customers across the world. But the real value is not in what we built, but it's in what it enables. Because once you can start moving money for millions of people across borders, then the real next question is how can you really unlock more value for those customers? And that's our next chapter. We've built a wallet that really breaks the traditional remittance model. A model where someone in Global North sends and someone in Global South can only receive. With Sendwave Wallet, anyone can be a sender, a spender, and a saver. And money can move in all directions. For most of our customers, especially across Global South, this freedom is new. It means access to financial tools and services that most of us in Global North take for granted. We've built the wallet on Solana in partnership with Circle and Portal, and we've combined this Web3 infrastructure with our payout, global payout network that we've built over the years across communities and continents. The results is the Sendwave Wallet. A non-custodial wallet that is available across over 100 countries today. And it's not only moved to move money. It's not only built to move money. It's really moved to help people move forward. So let's see how the products all comes together in life. So with the Sendwave Wallet, you can receive digital dollar instantly. You can transfer digital dollar to anyone else who has a Sendwave Wallet. Meaning someone in Kenya can send USDC to someone in Uganda, Tanzania, or even India. When you need access to local currency, you can use our payout network, existing payout network that we built over the years, to withdraw that USDC into local currency and into your preferred payment methods. Whether it's mobile money, M-Pesa in Kenya, Wave in Senegal, MTN in Cote d'Ivoire, or whether it's Pix in Brazil. And you have the freedom to do this whenever you want at your convenience and when the rates are in your favor. You can also save in digital dollar. You can buy and hold USDC through your preferred local payment methods and you can hold and store it as long as you don't... till you want to off-ramp it and withdraw it. So if you think about this first layer that we've built, it's the foundation upon which we will build more products in future, making the wallet more meaningful to the customers that we serve. So now let's look at what's coming next. The first up is cards. We've partnered with Bridge to enable a stablecoin-backed card that is linked to the Sendwave Wallet. So meaning that our customers can spend digital dollar across millions of merchants and anywhere that Visa is available. Then we're thinking about making the wallet more valuable in markets that card adoptions are low through enabling our customers to be able to spend the digital balance that they have, the digital dollar balance that they have, with QR codes. And then we're looking at the next generation of wealth tools, wealth management tools. Now that people are able to hold and store digital wallet, how can we enable them to earn yield? How can we enable them to apply for credit, get a decision instantly, and receive the loan instantly as well? And honestly, we're just getting started. So we'll continue building more to make Sendwave Wallet more valuable and more entrenched as part of the daily lives of our customers. Thank you.",
+  "enrichment": {
+    "generated_query": "Sendwave Wallet Zepz Solana Breakpoint 2025 Official Announcement OR Technical Docs",
+    "sources": [],
+    "enriched_at": 1765671245.764508
+  },
+  "tags": {
+    "primary": "Consumer",
+    "secondary": [
+      "Payments",
+      "Remittance",
+      "Stablecoins"
+    ],
+    "score": 7,
+    "impact_reason": "The launch of Sendwave Wallet on Solana by Zepz (parent of WorldRemit) across 100+ countries represents a significant mainstream adoption event, utilizing Solana's infrastructure for real-world cross-border USDC payments."
+  },
+  "category_rank": {
+    "total_category_score": 62,
+    "share_of_voice": 0.1129,
+    "normalized_rank": 10,
+    "percentile_position": 1
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "3:4",
+      "role": "portrait",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Crystalline",
+          "Brutalist Concrete",
+          "Architectural Lighting",
+          "Reservoir"
+        ],
+        "mood": "Futuristic, Stable, Empowering, Technological",
+        "reasoning": "I chose a futuristic reservoir or dam as the Semantic Anchor because the story is about protecting value from the chaos of inflation and enabling a multi-directional flow of money, breaking the old one-way 'river' of remittance. A reservoir perfectly symbolizes holding and stabilizing value (like USDC), while the network of pipes represents the new, versatile financial ecosystem built on Solana. I included the text '1:1' diegetically etched into the structure to represent the core promise of the USDC stablecoin: a one-to-one peg with the US dollar, which is the mechanism for providing inflation resistance and stability to users.",
+        "description": "A monumental, futuristic reservoir structure stands firm amidst a dark, turbulent digital environment representing economic chaos. The structure is a hybrid of dark, polished concrete and a large, translucent crystalline core containing a perfectly calm, glowing blue liquid (USDC). Multiple fiber-optic pipelines, glowing with data, connect to the core from all directions, symbolizing multi-directional money flow. In the foreground, an old, rusted, one-way pipe lies broken. Diegetically etched into the face of the central crystal and glowing with a soft white light are the characters '1:1', signifying the stablecoin's peg."
+      },
+      "final_prompt": {
+        "prompt_text": "A monumental, futuristic reservoir structure dominates the frame, standing firm amidst a dark, turbulent digital environment that visually represents economic chaos. The colossal structure is a seamless hybrid of dark, polished brutalist concrete and a massive, translucent crystalline core, which perfectly encapsulates a perfectly calm, glowing blue liquid, symbolizing USDC. Numerous fiber-optic pipelines, intensely glowing with intricate data patterns, connect to the crystalline core from all directions, illustrating multi-directional money flow. In the immediate foreground, an old, heavily rusted, one-way pipe lies broken and discarded, contrasting sharply with the pristine reservoir. Diegetically etched directly into the face of the central crystal, and emitting a soft white glow, are the characters '1:1', signifying the stablecoin's peg. The lighting is architectural, emphasizing the monumental scale, sharp angles, and intricate textures, with dramatic contrasts between the glowing elements and the dark environment. Composed for a vertical 3:4 aspect ratio, the perspective is a low-angle shot, emphasizing immense height and epic scale, with significant negative space at the top to enhance its monumental presence. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic, cinematic lighting, high dynamic range, volumetric light, crystalline textures, brutalist concrete textures."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961297/generated_assets_homepage_PcyTar_mhOQ.png"
+    },
+    "category_page": {
+      "ratio": "16:9",
+      "role": "sector_lead",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Crystalline",
+          "Brutalist Concrete",
+          "Architectural Lighting",
+          "Reservoir"
+        ],
+        "mood": "Futuristic, Stable, Empowering, Technological",
+        "reasoning": "I chose a futuristic reservoir or dam as the Semantic Anchor because the story is about protecting value from the chaos of inflation and enabling a multi-directional flow of money, breaking the old one-way 'river' of remittance. A reservoir perfectly symbolizes holding and stabilizing value (like USDC), while the network of pipes represents the new, versatile financial ecosystem built on Solana. I included the text '1:1' diegetically etched into the structure to represent the core promise of the USDC stablecoin: a one-to-one peg with the US dollar, which is the mechanism for providing inflation resistance and stability to users.",
+        "description": "A macro close-up shot focusing on the point where multiple brightly lit fiber-optic pipelines converge and plug into the central crystalline reservoir. The internal, complex lattice of the crystal is visible, refracting the light from the pipelines. Inside, the calm, glowing blue liquid is perfectly still, contrasting with the motion-blurred, chaotic background. The image emphasizes the secure, high-tech connection and the stability of the asset within."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro close-up shot, composed with perfect symmetry and central focus within a square (1:1) aspect ratio, vividly details the point where multiple brightly lit fiber-optic pipelines converge and securely plug into a central crystalline reservoir. The foundational structure around the convergence point exhibits a brutalist concrete aesthetic, providing a robust, textured, and stark contrast to the refined technological elements. The internal, complex lattice of the crystal is exquisitely visible, brilliantly refracting the vibrant light emanating from the pipelines. Inside the reservoir, a calm, glowing blue liquid is perfectly still, presenting a serene stability against the dramatically motion-blurred, chaotic background. The scene is illuminated by precise, architectural lighting, meticulously highlighting the secure, high-tech connection and the undeniable stability of the asset within, filling the entire frame with intricate texture and detail. 8k, octane render, raytracing, hyper-detailed, ultra-photorealistic, cinematic, shallow depth of field, sharp focus."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961298/generated_assets_category_PcyTar_mhOQ.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Fintech Giant Zepz Launches Non-Custodial Stablecoin Wallet on Solana",
+    "standfirst": "Parent company of WorldRemit and Sendwave pivots from pure remittance to digital banking, leveraging Solana and USDC to offer inflation-resistant accounts to millions in the Global South.",
+    "key_takeaways": [
+      "Zepz ($5B+ valuation) launches Sendwave Wallet, a non-custodial product built on Solana.",
+      "Infrastructure stack includes Circle (USDC), Portal (MPC wallet), and Bridge (Visa cards).",
+      "Strategic shift from 'money transfer' to 'store of value' for 9 million existing customers across 100+ countries."
+    ],
+    "article_body_markdown": "In a significant validation of Solana's utility for institutional fintech, **Zepz**—the parent company of remittance giants **WorldRemit** and **Sendwave**—has unveiled the **Sendwave Wallet**. This move marks a fundamental pivot for the $5 billion valuation firm: shifting from a transactional \"money in transit\" model to a \"money at rest\" neobanking play. By integrating **Circle's USDC** on Solana, Zepz is directly addressing currency devaluation in the Global South, offering users a way to hold digital dollars rather than depreciating local fiat.\n\nThe technical architecture reveals a \"best-of-breed\" modular stack designed for mass adoption. Zepz has partnered with **Portal** to provide the non-custodial Multi-Party Computation (MPC) infrastructure, abstracting away the complexity of seed phrases while maintaining user sovereignty. For liquidity and off-ramping, the wallet leverages Zepz's existing payout network (including **M-Pesa**, **Wave**, and **Pix**), effectively bridging the \"last mile\" gap that often hinders crypto adoption in emerging markets.\n\nPerhaps most notable for institutional investors is the roadmap integration with **Bridge**, the stablecoin infrastructure firm recently acquired by **Stripe**. This partnership will enable Sendwave Wallet users to spend their USDC balances via virtual Visa cards, bypassing traditional banking rails entirely. This creates a closed-loop financial ecosystem where a user in Kenya can receive USDC, save it to hedge against inflation, and spend it globally without ever touching a traditional bank account—all settled on Solana's high-throughput network."
+  }
+}

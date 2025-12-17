@@ -1,0 +1,92 @@
+{
+  "id": "VWX8vuZZW1k",
+  "url": "https://www.youtube.com/watch?v=VWX8vuZZW1k",
+  "processed_at": 1765668621.694462,
+  "key_used": "...T4WvX0",
+  "meta": {
+    "title": "Product Keynote: 2WA",
+    "speakers": [
+      "Xiaoyun Xu",
+      "Chun Kit Chu"
+    ],
+    "product": "2WA",
+    "type": "Keynote",
+    "thumbnail": "thumbnails/VWX8vuZZW1k.webp"
+  },
+  "transcript": "Hello everyone. Um, my name is Kit, and this is Tracy. Uh, we are here to present our idea 2WA to you. Um, so xAI, Anthropic, and SpaceX, these are very successful companies. But this private company only issue new share to large institutions or the private equity funds. Average investor, they have no access to it at all. So, we 2WA, we want to build a platform to provide this investment opportunity to everyone. So we build our platform on Solana, and we partner with private equity funds, and we try to source the best private equity deals globally and make it accessible. And we build our platform in a very compliant way, so our investor and our partner trust our platform. So, um, so we believe most of the financial asset from Wall Street will be tokenized and traded on blockchain. And our mission is to empower everyone with the top-tier tokenized opportunities. So, this is our deal flow. xAI and Anthropic, those are the best LLM company in the world. And Airwallex, it is a fast-growing fintech company in the world. And 1X, it is the one of the the most advanced humanoid robotic company in Silicon Valley. So, um, we try to um make this available to our investors. So I'm going to introduce our product feature to you. You know, if you want to be a LP of a private equity funds, it takes a lot of time and the minimum investment amount usually to be 1 million US dollar. So what we do is we partner with private equity funds and we we try to um... uh... so what we do is we partner with these private equity funds and we try to uh minimize the investment amount to 10 US dollar. So if you go to our website, you can see the price per share and you can see the latest valuation on our website. And you can also see the company overview and you can also see the industry competition and the product performance on our website. If you like the idea, if you like the project, you can just click the purchase button and the transaction will be completed on Solana. And you will get your token in your wallet. So, uh, we also have our reward program on our website. And we also have our leaderboard on our website. So you can see your PE token in your profile very easily. So this is basically what our product looks like. Um, without a very strong compliance support, all of this is very hard. So from day one we have Alpha Ladder with us. Now I'm going to pass my time to Tracy to talk about the tokenization process. Hi, thank you. Thank you, Kit. Hi everyone, I'm Xiaoyun or also go by Tracy. I'm from Alpha Ladder Finance. We also name ourselves MetaComp. MetaComp serves as crucial regulated backbone for 2WA. And we ensure a compliance regulated foundation by being a financial institution based in Singapore, regulated by Monetary Authority of Singapore with multiple license including CMS, RMO, and fund management. So this is our flagship project, tokenizing the xAI equity. Our involvement since day one including conducting due diligence, verifying underlying assets, applying custodian framework, and utilizing fund structuring capability. This structure allows PE shares to be converted into 2xAI token, which investors can then access directly via marketplaces like 2WA platform or other cryptocurrency exchanges. It gives investor a direct access to high-growth private equity markets while upholding the highest regulatory standard. Back to you, Kit. Thank you, Tracy. So we 2WA, we are a team from the PE background and we are the team from the Web3 backgrounds. So with the support from Solana and Alpha Ladder, so we we want to provide this um PE tokenization opportunity to everyone. We also work with the our ecosystem partner such as 3World Global, Zoomex, BingX, and XT. So with their um with their ecosystem, so we can provide our token um in a very accessible and liquid way. So that's the end of our presentation. Thank you for your time. Thank you for listening.",
+  "enrichment": {
+    "generated_query": "2WA MetaComp Solana Breakpoint 2025 official announcement blog OR technical docs",
+    "sources": [],
+    "enriched_at": 1765671270.924198
+  },
+  "tags": {
+    "primary": "RWA",
+    "secondary": [
+      "Private Equity",
+      "Tokenization",
+      "Compliance"
+    ],
+    "score": 6,
+    "impact_reason": "Tokenizing private equity on Solana could bring new investors and capital, but its success depends on regulatory compliance and adoption."
+  },
+  "category_rank": {
+    "total_category_score": 109,
+    "share_of_voice": 0.055,
+    "normalized_rank": 7.5,
+    "percentile_position": 11
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": "1:1",
+      "role": "tile",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Obsidian",
+          "Holographic Crystals",
+          "Volumetric Lighting",
+          "The Catalyst"
+        ],
+        "mood": "Sophisticated, Transformative, High-Tech, Minimalist",
+        "reasoning": "I chose a classical unicorn statue as the semantic anchor because the text explicitly mentions 'private unicorns,' representing exclusive, high-value Silicon Valley startups. The visual narrative of this statue being scanned and dematerialized into digital, crystalline fragments directly illustrates the process of tokenization—breaking down a large, inaccessible 'real world asset' into small, tradable digital shares on the Solana blockchain. I included the text '$10' as a holographic data tag on a digital fragment because it's a powerful, high-impact number from the transcript that highlights the core value proposition: radical accessibility and the democratization of elite investment opportunities.",
+        "description": "A cinematic, wide shot in a dark, minimalist server room. In the foreground, a large, powerful statue of a unicorn, sculpted from polished black obsidian, represents an exclusive private equity asset. A grid of cyan laser beams scans across the statue, causing its surface to dematerialize into a swirling vortex of glowing, crystalline fragments. These fragments flow towards the right, forming a complex, shimmering blockchain structure. Within this digital cloud, the text '$10' glows as a holographic data point on a larger crystal. The background is deep and atmospheric, with out-of-focus server racks and faint data streams hinting at the underlying Solana infrastructure."
+      },
+      "final_prompt": {
+        "prompt_text": "A monumental, cinematic wide shot within a deep, dark, minimalist server room, composed for a vertical 3:4 aspect ratio, emphasizing epic height and significant negative space at the top. In the prominent foreground, a colossal, powerful statue of a unicorn, meticulously sculpted from highly polished black obsidian, stands as a monumental representation of an exclusive private equity asset. Its reflective surfaces gleam with strong highlights, absorbing the volumetric lighting. A precise grid of vivid cyan laser beams, imbued with intense white-blue electrical energy, scans dynamically across the obsidian unicorn. This causes its polished surface to gracefully dematerialize into a swirling vortex of glowing, iridescent crystalline fragments, illuminated by dramatic cool-toned light. These hyper-detailed, holographic crystalline fragments flow elegantly towards the right side of the frame, coalescing into a complex, shimmering blockchain structure that pulsates with inner light. Nested within this digital cloud, the characters '$10' glow intensely, forming a vivid holographic data point embedded physically onto a larger, shimmering crystal, catching the light with multiple reflections. The deep and atmospheric background features out-of-focus server racks, subtly illuminated with cool shop lights, and faint, flowing data streams, all hinting at the vast underlying Solana infrastructure, contributing to a high-contrast, dimly lit sci-fi aesthetic. 8k, octane render, raytracing, hyper-detailed, ultra-sharp digital render, volumetric lighting, dramatic lighting, high contrast."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961379/generated_assets_homepage_VWX8vuZZW1k.jpg"
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Polished Obsidian",
+          "Holographic Crystals",
+          "Volumetric Lighting",
+          "The Catalyst"
+        ],
+        "mood": "Sophisticated, Transformative, High-Tech, Minimalist",
+        "reasoning": "I chose a classical unicorn statue as the semantic anchor because the text explicitly mentions 'private unicorns,' representing exclusive, high-value Silicon Valley startups. The visual narrative of this statue being scanned and dematerialized into digital, crystalline fragments directly illustrates the process of tokenization—breaking down a large, inaccessible 'real world asset' into small, tradable digital shares on the Solana blockchain. I included the text '$10' as a holographic data tag on a digital fragment because it's a powerful, high-impact number from the transcript that highlights the core value proposition: radical accessibility and the democratization of elite investment opportunities.",
+        "description": "A dramatic macro shot focusing on the point of transformation. The frame is filled with the polished, dark surface of the obsidian unicorn statue. A brilliant cyan laser beam cuts diagonally across the composition. At the point of impact, the solid obsidian explodes into a beautiful, chaotic cluster of sharp, glowing holographic crystals and Solana-style hexagonal shards, capturing the precise moment a real-world asset is tokenized."
+      },
+      "final_prompt": {
+        "prompt_text": "A dramatic macro shot, 1:1 aspect ratio, symmetrically composed with a central focus, filling the entire frame with intricate texture. The scene captures the precise moment a real-world asset is tokenized. The polished, dark surface of an obsidian unicorn statue dominates the composition, exhibiting ultra-sharp textures, clean highlights, and subtle reflections, rendered with hyperrealistic material fidelity. A brilliant cyan laser beam slices diagonally across the frame, rendered with intense volumetric lighting, creating an ethereal glow and interacting with the surrounding atmosphere. At the exact point of impact, the solid obsidian statue explodes outwards into a beautiful, chaotic cluster of sharp, intensely glowing holographic crystals and precise Solana-style hexagonal shards. These elements are vibrant, high-contrast, and emit neon reflections, appearing spatially correct and hyper-detailed. The explosion reveals intricate internal structures and emits a dazzling light that casts dynamic, sharp shadows and brilliant rim lighting on the fragments. Every microscopic detail of the obsidian's fractured edges and the crystalline forms is rendered with extreme precision. 8k, octane render, raytracing, hyper-detailed, photorealistic, cinematic contrast, shallow depth of field, studio lighting, ultra-sharp textures."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961380/generated_assets_category_VWX8vuZZW1k.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "2WA and MetaComp Unlock Tokenized xAI Equity on Solana",
+    "standfirst": "Singapore-regulated infrastructure meets Solana mainnet speed to offer retail investors $10 access to Silicon Valley’s most exclusive private unicorns.",
+    "key_takeaways": [
+      "2WA partners with MAS-licensed MetaComp (Alpha Ladder) to tokenize private equity under strict Singaporean regulatory frameworks.",
+      "Launch assets include tokenized shares of xAI (2xAI), Anthropic, and SpaceX, lowering entry barriers from $1M to $10.",
+      "Secondary market liquidity is anchored by partnerships with exchanges including BingX, Zoomex, and XT."
+    ],
+    "article_body_markdown": "The velvet rope guarding Silicon Valley’s most coveted cap tables has effectively been cut. In a sector defined by illiquidity and exclusionary $1 million minimums, **2WA** has unveiled a platform on Solana that tokenizes private equity stakes in late-stage unicorns. The protocol’s debut offering targets the artificial intelligence vanguard—specifically **xAI**, **Anthropic**, and **SpaceX**—allowing retail and institutional investors alike to acquire fractionalized economic interests for as little as $10.\n\nWhile real-world asset (RWA) tokenization often suffers from regulatory ambiguity, 2WA has front-loaded compliance by integrating with **Alpha Ladder Finance** (operating as **MetaComp**). As a Singapore-based financial institution regulated by the Monetary Authority of Singapore (MAS), MetaComp holds both Capital Markets Services (CMS) and Recognized Market Operator (RMO) licenses. This infrastructure ensures that the \"2xAI\" tokens and other equity derivatives are issued within a compliant custodian framework, verifying underlying assets before they ever hit the blockchain.\n\nFor institutional allocators, the value proposition extends beyond mere access; it addresses the historical friction of private equity secondary markets. By leveraging Solana’s high-throughput architecture, 2WA transforms paper shares into liquid, programmable assets. The platform provides a transparent view of valuations, industry competition, and product performance, enabling instant execution via a \"purchase\" interface that settles on-chain. This effectively creates a new liquidity layer for private equity, supported by ecosystem market makers and exchanges like **BingX**, **Zoomex**, and **XT**.\n\nThe implications for portfolio construction are significant. Investors can now bypass the traditional 10-year lockup periods associated with venture funds while gaining exposure to high-growth companies like **Airwallex** and **1X** (humanoid robotics) before they IPO. By decoupling economic exposure from the administrative burden of being a limited partner, 2WA and MetaComp are signaling a shift where Wall Street’s most exclusive asset class becomes a composable primitive on Solana."
+  }
+}

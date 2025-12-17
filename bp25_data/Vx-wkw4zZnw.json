@@ -1,0 +1,75 @@
+{
+  "id": "Vx-wkw4zZnw",
+  "url": "https://www.youtube.com/watch?v=Vx-wkw4zZnw",
+  "processed_at": 1765668822.122069,
+  "key_used": "...j7RcHg",
+  "meta": {
+    "title": "Superteam Demo Day: Crypto Fantasy League",
+    "speakers": [
+      "Jonas Aditya Sunandar"
+    ],
+    "product": "Crypto Fantasy League (CFL)",
+    "type": "Demo Day Presentation",
+    "thumbnail": "thumbnails/Vx-wkw4zZnw.webp"
+  },
+  "transcript": "Hey guys, so I'm Jonas from Crypto Fantasy League or CFL. We turn crypto trading into fun, social, and competitive game. So, current trading is not fun. It is slow, lonely, and boring. Basically you're staring at the screen with zero dopamine and zero social interaction. And if we wanna enable internet capital market, there is... we need to lower the entry barrier and make trader... trading um more accessible and fun. So, um, we are redesigning trading into something in a way that more fun and accessible to everyone but still offer asymmetric upside that everyone loves. That's why we built CFL. We transform trading into fun, social, and competitive game where you pick tokens and compete with other players and based on real market movement. The experience is super simple. First, you pick up to five token and enter a match, you set the duration, and you can go long or go short. And you compete on PNL and by the end of the duration, we'll calculate the PNL and the winner will... uh the highest PNL will get the reward. This is how it looks like when um eight people are in the same um match, and basically we take five uh token that you pick and then we combine it into one single PNL and compare it with others. And we see the demand clearly. Today we have 20,000 registered users, 200k annualized revenue, and in the last two weeks we got $10,000 in revenue. We've built together in the last four years, started as a Web3 development agency, and previously we made a game called Meme Musume with 300k registered users. And we believe trading is the new gaming. So, let's make trading fun again with CFL. You can download it on Solana Mobile Seeker or go to cfl.fun. And we're looking for a partner to scale our business to 1 million users and beyond. Thank you.",
+  "enrichment": {
+    "generated_query": "CFL Crypto Fantasy League Solana Breakpoint 2025 official announcement blog OR technical docs",
+    "sources": [],
+    "enriched_at": 1765671273.320993
+  },
+  "tags": {
+    "primary": "Gaming",
+    "secondary": [
+      "Fantasy",
+      "Mobile Gaming",
+      "Trading"
+    ],
+    "score": 4,
+    "impact_reason": "Crypto Fantasy League is a niche gaming application demoed at Superteam, which is unlikely to have a large immediate impact on the Solana ecosystem."
+  },
+  "category_rank": {
+    "total_category_score": 24,
+    "share_of_voice": 0.1667,
+    "normalized_rank": 5,
+    "percentile_position": 4
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": null,
+      "role": "ticker",
+      "generate": false
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Holographic Display",
+          "Polished Chrome",
+          "Volumetric Lighting",
+          "Esports Arena"
+        ],
+        "mood": "Futuristic, Competitive, High-Dopamine, Sleek",
+        "reasoning": "I chose a futuristic leaderboard combined with a trophy as the semantic anchor because it directly visualizes the product's core concept: turning crypto trading into a competitive game. The leaderboard represents the real-time PNL (Profit and Loss) competition, while the trophy form signifies the 'winner' and the gamified upside. For the portrait image, I integrated the diegetic text '+248%' as a glowing holographic number on the leaderboard. This represents the 'asymmetric upside' and 'high-dopamine' experience the founder described, making the core value proposition of winning big immediately clear.",
+        "description": "A macro, abstract shot focusing on the intersection of materials on the crypto-fantasy leaderboard. A shimmering, holographic light projection showing the abstract shapes of crypto charts and PNL graphs emanates from a slot in a meticulously crafted surface of polished chrome and dark carbon fiber. The light refracts and reflects off the metallic surface, creating a dynamic and energetic interplay of cyan, magenta, and green light in a dark, moody environment."
+      },
+      "final_prompt": {
+        "prompt_text": "A macro, abstract shot focusing on the intersection of materials on the crypto-fantasy leaderboard. A shimmering, high-contrast, spatially correct holographic light projection showing the abstract shapes of crypto charts and PNL graphs emanates volumetrically from a narrow slot in a meticulously crafted surface of highly polished chrome and dark carbon fiber. The intense, volumetric light spectacularly refracts and reflects off the mirror-like, polished chrome and subtle textures of the carbon fiber, creating a dynamic and energetic interplay of vibrant cyan, magenta, and green light. The surrounding is a dark, moody environment, emphasizing the dramatic glow and creating sharp reflections and atmospheric effects. Composed for a square aspect ratio (1:1), with extreme macro framing, central focus, and perfect symmetry. The frame is entirely filled with intricate material textures. 8k, octane render, raytracing, physically based rendering (PBR), hyper-detailed, photorealistic, cinematic lighting, volumetric fog, high dynamic range (HDR), sharp focus, shallow depth of field, dramatic rim lighting."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961381/generated_assets_category_Vx-wkw4zZnw.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "CFL Brings Fantasy Sports Mechanics to Crypto Trading on Solana",
+    "standfirst": "Jonas Aditya Sunandar unveils Crypto Fantasy League to transform solitary trading into a high-dopamine social game. The platform reports early traction with $200k annualized revenue by letting users compete on portfolio performance.",
+    "key_takeaways": [
+      "**20,000 registered users** and **$200k annualized revenue** validate the platform's \"trading as gaming\" thesis.",
+      "Users draft 5-token squads to compete on PNL in short-term matches, available now on **Solana Mobile Seeker** and web.",
+      "Built by the team behind **Meme Musume**, the project is seeking partners to scale its user base to 1 million."
+    ],
+    "article_body_markdown": "The barrier to entry for crypto trading is often psychological rather than technical; for many, the experience is \"slow, lonely, and boring.\" **Crypto Fantasy League (CFL)** is addressing this by re-engineering market participation into a competitive social layer. By borrowing mechanics from fantasy sports, CFL simplifies the complex decision-making of trading into a game of skill where users draft \"squads\" of tokens and compete against peers based on real-time market performance.\n\nThe core loop is designed for immediate engagement: players select up to five tokens, define a match duration, and choose long or short positions. Instead of managing complex order books, participants compete purely on Profit and Loss (PNL) outcomes within the set timeframe. The winner takes the reward pool, effectively turning market volatility into a spectator and participant sport. This model offers the asymmetric upside traders crave but wraps it in a social interface that generates the dopamine hits associated with competitive gaming rather than the stress of solitary chart-watching.\n\nEarly metrics suggest this gamification strategy is resonating with retail users. **Jonas Aditya Sunandar** revealed that the platform has already onboarded **20,000 registered users** and is generating **$200k in annualized revenue**, with **$10,000** accrued in just the last two weeks. This traction validates the team's pivot from a Web3 development agency to a consumer product studio, leveraging their previous experience building **Meme Musume**, a game that attracted 300,000 users.\n\nStrategically, CFL is positioning itself as a flagship consumer application for the **Solana Mobile Seeker**. By launching on Solana's mobile-first hardware, the project aims to capture a dedicated user base that values on-the-go interaction. As the lines between trading and gaming continue to blur, CFL's \"skill-based trading\" category offers a compelling bridge for onboarding the next million users who find traditional exchanges intimidating but understand the language of fantasy leagues."
+  }
+}

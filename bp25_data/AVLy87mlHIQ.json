@@ -1,0 +1,79 @@
+{
+  "id": "AVLy87mlHIQ",
+  "url": "https://www.youtube.com/watch?v=AVLy87mlHIQ",
+  "processed_at": 1765668776.3216698,
+  "key_used": "...T4WvX0",
+  "meta": {
+    "title": "Celebrating the Next Generation of Builders and Creators on Solana",
+    "speakers": [
+      "Marko Djurdjevic",
+      "Kamel Ben Rhouma",
+      "Alaeddine Ben Rhouma",
+      "Sia Paradinovic",
+      "Ivan Paradinovic"
+    ],
+    "product": "Oinkonomics",
+    "type": "Panel Discussion",
+    "thumbnail": "thumbnails/AVLy87mlHIQ.webp"
+  },
+  "transcript": "Hello everyone. How is everyone feeling? Let's go. My name is Marko, I am Founder of Superteam Balkan, but today I am here to present youngest builders on Solana. Something about them. First is Kamel Ben, and he is only 14 years old. 14 years old developer. So, Kamel is from Tunisia, and his builder journey began when he self-funded his trip to Paris Blockchain Week. Shout out to that guy. There he contributed to the Money Factory AI MVP platform and built a complex Solana and BSC bridge, wrapper bridge, only at 14 years old. A grant from Superteam later helped him replace his broken laptop and join the Codigo workshop at Blockchain 42, and that was a turning point in his growth. Since then, he has participated in the Solana Colosseum Hackathon with two teams. First one is Collaterize, and that received an honorable mention, and the second one is Oinkonomics. He also completed internships with Metawalth and Diora, earning recognition for his contribution to the Solana Wallet Analyzer and also other tooling. Please welcome Kamel, joined by his father Alaeddine.\n\nAnd our next guest is even younger, Sia. Sia is 10 years old and she's an artist from Belgrade. She entered Web3 at just eight years old, and I was one of the proud buyers of her first NFT. You will see, it's super cute. She is the youngest Posca Ambassador in the Balkans, and she is essential part of the charitable From Paper to NFT Kids Workshop that we did together, and now she is developing together with her father Ika. Her work spans both Web3 and the real world. She has collaborated with established artists from the space, and also she created merch for Solflare, Streamflow, 4.0, you name it. I'm pretty sure she will do with all of the biggest in the future. She also designed a Solana Seeker phone case for Solyd, and she collaborated with us at Superteam Balkan on keychain designs for all the Superteams, which we will later give away to all of you who are members. And also, she is working with multiple companies around the world. Most recently, she completed her first generative PFP collection as part of the Oinkonomics Hackathon submission, and also she has been featured on Solana official channels with her own Creator Spotlight video, and she is a grant recipient of Bonk Masters and GTR program, supporting her first solo exhibition. And please welcome Sia and her dad.\n\nThank you. So, Sia, let's start with the beginning. How did you two meet?\n\nSia Paradinovic: We met this summer at Solana Apex in Budapest, and our friends from Superteam Balkan and Superteam France introduced us because they thought we'd work well together.\n\nMarko Djurdjevic: And Kamel, do you agree with that?\n\nKamel Ben Rhouma: Yeah, they were right. We started talking ideas and we ended up creating a project together.\n\nMarko Djurdjevic: Let's support this team, please.\n\nMarko Djurdjevic: Sia, can you tell us what are Oinkonomics?\n\nSia Paradinovic: Oinkonomics is a fun project about little pigs that live in a world everyone's wallet tells their story.\n\nMarko Djurdjevic: And Kamel, what was the main idea about Oinkonomics?\n\nKamel Ben Rhouma: Yeah, the main feature is that it scans your wallet, checks your on-chain activity, and puts you in three tiers.\n\nMarko Djurdjevic: Okay. And what are the tiers, Alaeddine?\n\nAlaeddine Ben Rhouma: And Kamel built the systems, the wallet data is analyzed on-chain, locally, and you get your tier instantly, and we don't have the personal information kept in the on-chain.\n\nMarko Djurdjevic: Mhm. Kamel, can you tell us what are the tiers called?\n\nKamel Ben Rhouma: Yeah, there is actually three tiers: Piglet, City Swine, and Oinklords.\n\nMarko Djurdjevic: Check them out, they are so cool. So, Sia, you made the PFP collection. Can you tell us a bit more about the experience?\n\nSia Paradinovic: It was pretty cool, and also a little bit hard because you need to make everything in separate layers, like separate eyes, separate noses, separate accessories. So we just started and I just started making all these traits and that was my first time doing something with so many traits.\n\nMarko Djurdjevic: Was it fun?\n\nSia Paradinovic: Something with so many traits, yeah.\n\nMarko Djurdjevic: Okay, cool. And Ika?\n\nIvan Paradinovic: Sia did all the artwork herself, like sketching, coloring, layering. I was just there to support the workflow and make sure she has everything that she needs.\n\nSia Paradinovic: And the hardest part was making sure the pigs didn't look weird when they are combined.\n\nIvan Paradinovic: And you did great job.\n\nMarko Djurdjevic: So Kamel, can you tell us from your side, what was the hardest part of building this project from the technical perspective?\n\nKamel Ben Rhouma: The hardest part was to make the feature when you connect your wallet, your Solana wallet, it reads your on-chain activity and puts you in the wallet you belong to block exploiters.\n\nMarko Djurdjevic: Mhm. By the way guys, you will have a chance to try Oinkonomics later. And Alaeddine?\n\nAlaeddine Ben Rhouma: And before Oinkonomics, Kamel worked on Money Factory AI with wallet connections and AI agents on Solana. And that's why the Oinkonomics pipeline felt natural, even if integration was still learning experience.\n\nMarko Djurdjevic: Okay, yeah, cool. And Sia, can you tell us how was it like to work on these big projects and so, being so young?\n\nSia Paradinovic: It was so fun, and I love doing projects with someone who are also passionate. Like, they like their job.\n\nMarko Djurdjevic: Yeah. Do you think that Kamel is passionate?\n\nSia Paradinovic: Yeah.\n\nMarko Djurdjevic: He is. And you are so passionate, we love to see it. And Kamel, what was your experience working on this so young?\n\nKamel Ben Rhouma: Yeah, it was very great and I was able to learn many things about working together.\n\nMarko Djurdjevic: Cool, cool. So Sia, can you tell us about some pictures that you were sending all the time to Kamel? You were sending how many pigs every day?\n\nSia Paradinovic: A lot.\n\nMarko Djurdjevic: Okay. Kamel, how many pigs did she send every day?\n\nKamel Ben Rhouma: About 10 to 20 a day.\n\nMarko Djurdjevic: Is it true?\n\nSia Paradinovic: Uh, not 10. Maybe eight.\n\nMarko Djurdjevic: Okay. Six, seven. Yeah. I received a lot of pigs every day. And Ika, can you tell us about your experience?\n\nIvan Paradinovic: Well, for me, it's just amazing to see the growth of Sia and how independent she is during the process of this project. It's just overwhelming sometimes, to be honest. She does all the work herself. I'm just there to mentor and strive her in the right direction, you know, and make sure she has all the technical steps lined up so it works well in the end. Yeah.\n\nMarko Djurdjevic: And you did a great job. And Alaeddine, from your side?\n\nAlaeddine Ben Rhouma: And for me, it was a beautiful experience to see Kamel join an international team. He learned a lot from the ecosystem and from working with new people.\n\nMarko Djurdjevic: Mhm, mhm. And Sia, what is the biggest thing that you learned working with Kamel on Oinkonomics?\n\nSia Paradinovic: Well, I learned how developers thinks, and that sometimes what I draw needs to be easier to code.\n\nMarko Djurdjevic: Yes. And Kamel?\n\nKamel Ben Rhouma: And I learned that artists don't just do drawings, they're building worlds. And Sia really shaped the face of Oinkonomics.\n\nMarko Djurdjevic: Yeah. And Sia told a great story. And now, the final question. What's next for the big superstars?\n\nSia Paradinovic: Well, we thinking about small game, and pretty fun, of course.\n\nMarko Djurdjevic: Okay. And colorful. Okay. So game is coming. And Kamel?\n\nKamel Ben Rhouma: Yeah, something unrelated to Oinkonomics. Just teamwork, code, and art.\n\nMarko Djurdjevic: And learn.\n\nKamel Ben Rhouma: And learn, of course.\n\nMarko Djurdjevic: Great. And what's next for the parents?\n\nIvan Paradinovic: Um, for us, it's all about supporting our children. As long as they enjoy the process and it's something that they enjoy, we'll just keep supporting their path.\n\nAlaeddine Ben Rhouma: And of course, we will keep supporting them.\n\nMarko Djurdjevic: Yes. So everyone, please give a huge applause for Ika, Sia, Kamel, and Alaeddine. Thank you guys.",
+  "enrichment": {
+    "generated_query": "Oinkonomics Solana Breakpoint 2025 (official announcement blog OR technical docs)",
+    "sources": [],
+    "enriched_at": 1765671264.3538759
+  },
+  "tags": {
+    "primary": "Devtool",
+    "secondary": [
+      "Hackathon",
+      "Community",
+      "Education"
+    ],
+    "score": 4,
+    "impact_reason": "Highlighting young developers is positive but has limited immediate impact on the broader Solana ecosystem."
+  },
+  "category_rank": {
+    "total_category_score": 89,
+    "share_of_voice": 0.0449,
+    "normalized_rank": 5.7,
+    "percentile_position": 15
+  },
+  "layout_config": {
+    "homepage": {
+      "ratio": null,
+      "role": "ticker",
+      "generate": false
+    },
+    "category_page": {
+      "ratio": "1:1",
+      "role": "standard",
+      "generate": true,
+      "visual_idea": {
+        "strategy": "GENERATE",
+        "style_keywords": [
+          "Translucent Acrylic",
+          "Glowing Circuitry",
+          "Bioluminescent Glow",
+          "The Prodigy"
+        ],
+        "mood": "Futuristic Wonder, Precocious, Clean, Hopeful",
+        "reasoning": "I chose toy building blocks as the Semantic Anchor because they perfectly represent the story's core concept: 'building' in both the literal, childhood sense and the developer sense. This directly visualizes the 'Gen Alpha Builders' theme. I included the text '14' diegetically etched on a block to represent the shocking youth of the developers mentioned in the transcript, providing an immediate and powerful narrative hook.",
+        "description": "A macro, detailed shot focusing on the corner where several translucent, high-tech building blocks connect. The internal, glowing circuitry is seen in sharp detail, with light pulsing through the delicate pathways. The focus is on the fusion of the clean, toy-like material and the complex technology within, with the background blurred into a soft bokeh of light and shadow. No text is visible."
+      },
+      "final_prompt": {
+        "prompt_text": "A tight macro, centrally-focused, hyper-detailed shot filling the square frame (1:1 aspect ratio) with intricate textures. The image focuses precisely on the corner where several translucent acrylic, high-tech building blocks seamlessly connect. Inside, the internal, complex glowing circuitry is revealed in sharp detail, illuminated by a vibrant, pulsing bioluminescent neon glow that flows through its delicate pathways. The composition powerfully emphasizes the fusion of the clean, toy-like translucent material with the advanced, cutting-edge technology encapsulated within. The background blurs into a soft, ethereal bokeh of diffused light and shadow, creating a dramatic contrast and isolating the subject. No text, logos, or numbers are visible. 8k, octane render, raytracing, hyper-detailed, photorealistic, studio lighting, cinematic quality, extremely shallow depth of field, realistic lens bokeh, volumetric light, intricate micro-details."
+      },
+      "local_image_path": "https://res.cloudinary.com/doujc8dgo/image/upload/v1765961144/generated_assets_category_AVLy87mlHIQ.jpg"
+    }
+  },
+  "editorial": {
+    "headline": "Gen Alpha Builders Ship On-Chain Identity Tooling on Solana",
+    "standfirst": "The deployment of functional wallet analysis infrastructure by pre-teen and teenage developers underscores the maturity of Solana's abstraction layers. This collaboration signals a rapid acceleration in the developer talent pipeline, driven by decentralized incubators like Superteam.",
+    "key_takeaways": [
+      "Kamel Ben Rhouma (14) previously developed a Solana-BSC bridge and contributed to Money Factory AI before building Oinkonomics.",
+      "Sia Paradinovic (10) has secured commercial design contracts with major ecosystem players including Solflare, Streamflow, and Solyd.",
+      "The Oinkonomics protocol utilizes local-side wallet scanning to categorize on-chain reputation into three tiers without compromising user data privacy."
+    ],
+    "article_body_markdown": "The barrier to entry for deploying sophisticated blockchain infrastructure is collapsing, a trend vividly illustrated by the emergence of Gen Alpha developers at Breakpoint. The debut of **Oinkonomics**, a wallet analysis and PFP project, is less significant for its artistic merit than for what it represents: a 14-year-old developer, **Kamel Ben Rhouma**, and a 10-year-old artist, **Sia Paradinovic**, successfully shipping a product that integrates complex on-chain data scanning. This suggests that Solana's developer tooling—specifically resources like **Codigo** and the support structures provided by **Superteam**—has reached a level of abstraction that allows rapid onboarding of digital-native talent.\n\nFrom a technical perspective, the project demonstrates a sophisticated understanding of privacy-preservation in Web3 identity. According to the technical breakdown, the application scans wallet history to assign reputation tiers—Piglet, City Swine, or Oinklords—based on transaction volume and behavior. Crucially, this analysis occurs locally, ensuring that while the protocol leverages on-chain history for credentialing, it minimizes the exposure of personal data. This architecture mirrors the broader industry move towards Zero-Knowledge (ZK) identity solutions, applied here by a developer who has previously built bridges between **Solana** and **BSC** and contributed to AI agent protocols like **Money Factory AI**.\n\nThis collaboration also serves as a case study for the efficacy of decentralized talent networks. The partnership was brokered between **Superteam Balkan** and **Superteam France** following introductions at **Solana Apex** in Budapest. The ability of these DAOs to identify, fund (via grants like **Bonk Masters** and **Solana Colosseum**), and incubate talent as young as 10 signals a robust, self-perpetuating ecosystem. For institutional observers, the alpha here is clear: the next wave of builders is not just consuming crypto content—they are actively servicing major clients like **Solflare** and **Streamflow** and deploying mainnet code before they are old enough to drive."
+  }
+}
